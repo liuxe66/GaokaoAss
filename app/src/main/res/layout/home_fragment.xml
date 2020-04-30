@@ -90,6 +90,7 @@
 
 
         <RelativeLayout
+            android:id="@+id/rl_zntb"
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:layout_marginTop="@dimen/dp_6"

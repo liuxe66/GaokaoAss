@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.careerquiz.CareerActivity">
+    <include layout="@layout/view_status_bar"
+        android:id="@+id/status_bar" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/color_white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_subject_select_alph"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_24">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="71%的人后悔选错专业\n希望没有你"
+            android:textColor="@color/color_subject_select"
+            android:textSize="@dimen/dp_20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:lineSpacingMultiplier="1.2"
+            android:text="根据《高校调查报告》显示，超过85%的学生盲目选择大学专业，71%的大学生后悔选错专业。\n专业兴趣测评和兴趣测评，帮你在全面认识自己的基础上，精准推荐匹配专业。"
+            android:textColor="@color/color_subject_select_alph88"
+            android:textSize="@dimen/dp_12"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_hld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_24"
+        android:background="@drawable/shape_subject_btn_bg"
+        android:padding="@dimen/dp_24">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测测你的兴趣"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/dp_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_8"
+                android:text="霍兰德兴趣测评，帮你找出职业兴趣所在"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/dp_12" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_hld"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_24"
+            android:src="@drawable/ic_no_result"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_mbti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginRight="@dimen/dp_24"
+        android:background="@drawable/shape_subject_btn_bg"
+        android:padding="@dimen/dp_24">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测测你的性格"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/dp_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_8"
+                android:text="MBTI性格测评，帮你清晰认知自身性格"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/dp_12" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_mbti"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_24"
+            android:src="@drawable/ic_no_result"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+</LinearLayout>

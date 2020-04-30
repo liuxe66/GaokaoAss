@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dp_16"
+    android:paddingRight="@dimen/dp_16">
+
+    <include layout="@layout/view_status_bar"
+        android:id="@+id/status_bar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_24"
+        android:textColor="@color/color_text_title"
+        android:text="成绩管理"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_32" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_16"
+                android:drawableLeft="@drawable/ic_prov"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:text="省份"
+                android:textSize="@dimen/sp_18"
+                android:textColor="@color/color_text_title" />
+            <TextView
+                android:id="@+id/tv_prov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="点击选择省份"
+                android:textSize="@dimen/sp_16"
+                android:textColor="@color/color_text_title"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_16"
+                android:drawableLeft="@drawable/ic_subject"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:text="科目"
+                android:textSize="@dimen/sp_18"
+                android:textColor="@color/color_text_title" />
+            <RadioGroup
+                android:id="@+id/rg_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_16"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_li"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:text="理科"
+                    android:gravity="center"
+                    android:textSize="@dimen/sp_18"
+                    android:button="@null"
+                    android:textColor="@color/select_subject_txt_color"
+                    android:textStyle="bold"
+                    android:background="@drawable/select_score_subject_bg"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_wen"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:text="文科"
+                    android:gravity="center"
+                    android:textSize="@dimen/sp_18"
+                    android:button="@null"
+                    android:textColor="@color/select_subject_txt_color"
+                    android:textStyle="bold"
+                    android:background="@drawable/select_score_subject_bg"
+                    android:layout_marginLeft="@dimen/dp_24"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_16"
+                android:drawableLeft="@drawable/ic_score"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:text="分数"
+                android:textSize="@dimen/sp_18"
+                android:textColor="@color/color_text_title" />
+            <EditText
+                android:id="@+id/et_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="输入分数"
+                android:textColorHint="@color/color_text_default"
+                android:textSize="@dimen/sp_16"
+                android:maxLength="3"
+                android:lines="1"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:background="@null"
+                android:textColor="@color/color_text_title"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginTop="36dp"
+            android:textSize="@dimen/sp_18"
+            android:textColor="@color/color_white"
+            android:text="完成"
+            android:textStyle="bold"
+            android:background="@drawable/shape_subject_btn_bg"
+            android:gravity="center"
+            android:paddingTop="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_10"
+            android:paddingLeft="36dp"
+            android:paddingRight="36dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

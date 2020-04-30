@@ -1,0 +1,282 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": [
+        {
+            "typeName": "实际型",
+            "typeCode": "R",
+            "item": [
+                {
+                    "question": "2",
+                    "answer": 1
+                },
+                {
+                    "question": "13",
+                    "answer": 1
+                },
+                {
+                    "question": "22",
+                    "answer": 1
+                },
+                {
+                    "question": "36",
+                    "answer": 1
+                },
+                {
+                    "question": "43",
+                    "answer": 1
+                },
+                {
+                    "question": "14",
+                    "answer": 0
+                },
+                {
+                    "question": "23",
+                    "answer": 0
+                },
+                {
+                    "question": "44",
+                    "answer": 0
+                },
+                {
+                    "question": "47",
+                    "answer": 0
+                },
+                {
+                    "question": "48",
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "typeName": "研究型",
+            "typeCode": "I",
+            "item": [
+                {
+                    "question": "6",
+                    "answer": 1
+                },
+                {
+                    "question": "8",
+                    "answer": 1
+                },
+                {
+                    "question": "20",
+                    "answer": 1
+                },
+                {
+                    "question": "30",
+                    "answer": 1
+                },
+                {
+                    "question": "31",
+                    "answer": 1
+                },
+                {
+                    "question": "42",
+                    "answer": 1
+                },
+                {
+                    "question": "22",
+                    "answer": 0
+                },
+                {
+                    "question": "55",
+                    "answer": 0
+                },
+                {
+                    "question": "56",
+                    "answer": 0
+                },
+                {
+                    "question": "58",
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "typeName": "艺术型",
+            "typeCode": "A",
+            "item": [
+                {
+                    "question": "4",
+                    "answer": 1
+                },
+                {
+                    "question": "9",
+                    "answer": 1
+                },
+                {
+                    "question": "10",
+                    "answer": 1
+                },
+                {
+                    "question": "17",
+                    "answer": 1
+                },
+                {
+                    "question": "33",
+                    "answer": 1
+                },
+                {
+                    "question": "34",
+                    "answer": 1
+                },
+                {
+                    "question": "49",
+                    "answer": 1
+                },
+                {
+                    "question": "50",
+                    "answer": 1
+                },
+                {
+                    "question": "54",
+                    "answer": 1
+                },
+                {
+                    "question": "32",
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "typeName": "社会型",
+            "typeCode": "S",
+            "item": [
+                {
+                    "question": "26",
+                    "answer": 1
+                },
+                {
+                    "question": "37",
+                    "answer": 1
+                },
+                {
+                    "question": "52",
+                    "answer": 1
+                },
+                {
+                    "question": "59",
+                    "answer": 1
+                },
+                {
+                    "question": "1",
+                    "answer": 0
+                },
+                {
+                    "question": "12",
+                    "answer": 0
+                },
+                {
+                    "question": "15",
+                    "answer": 0
+                },
+                {
+                    "question": "27",
+                    "answer": 0
+                },
+                {
+                    "question": "45",
+                    "answer": 0
+                },
+                {
+                    "question": "53",
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "typeName": "企业型",
+            "typeCode": "E",
+            "item": [
+                {
+                    "question": "11",
+                    "answer": 1
+                },
+                {
+                    "question": "24",
+                    "answer": 1
+                },
+                {
+                    "question": "28",
+                    "answer": 1
+                },
+                {
+                    "question": "35",
+                    "answer": 1
+                },
+                {
+                    "question": "38",
+                    "answer": 1
+                },
+                {
+                    "question": "46",
+                    "answer": 1
+                },
+                {
+                    "question": "60",
+                    "answer": 1
+                },
+                {
+                    "question": "3",
+                    "answer": 0
+                },
+                {
+                    "question": "16",
+                    "answer": 0
+                },
+                {
+                    "question": "25",
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "typeName": "传统型",
+            "typeCode": "C",
+            "item": [
+                {
+                    "question": "7",
+                    "answer": 1
+                },
+                {
+                    "question": "19",
+                    "answer": 1
+                },
+                {
+                    "question": "29",
+                    "answer": 1
+                },
+                {
+                    "question": "39",
+                    "answer": 1
+                },
+                {
+                    "question": "41",
+                    "answer": 1
+                },
+                {
+                    "question": "51",
+                    "answer": 1
+                },
+                {
+                    "question": "57",
+                    "answer": 1
+                },
+                {
+                    "question": "5",
+                    "answer": 0
+                },
+                {
+                    "question": "18",
+                    "answer": 0
+                },
+                {
+                    "question": "40",
+                    "answer": 0
+                }
+            ]
+        }
+    ]
+}

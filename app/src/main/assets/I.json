@@ -1,0 +1,808 @@
+{
+    "error": 0,
+    "msg": "",
+    "data": [
+        {
+            "jobs": [
+                "软件工程师",
+                "医学影像技师",
+                "放射科医师",
+                "超声诊断科医师"
+            ],
+            "id": "8353",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "医学影像学",
+            "zhuanyeleibie": "",
+            "xinzi": "8415",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "数据库管理员",
+                "程序员",
+                "数据库开发工程师",
+                "水利·水电工程师"
+            ],
+            "id": "8354",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "数学与应用数学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9338",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "系统集成工程师",
+                "产品工艺工程师",
+                "电子工程师",
+                "电气工程师",
+                "技术工程师"
+            ],
+            "id": "8355",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子科学与技术",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10263",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "数据库管理员",
+                "计算机辅助设计工程师",
+                "数据库开发工程师",
+                "光学技术员",
+                "光电工程师",
+                "光学工程师",
+                "化工工程师"
+            ],
+            "id": "8356",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "应用物理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9983",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "软件测试工程师"
+            ],
+            "id": "8357",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息与计算科学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "10316",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "程序员",
+                "数据库开发工程师",
+                "光学工程师",
+                "技术工程师"
+            ],
+            "id": "8358",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "工程物理",
+            "zhuanyeleibie": "",
+            "xinzi": "13987",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "文档工程师",
+                "系统分析员",
+                "程序员",
+                "电路工程师·技术员",
+                "电子工程师",
+                "传感器应用工程师",
+                "数码产品开发工程师",
+                "光学技术员",
+                "测试工程师",
+                "技术工程师",
+                "产品认证工程师"
+            ],
+            "id": "8359",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子信息工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9824",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "工业工程师"
+            ],
+            "id": "8360",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "物流工程",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8851",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "软件测试工程师"
+            ],
+            "id": "8361",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "软件工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "12371",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "软件测试工程师",
+                "环保工程师"
+            ],
+            "id": "8362",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "环境科学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8338",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "结构工程师",
+                "电气工程师",
+                "技术工程师"
+            ],
+            "id": "8363",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "交通工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9566",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "网络工程师",
+                "系统集成工程师",
+                "土木·土建工程师",
+                "技术工程师"
+            ],
+            "id": "8364",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10731",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "软件测试工程师",
+                "仪器仪表工程师",
+                "暖通工程技术人员",
+                "微生物污水处理工程师",
+                "环保工程师"
+            ],
+            "id": "8365",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "环境科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9068",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "机械工程师",
+                "机电工程师",
+                "土木·土建工程师",
+                "结构工程师",
+                "电气工程师",
+                "工业工程师"
+            ],
+            "id": "8366",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "工业工程",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9525",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "软件测试工程师",
+                "技术支持·维护工程师",
+                "系统集成工程师"
+            ],
+            "id": "8367",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "金融工程",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "12169",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "技术支持·维护工程师",
+                "网络工程师",
+                "水利·水电工程师",
+                "技术工程师",
+                "电信交换工程师"
+            ],
+            "id": "8368",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "电信工程及管理",
+            "zhuanyeleibie": "",
+            "xinzi": "11471",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "机械工程师",
+                "机械设计师",
+                "土木·土建工程师",
+                "测量工程师"
+            ],
+            "id": "8369",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "测绘工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9544",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "软件测试工程师",
+                "文档工程师",
+                "计算机软件产品检验员",
+                "嵌入式硬件开发工程师",
+                "水利·水电工程师",
+                "电路工程师·技术员",
+                "电子工程师",
+                "传感器应用工程师",
+                "数码产品开发工程师",
+                "电气工程师",
+                "测试工程师"
+            ],
+            "id": "8370",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "计算机科学与技术",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10907",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "技术支持·维护工程师",
+                "系统安全工程师",
+                "网络工程师",
+                "系统集成工程师",
+                "技术工程师"
+            ],
+            "id": "8382",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "网络工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9978",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "技术支持·维护工程师",
+                "细胞培养技术员",
+                "发酵工程师",
+                "化学检验员",
+                "微生物检验员",
+                "化学工程师",
+                "化工工程师"
+            ],
+            "id": "8384",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "生物技术",
+            "zhuanyeleibie": "理学",
+            "xinzi": "7921",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "数据库管理员",
+                "系统集成工程师",
+                "数据库开发工程师"
+            ],
+            "id": "8387",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "金融数学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "10449",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "系统安全工程师",
+                "网络工程师",
+                "监理工程师",
+                "工业安全与健康工程师"
+            ],
+            "id": "8388",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "安全工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9586",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "网络工程师",
+                "水利·水电工程师",
+                "土木·土建工程师",
+                "电气工程师"
+            ],
+            "id": "8392",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "工程管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10133",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "网络工程师",
+                "土木·土建工程师"
+            ],
+            "id": "8393",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息安全",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11262",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "网络工程师",
+                "文档工程师",
+                "传感器应用工程师",
+                "技术工程师",
+                "通信技术工程师"
+            ],
+            "id": "8395",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "通信工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10368",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "系统集成工程师"
+            ],
+            "id": "8399",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子商务",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9108",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "计算机辅助设计工程师",
+                "土木·土建工程师",
+                "钢结构设计技术人员",
+                "结构工程师",
+                "技术工程师"
+            ],
+            "id": "8403",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "工程力学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10481",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "嵌入式硬件开发工程师",
+                "设备工程师",
+                "轮胎结构工程师",
+                "内燃机工程师",
+                "柴油机设计工程师",
+                "机械工程师",
+                "机械设计师",
+                "铸造·锻造工程师",
+                "制造工程师",
+                "夹具工程师",
+                "电动车开发设计工程师",
+                "结构工程师"
+            ],
+            "id": "8433",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "机械设计制造及其自动化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9075",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "嵌入式硬件开发工程师",
+                "半导体技术工程师"
+            ],
+            "id": "8434",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "微电子科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11239",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "飞行器设计师"
+            ],
+            "id": "8491",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "航空航天工程",
+            "zhuanyeleibie": "",
+            "xinzi": "14299",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "船舶工程师",
+                "结构工程师",
+                "海水淡化工程师"
+            ],
+            "id": "8492",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "海洋技术",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8594",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "空间工程师"
+            ],
+            "id": "8493",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术设计学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9476",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "船舶设计师"
+            ],
+            "id": "8494",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "船舶与海洋工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11093",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "文物鉴定、保护专业人员"
+            ],
+            "id": "8526",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "文物与博物馆学",
+            "zhuanyeleibie": "历史学",
+            "xinzi": "8288",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "文物鉴定、保护专业人员"
+            ],
+            "id": "8527",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "文物保护技术",
+            "zhuanyeleibie": "",
+            "xinzi": "7406",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "宝玉石检验员",
+                "珠宝首饰评估师",
+                "机械工程师",
+                "土木·土建工程师",
+                "监理工程师",
+                "结构工程师"
+            ],
+            "id": "8528",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "宝石及材料工艺学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8529",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "动物营养专家",
+                "兽药或饲料研发"
+            ],
+            "id": "8532",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "动物医学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7851",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "动物营养专家",
+                "兽药或饲料研发"
+            ],
+            "id": "8533",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "动物药学",
+            "zhuanyeleibie": "",
+            "xinzi": "6894",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "动物营养专家",
+                "兽药或饲料研发",
+                "宠物医生"
+            ],
+            "id": "8534",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "动物科学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "8033",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "电气工程师"
+            ],
+            "id": "8537",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "消防工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9906",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "机电工程师",
+                "暖通工程技术人员",
+                "给排水工程师",
+                "环保工程师"
+            ],
+            "id": "8538",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "给排水科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9994",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "机电工程师",
+                "电气工程师",
+                "变压器与磁电工程师",
+                "核力·火力工程师",
+                "调试工程师"
+            ],
+            "id": "8539",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "电气工程及其自动化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9583",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "机电工程师",
+                "电气工程师"
+            ],
+            "id": "8540",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑电气与智能化",
+            "zhuanyeleibie": "",
+            "xinzi": "10414",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师"
+            ],
+            "id": "8542",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑环境与能源应用工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10519",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "农业技术指导员",
+                "农技师"
+            ],
+            "id": "8544",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业电气化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "7493",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "机电工程师",
+                "监理工程师",
+                "结构工程师",
+                "微水电利用工"
+            ],
+            "id": "8545",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "水利水电工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9940",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "农业技术指导员",
+                "农技师"
+            ],
+            "id": "8549",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业工程",
+            "zhuanyeleibie": "",
+            "xinzi": "8747",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "农业技术指导员",
+                "农技师"
+            ],
+            "id": "8550",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业机械化及其自动化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8077",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "农业技术指导员",
+                "农技师"
+            ],
+            "id": "8552",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业建筑环境与能源工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8897",
+            "character": "I"
+        },
+        {
+            "jobs": [
+                "农业技术指导员",
+                "农技师"
+            ],
+            "id": "8553",
+            "type": "霍兰德",
+            "zhibiao": "I",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业水利工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8520",
+            "character": "I"
+        }
+    ],
+    "totaltime": 0.09862089157104492
+}

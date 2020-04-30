@@ -1,0 +1,719 @@
+{
+    "error": 0,
+    "msg": "",
+    "data": [
+        {
+            "jobs": [
+                "硬件工程师",
+                "用户通信终端维修员",
+                "通信电力机务员"
+            ],
+            "id": "8376",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "通信工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10368",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "硬件工程师",
+                "焊接工程师"
+            ],
+            "id": "8377",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "焊接技术与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9612",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "硬件工程师",
+                "集成电路测试员"
+            ],
+            "id": "8378",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "计算机科学与技术",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10907",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "硬件工程师",
+                "集成电路测试员",
+                "电子电器维修工程师"
+            ],
+            "id": "8379",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子信息工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9824",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "硬件工程师"
+            ],
+            "id": "8380",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子科学与技术",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10263",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "硬件测试工程师",
+                "系统管理员·网管"
+            ],
+            "id": "8407",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息与计算科学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "10316",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "信息技术专员",
+                "系统管理员·网管"
+            ],
+            "id": "8409",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息管理与信息系统",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10070",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "系统管理员·网管"
+            ],
+            "id": "8416",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息安全",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11262",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "系统管理员·网管"
+            ],
+            "id": "8417",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "网络工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9978",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "网页制作"
+            ],
+            "id": "8479",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "动画",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9699",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "网页制作"
+            ],
+            "id": "8480",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "摄影",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9760",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "网页制作",
+                "室内装饰质量检验员"
+            ],
+            "id": "8481",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "工业设计",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9650",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "网页制作"
+            ],
+            "id": "8482",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "绘画",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9237",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "网页制作",
+                "印前制作员"
+            ],
+            "id": "8483",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "美术学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8336",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "网页制作"
+            ],
+            "id": "8484",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术设计学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9476",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "航空产品装配与调试员",
+                "飞机机械员",
+                "飞行领航员",
+                "飞行器制造工程师",
+                "航空维修技术人员",
+                "飞机驾驶员"
+            ],
+            "id": "8486",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "航空航天工程",
+            "zhuanyeleibie": "",
+            "xinzi": "14299",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "船舶驾驶员·船长"
+            ],
+            "id": "8496",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "船舶与海洋工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11093",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "室内环境治理员（对飞机、汽车等内部空间进行治理）"
+            ],
+            "id": "8497",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "飞行器环境与生命保障工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10433",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "采购工程师"
+            ],
+            "id": "8510",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "包装工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8828",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "采购工程师"
+            ],
+            "id": "8511",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "物流工程",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8851",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "商品储运员"
+            ],
+            "id": "8514",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "油气储运工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8688",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "司机",
+                "车辆维护工程师"
+            ],
+            "id": "8523",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "交通运输",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9131",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "司机"
+            ],
+            "id": "8524",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "车辆工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10462",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "水产品质量检验员",
+                "无机非金属新材料工程技术人员",
+                "硅酸盐工程技术人员"
+            ],
+            "id": "8546",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9423",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "水产品质量检验员"
+            ],
+            "id": "8547",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "功能材料",
+            "zhuanyeleibie": "",
+            "xinzi": "10124",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "水产品质量检验员",
+                "食品检验员"
+            ],
+            "id": "8548",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "食品科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "7796",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "高级农艺师",
+                "作物遗传育种栽培员",
+                "标本员",
+                "野生植物保护员"
+            ],
+            "id": "8558",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "植物保护",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7445",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "高级农艺师",
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "8559",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "农学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7473",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "中药材种植员"
+            ],
+            "id": "8569",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "中药学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "7888",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "家畜饲养员",
+                "实验动物饲养员",
+                "兽医",
+                "动物疫病防治员",
+                "动物检疫检验员",
+                "畜牧师",
+                "饲料化验员"
+            ],
+            "id": "8573",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "动物医学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7851",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "家畜饲养员",
+                "畜牧师",
+                "饲料化验员"
+            ],
+            "id": "8574",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "动物药学",
+            "zhuanyeleibie": "",
+            "xinzi": "6894",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "家畜饲养员",
+                "兽医",
+                "动物疫病防治员",
+                "动物检疫检验员",
+                "畜牧师",
+                "饲料化验员"
+            ],
+            "id": "8575",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "动物科学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "8033",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "8576",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业工程",
+            "zhuanyeleibie": "",
+            "xinzi": "8747",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "8577",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业机械化及其自动化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8077",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "8578",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业电气化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "7493",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员",
+                "建筑工程管理员"
+            ],
+            "id": "8579",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业建筑环境与能源工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8897",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "8580",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业水利工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8520",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "8582",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "设施农业科学与工程",
+            "zhuanyeleibie": "农学",
+            "xinzi": "8486",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "8591",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业资源与环境",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7577",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "园林工程师"
+            ],
+            "id": "8594",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "风景园林",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10263",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "园林工程师",
+                "园艺养护员"
+            ],
+            "id": "8595",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "园艺",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7823",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "园林工程师"
+            ],
+            "id": "8596",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "园林",
+            "zhuanyeleibie": "农学",
+            "xinzi": "9131",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "园林工程师",
+                "标本员",
+                "野生植物保护员"
+            ],
+            "id": "8597",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "林学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7944",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "园林工程师"
+            ],
+            "id": "8598",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "雕塑",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9589",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "园艺养护员"
+            ],
+            "id": "8602",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "园艺教育",
+            "zhuanyeleibie": "",
+            "xinzi": "8335",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "标本员",
+                "野生植物保护员"
+            ],
+            "id": "8603",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "野生动物与自然保护区管理",
+            "zhuanyeleibie": "农学",
+            "xinzi": "6989",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "标本员",
+                "野生植物保护员"
+            ],
+            "id": "8605",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "植物科学与技术",
+            "zhuanyeleibie": "农学",
+            "xinzi": "8509",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "标本员",
+                "野生植物保护员"
+            ],
+            "id": "8607",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "森林保护",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7991",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "草地监护员"
+            ],
+            "id": "8608",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "草业科学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "8004",
+            "character": "R"
+        },
+        {
+            "jobs": [
+                "水土保持勘测工",
+                "灌溉实验工",
+                "水土保持防治工",
+                "水土保持测试工",
+                "水域环境养护保洁员"
+            ],
+            "id": "8618",
+            "type": "霍兰德",
+            "zhibiao": "R",
+            "pici": "本科",
+            "zhuanyemingcheng": "水土保持与荒漠化防治",
+            "zhuanyeleibie": "农学",
+            "xinzi": "8142",
+            "character": "R"
+        }
+    ],
+    "totaltime": 0.08240389823913574
+}

@@ -1,0 +1,769 @@
+{
+    "error": 0,
+    "msg": "",
+    "data": [
+        {
+            "jobs": [
+                "游戏程序设计师"
+            ],
+            "id": "8405",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "数学与应用数学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9338",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "游戏程序设计师"
+            ],
+            "id": "8406",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "工程物理",
+            "zhuanyeleibie": "",
+            "xinzi": "13987",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "游戏设计与开发员",
+                "电影电视导演·编导",
+                "栏目策划",
+                "皮影戏木偶戏作家",
+                "舞蹈编导",
+                "戏剧人员",
+                "戏剧演员",
+                "舞蹈演员",
+                "音乐指挥",
+                "皮影戏演员"
+            ],
+            "id": "8432",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "戏剧学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "11473",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师"
+            ],
+            "id": "8436",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "文物与博物馆学",
+            "zhuanyeleibie": "历史学",
+            "xinzi": "8288",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "广告设计师",
+                "美术·艺术指导",
+                "美术编辑",
+                "道具师",
+                "艺术评论员",
+                "外国乐器演奏员"
+            ],
+            "id": "8437",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7913",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "包装设计师"
+            ],
+            "id": "8438",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "包装工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8828",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "栏目策划"
+            ],
+            "id": "8439",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "传播学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10962",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "网页设计师",
+                "工业造型设计师",
+                "家具设计师",
+                "工艺品设计师"
+            ],
+            "id": "8440",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "工业设计",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9650",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师"
+            ],
+            "id": "8441",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "数字媒体艺术",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "11199",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "计算机平面设计师",
+                "网页设计师",
+                "珠宝设计师",
+                "园林景观设计师",
+                "美工",
+                "室内装饰设计师",
+                "道具师",
+                "舞台设计师",
+                "艺术评论员"
+            ],
+            "id": "8442",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术设计学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9476",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "网页设计师",
+                "游戏美术设计师",
+                "美工",
+                "美术·艺术指导",
+                "室内装饰设计师",
+                "画家",
+                "人体彩绘师"
+            ],
+            "id": "8443",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "绘画",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9237",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "美工",
+                "创意文案·制作",
+                "栏目策划"
+            ],
+            "id": "8444",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "广告学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10638",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "计算机平面设计师",
+                "网页设计师",
+                "美工",
+                "美术·艺术指导",
+                "道具师",
+                "工艺品设计师"
+            ],
+            "id": "8445",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "美术学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8336",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师"
+            ],
+            "id": "8446",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "网络与新媒体",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10815",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "包装设计师"
+            ],
+            "id": "8447",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "印刷工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8501",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "计算机平面设计师",
+                "网页设计师",
+                "美工",
+                "摄影师",
+                "摄像师"
+            ],
+            "id": "8448",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "摄影",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9760",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "计算机平面设计师",
+                "网页设计师",
+                "动画设计师",
+                "角色动画设计师",
+                "美工"
+            ],
+            "id": "8449",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "动画",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9699",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "网页设计师",
+                "广告创意·设计·策划主管"
+            ],
+            "id": "8456",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "应用心理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8158",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "多媒体设计师",
+                "唱片员",
+                "音乐指挥",
+                "外国乐器演奏员",
+                "调律师",
+                "曲艺作家",
+                "作曲家",
+                "计算机乐谱制作师"
+            ],
+            "id": "8461",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "音乐学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8212",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "动画设计师",
+                "电视主持人",
+                "舞蹈编导"
+            ],
+            "id": "8462",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "表演",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9632",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "珠宝设计师",
+                "室内装饰设计师",
+                "艺术·设计总监",
+                "工艺品设计师"
+            ],
+            "id": "8530",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "宝石及材料工艺学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8529",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "园艺师",
+                "园林景观设计师"
+            ],
+            "id": "8570",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "园艺",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7823",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "园林景观设计师"
+            ],
+            "id": "8645",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "城乡规划",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10705",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "园林景观设计师"
+            ],
+            "id": "8647",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑环境与能源应用工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10519",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "园林景观设计师"
+            ],
+            "id": "8648",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "生态学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "7982",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "园林景观设计师"
+            ],
+            "id": "8649",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "风景园林",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10263",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "园林景观设计师"
+            ],
+            "id": "8650",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "14051",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "园林景观设计师"
+            ],
+            "id": "8651",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "林学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7944",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "园林景观设计师",
+                "花艺环境设计师"
+            ],
+            "id": "8652",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "园林",
+            "zhuanyeleibie": "农学",
+            "xinzi": "9131",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "汽车整车、车身、底盘设计师",
+                "涂装设计师"
+            ],
+            "id": "8733",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "机械设计制造及其自动化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9075",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "汽车整车、车身、底盘设计师"
+            ],
+            "id": "8734",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "机械工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9917",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "汽车整车、车身、底盘设计师"
+            ],
+            "id": "8735",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "机械工艺技术",
+            "zhuanyeleibie": "",
+            "xinzi": "7559",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "创意文案·制作",
+                "总编·副总编",
+                "栏目策划"
+            ],
+            "id": "8863",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "新闻学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "9491",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "建筑师"
+            ],
+            "id": "8921",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "环境科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9068",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "建筑师",
+                "室内装饰设计师"
+            ],
+            "id": "8922",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "土木工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10380",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "汽车外形及装饰设计师",
+                "家具设计师",
+                "道具师",
+                "舞台设计师"
+            ],
+            "id": "8992",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "视觉传达设计",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9512",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "室内装饰设计师"
+            ],
+            "id": "8995",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "经济学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9517",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "室内装饰设计师"
+            ],
+            "id": "8997",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料成型及控制工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9074",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "室内装饰设计师",
+                "工艺品设计师",
+                "雕塑家"
+            ],
+            "id": "9001",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "雕塑",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9589",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "照明师",
+                "影视舞台烟火特效员",
+                "电影洗印员",
+                "剪辑师",
+                "道具师",
+                "舞台设计师",
+                "戏剧人员"
+            ],
+            "id": "9069",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "戏剧影视美术设计",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "10618",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "演播室导演",
+                "电视评论员",
+                "戏剧评论员",
+                "戏剧人员",
+                "戏剧演员",
+                "皮影戏演员"
+            ],
+            "id": "9080",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "戏剧影视导演",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "13066",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "唱片员",
+                "音乐指挥",
+                "民族乐器演奏员",
+                "歌唱演员",
+                "作曲家",
+                "计算机乐谱制作师"
+            ],
+            "id": "9084",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "音乐表演",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8279",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "总编·副总编",
+                "诗人",
+                "作家·撰稿人",
+                "文学作家",
+                "词作家",
+                "剧作家"
+            ],
+            "id": "9085",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "汉语言文学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8186",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "总编·副总编"
+            ],
+            "id": "9087",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "社会学",
+            "zhuanyeleibie": "法学",
+            "xinzi": "9767",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "广播电视编播工程技术人员",
+                "电影电视导演·编导"
+            ],
+            "id": "9090",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "广播电视编导",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9717",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "电视评论员",
+                "戏剧评论员",
+                "电影电视演员"
+            ],
+            "id": "9111",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "电影学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "10707",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "道具师",
+                "艺术评论员"
+            ],
+            "id": "9117",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术史论",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9943",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "道具师",
+                "艺术评论员"
+            ],
+            "id": "9119",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术与科技",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "10012",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "文学作家",
+                "电影电视导演·编导",
+                "栏目策划",
+                "皮影戏木偶戏作家",
+                "戏剧人员",
+                "戏剧演员"
+            ],
+            "id": "9123",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "戏剧影视文学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9998",
+            "character": "A"
+        },
+        {
+            "jobs": [
+                "文学作家"
+            ],
+            "id": "9124",
+            "type": "霍兰德",
+            "zhibiao": "A",
+            "pici": "本科",
+            "zhuanyemingcheng": "中国少数民族语言文学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8288",
+            "character": "A"
+        }
+    ],
+    "totaltime": 0.08687806129455566
+}

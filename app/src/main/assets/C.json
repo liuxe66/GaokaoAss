@@ -1,0 +1,744 @@
+{
+    "error": 0,
+    "msg": "",
+    "data": [
+        {
+            "jobs": [
+                "网络编辑",
+                "文字编辑"
+            ],
+            "id": "8411",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "新闻学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "9491",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "网络编辑"
+            ],
+            "id": "8412",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "传播学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10962",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "网络编辑",
+                "文字编辑"
+            ],
+            "id": "8413",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "编辑出版学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "9025",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "网络编辑",
+                "摄影测量技术员"
+            ],
+            "id": "8414",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "摄影",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9760",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "网络编辑",
+                "文字编辑",
+                "人力资源专员",
+                "行政专员·助理",
+                "秘书·文员"
+            ],
+            "id": "8415",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "汉语言",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8392",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "电子商务师"
+            ],
+            "id": "8465",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "生物信息学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "10058",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "电子商务师"
+            ],
+            "id": "8466",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "生物医学工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9864",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "电子商务师"
+            ],
+            "id": "8467",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "医学信息工程",
+            "zhuanyeleibie": "",
+            "xinzi": "9531",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "电子商务师",
+                "商务专员助理",
+                "外贸专员·助理"
+            ],
+            "id": "8468",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "贸易经济",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9622",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "电子商务师",
+                "笔译人员",
+                "同声传译",
+                "口译人员",
+                "外贸专员·助理"
+            ],
+            "id": "8469",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "德语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10348",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "电子商务师",
+                "文字编辑",
+                "笔译人员",
+                "同声传译",
+                "口译人员",
+                "外贸专员·助理"
+            ],
+            "id": "8470",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "葡萄牙语",
+            "zhuanyeleibie": "",
+            "xinzi": "18182",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "电子商务师",
+                "笔译人员",
+                "同声传译",
+                "口译人员",
+                "外贸专员·助理"
+            ],
+            "id": "8471",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "西班牙语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "14334",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "电子商务师",
+                "文字编辑",
+                "笔译人员",
+                "同声传译",
+                "口译人员",
+                "外贸专员·助理"
+            ],
+            "id": "8472",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "意大利语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "12543",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "电子商务师",
+                "笔译人员",
+                "同声传译",
+                "口译人员",
+                "外贸专员·助理"
+            ],
+            "id": "8473",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "法语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "12189",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "电子商务师",
+                "外贸专员·助理"
+            ],
+            "id": "8474",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子商务",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9108",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "电子商务师"
+            ],
+            "id": "8475",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息管理与信息系统",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10070",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "物流专员·助理",
+                "仓库保管员"
+            ],
+            "id": "8505",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "物流管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8774",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "物流专员·助理",
+                "调度员",
+                "仓库保管员"
+            ],
+            "id": "8506",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "交通运输",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9131",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "采购员·助理"
+            ],
+            "id": "8513",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "纺织工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8334",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "仓库保管员"
+            ],
+            "id": "8515",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "物流工程",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8851",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "仓库保管员"
+            ],
+            "id": "8516",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "卫生检验与检疫",
+            "zhuanyeleibie": "",
+            "xinzi": "7200",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "仓库保管员",
+                "统计专员",
+                "会计·会计师",
+                "人力资源专员",
+                "行政专员·助理",
+                "前台·总机·接待员",
+                "秘书·文员"
+            ],
+            "id": "8517",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "统计学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9792",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "仓库保管员"
+            ],
+            "id": "8519",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "管理科学",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10005",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "仓库保管员"
+            ],
+            "id": "8520",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息安全",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11262",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "仓库保管员"
+            ],
+            "id": "8522",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "应用物理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9983",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "簿记师",
+                "财务会计出纳",
+                "结算员",
+                "税务专员",
+                "出纳员",
+                "银行信贷员",
+                "资金调度员"
+            ],
+            "id": "8786",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "财务管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9013",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "簿记师",
+                "财务会计出纳",
+                "结算员",
+                "税务专员",
+                "出纳员",
+                "收银员"
+            ],
+            "id": "8787",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "会计学",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8892",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "预算员",
+                "图书情报·资料·文档管理员"
+            ],
+            "id": "8819",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "消防工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9906",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "预算员",
+                "品质经理·质量工程师",
+                "图书情报·资料·文档管理员"
+            ],
+            "id": "8820",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "工程管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10133",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "预算员",
+                "财务会计出纳",
+                "审计专员"
+            ],
+            "id": "8821",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "审计学",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9890",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "预算员",
+                "财务会计出纳",
+                "出纳员",
+                "银行货币发行员",
+                "银行信贷员",
+                "银行柜员"
+            ],
+            "id": "8822",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "经济学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9517",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "预算员"
+            ],
+            "id": "8823",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "工程造价",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9969",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "预算员"
+            ],
+            "id": "8824",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "土木工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10380",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "预算员"
+            ],
+            "id": "8825",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料成型及控制工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9074",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "预算员"
+            ],
+            "id": "8826",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "宝石及材料工艺学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8529",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "财务会计出纳",
+                "出纳员",
+                "银行货币发行员",
+                "银行信贷员",
+                "资金调度员",
+                "银行柜员"
+            ],
+            "id": "8827",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "财政学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "8614",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "财务会计出纳",
+                "出纳员",
+                "银行信贷员",
+                "资金调度员"
+            ],
+            "id": "8828",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "财务会计教育",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "6950",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "统计专员"
+            ],
+            "id": "8834",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "金融数学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "10449",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "税务专员"
+            ],
+            "id": "8838",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "税收学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9576",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "法庭速记员",
+                "人力资源专员"
+            ],
+            "id": "8851",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "法学",
+            "zhuanyeleibie": "法学",
+            "xinzi": "9157",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "培训专员助理"
+            ],
+            "id": "9065",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "口腔医学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "9690",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "培训专员助理",
+                "人力资源专员",
+                "行政专员·助理"
+            ],
+            "id": "9066",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "公共事业管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8329",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "培训专员助理"
+            ],
+            "id": "9067",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "教育技术学",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "8332",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "培训专员助理"
+            ],
+            "id": "9068",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "表演",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9632",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "文字编辑",
+                "笔译人员",
+                "同声传译",
+                "口译人员",
+                "外贸专员·助理"
+            ],
+            "id": "9096",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "阿拉伯语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "14102",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "文字编辑",
+                "笔译人员",
+                "同声传译",
+                "口译人员"
+            ],
+            "id": "9098",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "越南语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "9756",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "文字编辑",
+                "笔译人员",
+                "同声传译",
+                "口译人员"
+            ],
+            "id": "9099",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "泰语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10231",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "文字编辑",
+                "笔译人员",
+                "同声传译",
+                "口译人员"
+            ],
+            "id": "9100",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "波斯语",
+            "zhuanyeleibie": "",
+            "xinzi": "20529",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "文字编辑"
+            ],
+            "id": "9102",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "基础医学",
+            "zhuanyeleibie": "",
+            "xinzi": "9897",
+            "character": "C"
+        },
+        {
+            "jobs": [
+                "文字编辑",
+                "秘书·文员"
+            ],
+            "id": "9103",
+            "type": "霍兰德",
+            "zhibiao": "C",
+            "pici": "本科",
+            "zhuanyemingcheng": "哲学",
+            "zhuanyeleibie": "哲学",
+            "xinzi": "9697",
+            "character": "C"
+        }
+    ],
+    "totaltime": 0.08864903450012207
+}

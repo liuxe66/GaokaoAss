@@ -1,0 +1,703 @@
+{
+    "error": 0,
+    "msg": "",
+    "data": [
+        {
+            "jobs": [
+                "咨询顾问",
+                "客户咨询热线·呼叫中心人员"
+            ],
+            "id": "8758",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "中西医临床医学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "8582",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "咨询顾问"
+            ],
+            "id": "8759",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "车辆工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10462",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "咨询顾问"
+            ],
+            "id": "8760",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息与计算科学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "10316",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "咨询顾问"
+            ],
+            "id": "8761",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "资源环境科学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8527",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "心理咨询师",
+                "客户服务总监",
+                "课程设计开发专员",
+                "心理指导老师"
+            ],
+            "id": "8762",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "心理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8897",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "心理咨询师",
+                "策划师"
+            ],
+            "id": "8763",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "社会工作",
+            "zhuanyeleibie": "法学",
+            "xinzi": "8131",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "企管顾问",
+                "策划师"
+            ],
+            "id": "8764",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "新闻学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "9491",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "企业文化师",
+                "策划师"
+            ],
+            "id": "8765",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "编辑出版学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "9025",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "企业文化师",
+                "小学教师"
+            ],
+            "id": "8766",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "汉语言",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8392",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "策划师"
+            ],
+            "id": "8767",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "14051",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "策划师"
+            ],
+            "id": "8768",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "风景园林",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10263",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "8869",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "烟草",
+            "zhuanyeleibie": "",
+            "xinzi": "8284",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "8870",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "广告学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10638",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "课程设计开发专员"
+            ],
+            "id": "8871",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "市场营销教育",
+            "zhuanyeleibie": "",
+            "xinzi": "6729",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "金融守押员"
+            ],
+            "id": "8872",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "金融学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "10448",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "8873",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "社会学",
+            "zhuanyeleibie": "法学",
+            "xinzi": "9767",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "8874",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "投资学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "11746",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "招生人员"
+            ],
+            "id": "8875",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "市场营销",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9815",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "8876",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "通信工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10368",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "8878",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "经济学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9517",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "8879",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "信用管理",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "10234",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "8880",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "图书馆学",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8705",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "国内导游",
+                "旅游外联员",
+                "展览讲解员"
+            ],
+            "id": "8881",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "旅游管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8451",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "8882",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "朝鲜语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8527",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "8883",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "贸易经济",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9622",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "客户咨询热线·呼叫中心人员",
+                "急诊护士",
+                "各科室导医",
+                "护理师",
+                "病房护士",
+                "门诊护士",
+                "手术室护士",
+                "供应室护士",
+                "助产士"
+            ],
+            "id": "8884",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "护理学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "8545",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "产品·品牌专员",
+                "医疗救护员"
+            ],
+            "id": "8886",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "临床医学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "9745",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "市场调查员"
+            ],
+            "id": "8902",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "农学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7473",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "房地产评估师·房地产估价师"
+            ],
+            "id": "9002",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "土地资源管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9496",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "警察"
+            ],
+            "id": "9007",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "经济犯罪侦查",
+            "zhuanyeleibie": "",
+            "xinzi": "11065",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "警察"
+            ],
+            "id": "9008",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "交通管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10774",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "中学教师",
+                "小学教师"
+            ],
+            "id": "9010",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "小学教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7100",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "幼儿教师"
+            ],
+            "id": "9011",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "生态学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "7982",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "小学教师",
+                "幼儿教师",
+                "幼儿园院长"
+            ],
+            "id": "9013",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "学前教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7850",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "中学教师",
+                "小学教师",
+                "幼儿教师"
+            ],
+            "id": "9014",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "科学教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7784",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "幼儿教师"
+            ],
+            "id": "9015",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7913",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "班主任（中小学）",
+                "心理指导老师",
+                "教学助理",
+                "总务主任",
+                "教务人员",
+                "中等学校校长"
+            ],
+            "id": "9016",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "教育学",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "8585",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "教学主管（主任）",
+                "幼儿教师"
+            ],
+            "id": "9017",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "舞蹈学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8463",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "9026",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "国际政治",
+            "zhuanyeleibie": "法学",
+            "xinzi": "10045",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "9027",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "历史学",
+            "zhuanyeleibie": "历史学",
+            "xinzi": "7977",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "9028",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "化学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8572",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "中学教师",
+                "小学教师",
+                "幼儿教师"
+            ],
+            "id": "9029",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "音乐学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8212",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "9030",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料物理",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9451",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "中学教师",
+                "小学教师",
+                "教练员",
+                "裁判员"
+            ],
+            "id": "9031",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "体育教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "8319",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "9034",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料化学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8510",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "9035",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "地理科学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8037",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "9036",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "物理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9287",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "幼儿教师",
+                "培训师"
+            ],
+            "id": "9044",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "表演",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9632",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "幼儿教师"
+            ],
+            "id": "9047",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "人文教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7677",
+            "character": "S"
+        },
+        {
+            "jobs": [
+                "幼儿教师"
+            ],
+            "id": "9051",
+            "type": "霍兰德",
+            "zhibiao": "S",
+            "pici": "本科",
+            "zhuanyemingcheng": "音乐表演",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8279",
+            "character": "S"
+        }
+    ],
+    "totaltime": 0.09385204315185547
+}

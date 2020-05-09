@@ -13,8 +13,6 @@ import java.util.concurrent.TimeUnit
 
 /**
  *
- * @author  Lai
- *
  * @time 2019/9/20 15:51
  * @describe describe
  *

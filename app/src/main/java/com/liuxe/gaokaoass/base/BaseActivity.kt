@@ -52,9 +52,7 @@ abstract class BaseActivity : SupportActivity() {
 
     private fun initStatusBar() {
         ImmersionBar.with(this)
-            .flymeOSStatusBarFontColor(R.color.color_black)  //修改flyme OS状态栏字体颜色
             .statusBarDarkFont(true)
-            .transparentStatusBar()
             .keyboardEnable(true).init()
     }
 

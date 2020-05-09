@@ -10,12 +10,13 @@ class ZntbHomeViewModel : BaseViewModel() {
     var zntbHomeResponse = MutableLiveData<BaseResponse<ZntbHomeBean>>()
 
 
-    fun getWeatherInfo(format: String, method: String, location: String, aos: String, score: String, year: String
+    fun getZntbHome(location: String, aos: String, score: String, year: String
     ) {
         request({
-            RetrofitClient.service.getZntbHome(format,method,location,aos,score, year)
+            RetrofitClient.service.getZntbHome(location,aos,score, year)
         }) {
             zntbHomeResponse.value = it
         }
     }
+
 }

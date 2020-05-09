@@ -38,11 +38,11 @@ private fun <T : View> T.clickEnable(): Boolean {
 
 /***
  * 带延迟过滤点击事件的 View 扩展
- * @param delay Long 延迟时间，默认500毫秒
+ * @param delay Long 延迟时间，默认100毫秒
  * @param block: (T) -> Unit 函数
  * @return Unit
  */
-fun <T : View> T.clickWithTrigger(delay: Long = 200, block: (T) -> Unit) {
+fun <T : View> T.clickWithTrigger(delay: Long = 100, block: (T) -> Unit) {
     triggerDelay = delay
     setOnClickListener {
         if (clickEnable()) {

@@ -126,9 +126,10 @@
                 android:textSize="@dimen/sp_16"
                 android:maxLength="3"
                 android:lines="1"
-                android:imeOptions="actionDone"
+                android:imeOptions="actionGo"
                 android:inputType="number"
                 android:background="@null"
+                android:singleLine="true"
                 android:textColor="@color/color_text_title"/>
         </LinearLayout>
 

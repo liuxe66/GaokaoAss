@@ -32,16 +32,16 @@ class TopDialog(var ctx: Context, themeResId: Int) : Dialog(ctx, themeResId) {
         init()
     }
 
-    override fun onStart() {
-        super.onStart()
-        val uiOptions = (View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-                or View.SYSTEM_UI_FLAG_IMMERSIVE
-                or View.SYSTEM_UI_FLAG_FULLSCREEN)
-        this.window!!.decorView.systemUiVisibility = uiOptions
-    }
+//    override fun onStart() {
+//        super.onStart()
+//        val uiOptions = (View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+//                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+//                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+//                or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+//                or View.SYSTEM_UI_FLAG_IMMERSIVE
+//                or View.SYSTEM_UI_FLAG_FULLSCREEN)
+//        this.window!!.decorView.systemUiVisibility = uiOptions
+//    }
 
     private fun init() {
         this.setCanceledOnTouchOutside(true)
@@ -85,6 +85,5 @@ class TopDialog(var ctx: Context, themeResId: Int) : Dialog(ctx, themeResId) {
 
 
     }
-
 
 }

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
     <include layout="@layout/view_status_bar"
         android:id="@+id/status_bar"/>
     <LinearLayout
@@ -40,51 +42,24 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp">
+            android:layout_height="160dp">
+
+
             <ImageView
+                android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:src="@drawable/ic_home_top" />
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="48dp">
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:layout_gravity="center"
-                    android:gravity="center_vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="@dimen/sp_16"
-                        android:text="距离高考还剩"
-                        android:textStyle="bold"
-                        android:textColor="@color/color_white"/>
-                    <TextView
-                        android:id="@+id/tv_day"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="@dimen/sp_36"
-                        android:padding="0dp"
-                        android:textStyle="bold"
-                        android:layout_marginLeft="@dimen/dp_6"
-                        android:layout_marginRight="@dimen/dp_6"
-                        android:textColor="@color/color_white"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="@dimen/sp_16"
-                        android:padding="0dp"
-                        android:text="天"
-                        android:textStyle="bold"
-                        android:layout_marginRight="@dimen/dp_6"
-                        android:textColor="@color/color_white"/>
-                </LinearLayout>
-
-            </FrameLayout>
-
+                android:layout_height="160dp"
+                android:src="@drawable/top" />
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#F00"
+                android:textSize="30sp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="54dp"
+                android:rotation="-6" />
         </RelativeLayout>
 
 

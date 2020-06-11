@@ -24,7 +24,7 @@ class ZntbHomeActivity : BaseVMActivity() {
         initTitleBar(toolbar,"智能填报志愿")
         tv_user.text = location+" · "+subject+" · "+score
         mZntbHomeViewModel = createViewModel()
-        mZntbHomeViewModel?.getZntbHome(location,subject,score,"2019")
+        mZntbHomeViewModel?.getZntbHome(location,subject,score,"2020")
 
         mZntbHomeViewModel?.zntbHomeResponse?.observe(this, Observer {
             tv_risk_title.text = it.data.risk.name

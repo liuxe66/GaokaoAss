@@ -54,7 +54,7 @@ open class BaseViewModel : ViewModel(), LifecycleObserver {
             if (response.status == 0) {
                 success.invoke(response)
             } else {
-                mException.value = Throwable("未知异常")
+                mException.value = Throwable(response.msg)
                 error.invoke(response)
             }
         }

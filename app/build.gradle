@@ -66,4 +66,6 @@ dependencies {
     implementation 'me.yokeyword:fragmentationx:1.0.1'
 
     implementation 'me.jessyan:autosize:1.1.2'
+
+    implementation 'com.github.zhpanvip:BannerViewPager:3.1.2'
 }

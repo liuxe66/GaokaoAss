@@ -47,7 +47,7 @@ class MbtiQActivity : BaseVMActivity() {
         val mbtiAStr = JsonUtils.getJson(this, "mbti/MBTIA.json")
         mbtiABean = Gson().fromJson<MbtiABean>(mbtiAStr, MbtiABean::class.java)
 
-        tv_question.text = mbtiQBean.data[position].question
+        tv_question.text = mbtiQBean.data[position].number+"."+mbtiQBean.data[position].question
         tv_a.text = "A:" + mbtiQBean.data[position].option.a
         tv_b.text = "B:" + mbtiQBean.data[position].option.b
 
@@ -64,7 +64,7 @@ class MbtiQActivity : BaseVMActivity() {
             } else {
                 ++position
                 btnSelect()
-                tv_question.text = mbtiQBean.data[position].question
+                tv_question.text = mbtiQBean.data[position].number+"."+mbtiQBean.data[position].question
                 tv_a.text = "A:" + mbtiQBean.data[position].option.a
                 tv_b.text = "B:" + mbtiQBean.data[position].option.b
             }
@@ -78,7 +78,7 @@ class MbtiQActivity : BaseVMActivity() {
             } else {
                 ++position
                 btnSelect()
-                tv_question.text = mbtiQBean.data[position].question
+                tv_question.text = mbtiQBean.data[position].number+"."+mbtiQBean.data[position].question
                 tv_a.text = "A:" + mbtiQBean.data[position].option.a
                 tv_b.text = "B:" + mbtiQBean.data[position].option.b
             }
@@ -87,7 +87,7 @@ class MbtiQActivity : BaseVMActivity() {
 
         tv_prev.setOnClickListener {
             position--
-            tv_question.text = mbtiQBean.data[position].question
+            tv_question.text = mbtiQBean.data[position].number+"."+mbtiQBean.data[position].question
             tv_a.text = "A:" + mbtiQBean.data[position].option.a
             tv_b.text = "B:" + mbtiQBean.data[position].option.b
             btnSelect()

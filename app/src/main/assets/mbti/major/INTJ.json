@@ -1,0 +1,1692 @@
+{
+    "error": 0,
+    "msg": "",
+    "data": [
+        {
+            "jobs": [
+                "软件工程师",
+                "医学影像技师",
+                "放射科医师",
+                "超声诊断科医师"
+            ],
+            "id": "10623",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "医学影像学",
+            "zhuanyeleibie": "",
+            "xinzi": "8415",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "数据库管理员",
+                "程序员",
+                "数据库开发工程师",
+                "水利·水电工程师"
+            ],
+            "id": "10624",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "数学与应用数学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9338",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "硬件工程师",
+                "系统集成工程师",
+                "产品工艺工程师",
+                "电子工程师",
+                "电气工程师",
+                "技术工程师"
+            ],
+            "id": "10625",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子科学与技术",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10263",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "数据库管理员",
+                "计算机辅助设计工程师",
+                "数据库开发工程师",
+                "光学技术员",
+                "光电工程师",
+                "光学工程师",
+                "化工工程师"
+            ],
+            "id": "10626",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "应用物理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9983",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "软件测试工程师",
+                "硬件测试工程师",
+                "系统管理员·网管"
+            ],
+            "id": "10627",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息与计算科学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "10316",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "程序员",
+                "数据库开发工程师",
+                "光学工程师",
+                "技术工程师"
+            ],
+            "id": "10628",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "工程物理",
+            "zhuanyeleibie": "",
+            "xinzi": "13987",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "硬件工程师",
+                "文档工程师",
+                "系统分析员",
+                "程序员",
+                "电路工程师·技术员",
+                "电子工程师",
+                "集成电路测试员",
+                "电子电器维修工程师",
+                "传感器应用工程师",
+                "数码产品开发工程师",
+                "光学技术员",
+                "测试工程师",
+                "技术工程师",
+                "产品认证工程师"
+            ],
+            "id": "10629",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子信息工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9824",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "采购工程师",
+                "工业工程师"
+            ],
+            "id": "10630",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "物流工程",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8851",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "软件测试工程师"
+            ],
+            "id": "10631",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "软件工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "12371",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "软件测试工程师",
+                "环保工程师"
+            ],
+            "id": "10632",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "环境科学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8338",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "结构工程师",
+                "电气工程师",
+                "技术工程师"
+            ],
+            "id": "10633",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "交通工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9566",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "网络工程师",
+                "系统集成工程师",
+                "土木·土建工程师",
+                "技术工程师"
+            ],
+            "id": "10634",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10731",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "软件测试工程师",
+                "仪器仪表工程师",
+                "暖通工程技术人员",
+                "微生物污水处理工程师",
+                "环保工程师"
+            ],
+            "id": "10635",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "环境科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9068",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "机械工程师",
+                "机电工程师",
+                "土木·土建工程师",
+                "结构工程师",
+                "电气工程师",
+                "工业工程师"
+            ],
+            "id": "10636",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "工业工程",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9525",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "软件测试工程师",
+                "技术支持·维护工程师",
+                "系统集成工程师"
+            ],
+            "id": "10637",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "金融工程",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "12169",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "技术支持·维护工程师",
+                "网络工程师",
+                "水利·水电工程师",
+                "技术工程师",
+                "电信交换工程师"
+            ],
+            "id": "10638",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "电信工程及管理",
+            "zhuanyeleibie": "",
+            "xinzi": "11471",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件工程师",
+                "机械工程师",
+                "机械设计师",
+                "土木·土建工程师",
+                "测量工程师"
+            ],
+            "id": "10639",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "测绘工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9544",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "软件测试工程师",
+                "硬件工程师",
+                "文档工程师",
+                "计算机软件产品检验员",
+                "嵌入式硬件开发工程师",
+                "水利·水电工程师",
+                "电路工程师·技术员",
+                "电子工程师",
+                "集成电路测试员",
+                "传感器应用工程师",
+                "数码产品开发工程师",
+                "电气工程师",
+                "测试工程师"
+            ],
+            "id": "10640",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "计算机科学与技术",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10907",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "硬件工程师",
+                "网络工程师",
+                "文档工程师",
+                "传感器应用工程师",
+                "技术工程师",
+                "通信技术工程师",
+                "用户通信终端维修员",
+                "通信电力机务员"
+            ],
+            "id": "10646",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "通信工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10368",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "硬件工程师",
+                "设备工程师",
+                "机械工程师",
+                "焊接工程师",
+                "电子工程师",
+                "测试工程师"
+            ],
+            "id": "10647",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "焊接技术与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9612",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "技术支持·维护工程师",
+                "系统安全工程师",
+                "网络工程师",
+                "系统集成工程师",
+                "系统管理员·网管",
+                "技术工程师"
+            ],
+            "id": "10652",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "网络工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9978",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "技术支持·维护工程师",
+                "细胞培养技术员",
+                "发酵工程师",
+                "化学检验员",
+                "微生物检验员",
+                "化学工程师",
+                "化工工程师"
+            ],
+            "id": "10654",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "生物技术",
+            "zhuanyeleibie": "理学",
+            "xinzi": "7921",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "数据库管理员",
+                "系统集成工程师",
+                "数据库开发工程师"
+            ],
+            "id": "10657",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "金融数学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "10449",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "系统安全工程师",
+                "网络工程师",
+                "监理工程师",
+                "工业安全与健康工程师"
+            ],
+            "id": "10658",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "安全工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9586",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "网络工程师",
+                "水利·水电工程师",
+                "土木·土建工程师",
+                "建筑工程管理员",
+                "电气工程师"
+            ],
+            "id": "10662",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "工程管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10133",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "网络工程师",
+                "系统管理员·网管",
+                "土木·土建工程师"
+            ],
+            "id": "10663",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息安全",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11262",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "系统集成工程师"
+            ],
+            "id": "10669",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子商务",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9108",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "计算机辅助设计工程师",
+                "土木·土建工程师",
+                "钢结构设计技术人员",
+                "结构工程师",
+                "技术工程师"
+            ],
+            "id": "10673",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "工程力学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10481",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "信息技术专员",
+                "系统管理员·网管"
+            ],
+            "id": "10679",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息管理与信息系统",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10070",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "嵌入式硬件开发工程师",
+                "设备工程师",
+                "轮胎结构工程师",
+                "柴油机维修工程师",
+                "内燃机工程师",
+                "柴油机设计工程师",
+                "机械工程师",
+                "机械设计师",
+                "铸造·锻造工程师",
+                "制造工程师",
+                "夹具工程师",
+                "电动车开发设计工程师",
+                "结构工程师",
+                "涂装工艺师",
+                "维修工程师"
+            ],
+            "id": "10703",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "机械设计制造及其自动化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9075",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "嵌入式硬件开发工程师",
+                "半导体技术工程师"
+            ],
+            "id": "10704",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "微电子科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11239",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "网页制作"
+            ],
+            "id": "10749",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "动画",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9699",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "网页制作"
+            ],
+            "id": "10750",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "摄影",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9760",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "网页制作",
+                "产品工艺工程师",
+                "结构工程师",
+                "室内装饰质量检验员"
+            ],
+            "id": "10751",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "工业设计",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9650",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "网页制作"
+            ],
+            "id": "10752",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "绘画",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9237",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "网页制作",
+                "印前制作员"
+            ],
+            "id": "10753",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "美术学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8336",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "网页制作",
+                "空间工程师"
+            ],
+            "id": "10754",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术设计学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9476",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "航空产品装配与调试员",
+                "飞机机械员",
+                "飞行领航员",
+                "飞行器制造工程师",
+                "航空维修技术人员",
+                "飞行器设计师",
+                "飞机驾驶员"
+            ],
+            "id": "10756",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "航空航天工程",
+            "zhuanyeleibie": "",
+            "xinzi": "14299",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "船舶工程师",
+                "结构工程师",
+                "海水淡化工程师",
+                "海洋地质取样工"
+            ],
+            "id": "10762",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "海洋技术",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8594",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "船舶设计师",
+                "船舶驾驶员·船长"
+            ],
+            "id": "10764",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "船舶与海洋工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11093",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "室内环境治理员（对飞机、汽车等内部空间进行治理）"
+            ],
+            "id": "10767",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "飞行器环境与生命保障工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10433",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "采购工程师",
+                "机械工程师",
+                "机械设计师",
+                "产品工艺工程师",
+                "结构工程师"
+            ],
+            "id": "10780",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "包装工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8828",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "商品储运员",
+                "监理工程师",
+                "石油天然气技术人员"
+            ],
+            "id": "10784",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "油气储运工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8688",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "司机",
+                "车辆维护工程师",
+                "环评工程师"
+            ],
+            "id": "10793",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "交通运输",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9131",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "司机"
+            ],
+            "id": "10794",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "车辆工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10462",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "文物鉴定、保护专业人员"
+            ],
+            "id": "10796",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "文物与博物馆学",
+            "zhuanyeleibie": "历史学",
+            "xinzi": "8288",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "文物鉴定、保护专业人员"
+            ],
+            "id": "10797",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "文物保护技术",
+            "zhuanyeleibie": "",
+            "xinzi": "7406",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "宝玉石检验员",
+                "珠宝首饰评估师",
+                "机械工程师",
+                "土木·土建工程师",
+                "监理工程师",
+                "结构工程师"
+            ],
+            "id": "10798",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "宝石及材料工艺学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8529",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "动物营养专家",
+                "家畜饲养员",
+                "实验动物饲养员",
+                "兽医",
+                "动物疫病防治员",
+                "动物检疫检验员",
+                "畜牧师",
+                "饲料化验员",
+                "兽药或饲料研发"
+            ],
+            "id": "10802",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "动物医学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7851",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "动物营养专家",
+                "家畜饲养员",
+                "畜牧师",
+                "饲料化验员",
+                "兽药或饲料研发"
+            ],
+            "id": "10803",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "动物药学",
+            "zhuanyeleibie": "",
+            "xinzi": "6894",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "动物营养专家",
+                "家畜饲养员",
+                "兽医",
+                "动物疫病防治员",
+                "动物检疫检验员",
+                "畜牧师",
+                "饲料化验员",
+                "兽药或饲料研发",
+                "宠物医生"
+            ],
+            "id": "10804",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "动物科学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "8033",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "建筑工程管理员",
+                "消防与安保工程师",
+                "电气工程师"
+            ],
+            "id": "10807",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "消防工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9906",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "机电工程师",
+                "建筑工程管理员",
+                "暖通工程技术人员",
+                "给排水工程师",
+                "环保工程师"
+            ],
+            "id": "10808",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "给排水科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9994",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "机电工程师",
+                "电气工程师",
+                "变压器与磁电工程师",
+                "核力·火力工程师",
+                "电气维修技术员",
+                "调试工程师"
+            ],
+            "id": "10809",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "电气工程及其自动化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9583",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "机电工程师",
+                "智能布线工程师",
+                "智能楼宇管理师（现代建筑智能化设施人员）",
+                "电气工程师"
+            ],
+            "id": "10810",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑电气与智能化",
+            "zhuanyeleibie": "",
+            "xinzi": "10414",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "智能布线工程师",
+                "智能楼宇管理师（现代建筑智能化设施人员）"
+            ],
+            "id": "10812",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑环境与能源应用工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10519",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "农业技术指导员",
+                "农技师",
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "10814",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业电气化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "7493",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水利·水电工程师",
+                "机电工程师",
+                "监理工程师",
+                "结构工程师",
+                "微水电利用工"
+            ],
+            "id": "10815",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "水利水电工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9940",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水产品质量检验员",
+                "非金属矿及制品工程技术人员",
+                "无机非金属新材料工程技术人员",
+                "硅酸盐工程技术人员",
+                "半导体技术工程师",
+                "技术工程师"
+            ],
+            "id": "10816",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9423",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水产品质量检验员"
+            ],
+            "id": "10817",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "功能材料",
+            "zhuanyeleibie": "",
+            "xinzi": "10124",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水产品质量检验员",
+                "食品机械师",
+                "食品检验员",
+                "食品研发员",
+                "化学检验员",
+                "产品认证工程师"
+            ],
+            "id": "10818",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "食品科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "7796",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "农业技术指导员",
+                "农技师",
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "10819",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业工程",
+            "zhuanyeleibie": "",
+            "xinzi": "8747",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "农业技术指导员",
+                "农技师",
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "10820",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业机械化及其自动化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8077",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "农业技术指导员",
+                "农技师",
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员",
+                "建筑工程管理员"
+            ],
+            "id": "10822",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业建筑环境与能源工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8897",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "农业技术指导员",
+                "农技师",
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "10823",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业水利工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8520",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "农业技术指导员",
+                "高级农艺师",
+                "农技师",
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "10824",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "农学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7473",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "农业技术指导员",
+                "农技师",
+                "农业实验工",
+                "农情测报员",
+                "农业生产分析员"
+            ],
+            "id": "10825",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "设施农业科学与工程",
+            "zhuanyeleibie": "农学",
+            "xinzi": "8486",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "农业技术指导员",
+                "农技师",
+                "农情测报员",
+                "农业生产分析员",
+                "环安工程师"
+            ],
+            "id": "10826",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业资源与环境",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7577",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "农业果林工程师",
+                "果树栽培技术员",
+                "园林工程师",
+                "标本员",
+                "野生植物保护员"
+            ],
+            "id": "10827",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "林学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7944",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "高级农艺师",
+                "作物遗传育种栽培员",
+                "标本员",
+                "野生植物保护员"
+            ],
+            "id": "10828",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "植物保护",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7445",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "中药材种植员",
+                "中药制剂员",
+                "药物检验员",
+                "质量·品保·测试工程师"
+            ],
+            "id": "10839",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "中药学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "7888",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水产养殖技术员"
+            ],
+            "id": "10842",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "水产养殖学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7384",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "园林工程师",
+                "BAE辅助土建制图员"
+            ],
+            "id": "10864",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "风景园林",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10263",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "园林工程师",
+                "园艺工程师",
+                "园艺养护员",
+                "绿化工程师"
+            ],
+            "id": "10865",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "园艺",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7823",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "园林工程师",
+                "BAE辅助土建制图员"
+            ],
+            "id": "10866",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "园林",
+            "zhuanyeleibie": "农学",
+            "xinzi": "9131",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "园林工程师"
+            ],
+            "id": "10868",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "雕塑",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9589",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "园艺工程师",
+                "园艺养护员"
+            ],
+            "id": "10870",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "园艺教育",
+            "zhuanyeleibie": "",
+            "xinzi": "8335",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "标本员",
+                "野生植物保护员",
+                "自然保护区巡护监测员"
+            ],
+            "id": "10873",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "野生动物与自然保护区管理",
+            "zhuanyeleibie": "农学",
+            "xinzi": "6989",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "标本员",
+                "野生植物保护员"
+            ],
+            "id": "10875",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "植物科学与技术",
+            "zhuanyeleibie": "农学",
+            "xinzi": "8509",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "标本员",
+                "野生植物保护员"
+            ],
+            "id": "10877",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "森林保护",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7991",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "草地监护员"
+            ],
+            "id": "10878",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "草业科学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "8004",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "绿化工程师"
+            ],
+            "id": "10882",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "生态学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "7982",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "水土保持勘测工",
+                "灌溉实验工",
+                "水土保持防治工",
+                "水土保持测试工",
+                "水域环境养护保洁员",
+                "环安工程师"
+            ],
+            "id": "10888",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "水土保持与荒漠化防治",
+            "zhuanyeleibie": "农学",
+            "xinzi": "8142",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "农村节能员",
+                "路桥·隧道·港口·航道工程师",
+                "岩土工程师",
+                "暖通工程技术人员",
+                "地质工程师",
+                "技术工程师"
+            ],
+            "id": "10896",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "勘查技术与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9246",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "模具工程师",
+                "加工工艺师",
+                "机械工程师",
+                "材料工程师",
+                "焊接工程师",
+                "冶金技术员",
+                "铸造工程师",
+                "碎样工",
+                "有色冶金研发工程师",
+                "结构工程师"
+            ],
+            "id": "10924",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "金属材料工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8924",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "中频淬火工艺师",
+                "橡胶工艺工程师",
+                "橡胶配方工程师",
+                "橡胶设计工程师",
+                "塑胶工程师",
+                "柴油机维修工程师",
+                "内燃机工程师",
+                "研金工程师",
+                "柴油机设计工程师",
+                "铸造·锻造工程师",
+                "制造工程师",
+                "CNC工程师",
+                "夹具工程师",
+                "液压工程师",
+                "冲压工程师",
+                "无损探伤检测工程师",
+                "锅炉工程师",
+                "电动车开发设计工程师",
+                "发动机工程师",
+                "热处理工艺技术人员",
+                "产品认证工程师"
+            ],
+            "id": "10925",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "机械工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9917",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "设备工程师",
+                "机械工程师",
+                "化工工程师"
+            ],
+            "id": "10930",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "过程装备与控制工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9174",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "设备工程师",
+                "路桥·隧道·港口·航道工程师",
+                "测量师·房屋测绘人员",
+                "地质工程师",
+                "选矿工程师"
+            ],
+            "id": "10931",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "地质工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8972",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "设备工程师",
+                "机械工程师",
+                "机电工程师",
+                "结构工程师",
+                "电气工程师",
+                "电器工程师",
+                "维修工程师",
+                "产品认证工程师"
+            ],
+            "id": "10932",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "机械电子工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9830",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "设备工程师",
+                "机械工程师",
+                "仪器仪表工程师",
+                "电气工程师",
+                "石油天然气技术人员",
+                "化工工艺实验员"
+            ],
+            "id": "10933",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "石油工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11107",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "设备工程师",
+                "柴油机维修工程师",
+                "内燃机工程师",
+                "总装工艺工程师",
+                "汽车·摩托车（机车）工程师",
+                "产品认证工程师"
+            ],
+            "id": "10934",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "汽车维修工程教育",
+            "zhuanyeleibie": "",
+            "xinzi": "7308",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "柴油机维修工程师",
+                "内燃机工程师",
+                "柴油机设计工程师",
+                "电动车开发设计工程师",
+                "城轨车辆工艺工程师"
+            ],
+            "id": "10939",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "机械工艺技术",
+            "zhuanyeleibie": "",
+            "xinzi": "7559",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "柴油机维修工程师",
+                "内燃机工程师",
+                "汽车内外饰零件工程师",
+                "汽车灯具工程师",
+                "汽车空调匹配工程师",
+                "总装工艺工程师",
+                "汽车·摩托车（机车）工程师",
+                "产品认证工程师"
+            ],
+            "id": "10941",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "汽车服务工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9050",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "轮机工程师",
+                "汽轮机装配工艺师",
+                "机械工程师",
+                "材料性能检验员",
+                "电气工程师",
+                "空调·热能工程师",
+                "技术工程师"
+            ],
+            "id": "10949",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "轮机工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11733",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "加工工艺师",
+                "材料工程师",
+                "注塑工程师",
+                "建筑工程管理员",
+                "硅酸盐工程技术人员",
+                "化学工程师",
+                "化工工程师",
+                "纳米材料生产工程师",
+                "技术工程师"
+            ],
+            "id": "10954",
+            "type": "MBTI",
+            "zhibiao": "ISTJ|ESTJ|ESTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "高分子材料与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8685",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "机械工程师",
+                "机械设计师",
+                "土木·土建工程师",
+                "结构工程师",
+                "非金属矿及制品工程技术人员",
+                "无机非金属新材料工程技术人员",
+                "硅酸盐工程技术人员",
+                "电气工程师"
+            ],
+            "id": "10958",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料成型及控制工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9074",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "机械工程师",
+                "机电工程师",
+                "材料性能检验员",
+                "测绘产品检验工程师",
+                "质量·品保·测试工程师",
+                "产品认证工程师"
+            ],
+            "id": "10960",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "纺织工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8334",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "机械工程师",
+                "印刷操作员",
+                "排版设计人员",
+                "电子元器件工程师",
+                "电气工程师",
+                "工业工程师"
+            ],
+            "id": "10965",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "印刷工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8501",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "机械工程师",
+                "仪器仪表工程师",
+                "电气工程师"
+            ],
+            "id": "10968",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "冶金工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9160",
+            "character": "INTJ"
+        },
+        {
+            "jobs": [
+                "材料性能检验员"
+            ],
+            "id": "11023",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ISTP|INFP|INTP|ENTP|INTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "航海技术",
+            "zhuanyeleibie": "工学",
+            "xinzi": "12535",
+            "character": "INTJ"
+        }
+    ],
+    "totaltime": 0.0934600830078125
+}

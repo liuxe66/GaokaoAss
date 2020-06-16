@@ -1,0 +1,1633 @@
+{
+    "error": 0,
+    "msg": "",
+    "data": [
+        {
+            "jobs": [
+                "技术支持·维护经理",
+                "工艺工程师"
+            ],
+            "id": "10678",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "应用物理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9983",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "ERP实施顾问"
+            ],
+            "id": "10680",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息管理与信息系统",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10070",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "网店店长",
+                "电话销售",
+                "售后客服专员（非技术）"
+            ],
+            "id": "10746",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子商务",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9108",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "网店店长",
+                "仓库经理·主管",
+                "物流经理·主管",
+                "采购经理·主管",
+                "宾馆·酒店·饭店经理",
+                "店长卖场经理"
+            ],
+            "id": "10747",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "物流管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8774",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "网站营运专员",
+                "客户服务总监",
+                "市场专员·经理",
+                "招生人员",
+                "猎头顾问",
+                "销售总监",
+                "电话销售",
+                "售前售后技术服务经理·主管",
+                "促销经理"
+            ],
+            "id": "10748",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "市场营销",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9815",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "运输经理·主管",
+                "物流管理师",
+                "销售经理·主管"
+            ],
+            "id": "10769",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "交通运输",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9131",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "单证部经理",
+                "银行业守规经理",
+                "银行国库业务人员",
+                "银行存款部经理",
+                "银行信贷部经理",
+                "银行国外经理·业务人员",
+                "银行信托经理·业务人员",
+                "银行信用卡经理·业务人员",
+                "银行票据业务人员",
+                "利率管理人员",
+                "外汇交易员",
+                "外汇信贷管理员",
+                "资本运营经理",
+                "融资项目经理",
+                "外汇贷款审查员",
+                "外汇经纪人",
+                "期货经纪人",
+                "信用管理师"
+            ],
+            "id": "10770",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "国际经济与贸易",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9240",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "单证部经理",
+                "财务总监",
+                "会计经理·会计主管",
+                "财务经理·主管",
+                "客户服务总监",
+                "外贸经理·主管"
+            ],
+            "id": "10771",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "贸易经济",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9622",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "单证部经理"
+            ],
+            "id": "10772",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "英语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "9109",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "海·陆·空运业务经理"
+            ],
+            "id": "10777",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "船舶与海洋工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "11093",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "采购经理·主管",
+                "市场专员·经理"
+            ],
+            "id": "10779",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "食品科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "7796",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "咨询顾问",
+                "客户咨询热线·呼叫中心人员",
+                "业务拓展(DE)经理"
+            ],
+            "id": "11028",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "中西医临床医学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "8582",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "咨询顾问",
+                "二手车评估师"
+            ],
+            "id": "11029",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "车辆工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10462",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "咨询顾问",
+                "售前售后技术服务工程师"
+            ],
+            "id": "11030",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息与计算科学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "10316",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "咨询顾问",
+                "置业顾问",
+                "人力资源经理·主管"
+            ],
+            "id": "11031",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "资源环境科学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8527",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "心理咨询师",
+                "客户服务总监",
+                "课程设计开发专员",
+                "心理指导老师",
+                "电话销售",
+                "售后客服经理·主管（非技术）"
+            ],
+            "id": "11032",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "心理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8897",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "心理咨询师",
+                "策划师",
+                "电话销售",
+                "行政经理·行政主管·办公室主任"
+            ],
+            "id": "11033",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "社会工作",
+            "zhuanyeleibie": "法学",
+            "xinzi": "8131",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "企管顾问",
+                "策划师",
+                "广告创意·设计·策划经理",
+                "市场专员·经理"
+            ],
+            "id": "11034",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "新闻学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "9491",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "企业文化师",
+                "策划师"
+            ],
+            "id": "11035",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "编辑出版学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "9025",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "企业文化师",
+                "小学教师"
+            ],
+            "id": "11036",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "汉语言",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8392",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "策划师",
+                "房屋评估师"
+            ],
+            "id": "11037",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "14051",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "策划师"
+            ],
+            "id": "11038",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "风景园林",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10263",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "首席财务官CFO",
+                "税务经理"
+            ],
+            "id": "11042",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "税收学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9576",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "首席财务官CFO",
+                "税务经理",
+                "成本经理·成本主管",
+                "财务总监",
+                "会计经理·会计主管",
+                "财务经理·主管",
+                "财务分析师",
+                "成本管理员·成本控制师",
+                "银行外汇管理员",
+                "银行国外经理·业务人员",
+                "银行信托经理·业务人员",
+                "银行信用卡经理·业务人员",
+                "银行票据业务人员"
+            ],
+            "id": "11043",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "财务管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9013",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "首席财务官CFO",
+                "税务经理",
+                "成本经理·成本主管",
+                "财务总监",
+                "会计经理·会计主管",
+                "财务经理·主管",
+                "财务分析师",
+                "成本管理员·成本控制师"
+            ],
+            "id": "11044",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "会计学",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8892",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "法务人员",
+                "律师",
+                "律师助理",
+                "法律顾问",
+                "总经理·副总经理"
+            ],
+            "id": "11045",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "法学",
+            "zhuanyeleibie": "法学",
+            "xinzi": "9157",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "法务人员"
+            ],
+            "id": "11046",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "书法学",
+            "zhuanyeleibie": "",
+            "xinzi": "8517",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "审计经理·主管",
+                "财务总监",
+                "会计经理·会计主管",
+                "财务经理·主管"
+            ],
+            "id": "11053",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "审计学",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9890",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "财务总监",
+                "会计经理·会计主管",
+                "财务经理·主管",
+                "银行业守规经理",
+                "银行国库业务人员",
+                "银行存款部经理",
+                "银行信贷部经理",
+                "银行外汇管理员",
+                "银行国外经理·业务人员",
+                "银行信托经理·业务人员",
+                "银行信用卡经理·业务人员",
+                "银行票据业务人员",
+                "利率管理人员",
+                "外汇交易员",
+                "外汇信贷管理员",
+                "资本运营经理",
+                "融资项目经理",
+                "外汇贷款审查员",
+                "理财规划师",
+                "外汇经纪人",
+                "期货经纪人",
+                "信用管理师"
+            ],
+            "id": "11058",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "财政学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "8614",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "财务总监",
+                "财务经理·主管",
+                "客户服务总监",
+                "电话销售",
+                "证券发行员",
+                "基金经理",
+                "证券交易员",
+                "证券投资顾问",
+                "融资专员·经理",
+                "投资经理",
+                "投资分析师",
+                "证券交易部门经理",
+                "证券分析师",
+                "证券经纪人",
+                "个人综合理财顾问"
+            ],
+            "id": "11059",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "投资学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "11746",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "财务总监",
+                "财务经理·主管",
+                "物业管理师",
+                "店长卖场经理",
+                "行政经理·行政主管·办公室主任",
+                "资产评估师",
+                "旧货估价员"
+            ],
+            "id": "11060",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "资产评估",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10678",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "财务总监",
+                "会计经理·会计主管",
+                "财务经理·主管",
+                "客户服务总监",
+                "银行业守规经理",
+                "银行国库业务人员",
+                "银行存款部经理",
+                "银行信贷部经理",
+                "银行国外经理·业务人员",
+                "银行信托经理·业务人员",
+                "银行信用卡经理·业务人员",
+                "银行票据业务人员",
+                "利率管理人员",
+                "外汇交易员",
+                "外汇信贷管理员",
+                "基金经理",
+                "证券交易员",
+                "资本运营经理",
+                "证券投资顾问",
+                "融资项目经理",
+                "外汇贷款审查员",
+                "证券交易部门经理",
+                "证券分析师",
+                "证券经纪人",
+                "外汇经纪人",
+                "期货经纪人",
+                "信用管理师"
+            ],
+            "id": "11061",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "经济学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9517",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "财务总监",
+                "会计经理·会计主管",
+                "财务经理·主管",
+                "银行外汇管理员",
+                "银行国外经理·业务人员",
+                "银行信托经理·业务人员",
+                "银行信用卡经理·业务人员",
+                "银行票据业务人员"
+            ],
+            "id": "11064",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "财务会计教育",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "6950",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "财务总监",
+                "会计经理·会计主管",
+                "财务经理·主管",
+                "客户服务总监",
+                "金融守押员",
+                "电话销售",
+                "银行业守规经理",
+                "银行国库业务人员",
+                "银行存款部经理",
+                "银行信贷部经理",
+                "银行国外经理·业务人员",
+                "银行信托经理·业务人员",
+                "银行信用卡经理·业务人员",
+                "银行票据业务人员",
+                "利率管理人员",
+                "外汇交易员",
+                "外汇信贷管理员",
+                "基金经理",
+                "证券交易员",
+                "资本运营经理",
+                "证券投资顾问",
+                "融资项目经理",
+                "外汇贷款审查员",
+                "理财规划师",
+                "投资分析师",
+                "证券交易部门经理",
+                "证券分析师",
+                "证券经纪人",
+                "家庭理财顾问",
+                "个人综合理财顾问",
+                "外汇经纪人",
+                "期货经纪人",
+                "信用管理师"
+            ],
+            "id": "11067",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "金融学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "10448",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "会计经理·会计主管",
+                "财务经理·主管",
+                "商务经理·主管",
+                "人力资源总监",
+                "人力资源经理·主管",
+                "行政经理·行政主管·办公室主任"
+            ],
+            "id": "11075",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子商务及法律",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9796",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "会计经理·会计主管",
+                "人力资源总监",
+                "售后客服经理·主管（非技术）"
+            ],
+            "id": "11077",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "档案学",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8461",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "广告创意·设计·策划经理"
+            ],
+            "id": "11128",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "戏剧学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "11473",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "广告创意·设计·策划经理",
+                "客户服务总监",
+                "市场专员·经理"
+            ],
+            "id": "11129",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "广告学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10638",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "广告创意·设计·策划经理",
+                "市场专员·经理",
+                "医药代表",
+                "人力资源总监"
+            ],
+            "id": "11130",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "传播学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10962",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "11139",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "烟草",
+            "zhuanyeleibie": "",
+            "xinzi": "8284",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "市场总监",
+                "市场专员/经理",
+                "课程设计开发专员",
+                "医药代表",
+                "销售总监"
+            ],
+            "id": "11141",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "市场营销教育",
+            "zhuanyeleibie": "",
+            "xinzi": "6729",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "人力资源总监",
+                "人力资源经理·主管",
+                "电话销售"
+            ],
+            "id": "11143",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "社会学",
+            "zhuanyeleibie": "法学",
+            "xinzi": "9767",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "行政经理·行政主管·办公室主任"
+            ],
+            "id": "11146",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "通信工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10368",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "招商经理",
+                "电话销售"
+            ],
+            "id": "11149",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "信用管理",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "10234",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "市场专员·经理"
+            ],
+            "id": "11150",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "图书馆学",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8705",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "国内导游",
+                "旅游外联员",
+                "展览讲解员",
+                "电话销售"
+            ],
+            "id": "11151",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "旅游管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8451",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "11152",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "朝鲜语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8527",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "客户咨询热线·呼叫中心人员",
+                "护理部主任",
+                "护士长",
+                "急诊护士",
+                "各科室导医",
+                "护理师",
+                "病房护士",
+                "门诊护士",
+                "手术室护士",
+                "供应室护士",
+                "助产士",
+                "医药代表"
+            ],
+            "id": "11154",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "护理学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "8545",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "产品·品牌专员",
+                "院长·副院长",
+                "医务部主任",
+                "各科室主任·副主任",
+                "护士长",
+                "医疗救护员",
+                "医药代表"
+            ],
+            "id": "11156",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "临床医学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "9745",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "市场专员·经理",
+                "幼儿教师"
+            ],
+            "id": "11158",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "人文教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7677",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "市场专员·经理",
+                "幼儿教师",
+                "培训师"
+            ],
+            "id": "11162",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "表演",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9632",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "市场专员·经理",
+                "置业顾问",
+                "课程设计开发专员",
+                "幼儿教师"
+            ],
+            "id": "11165",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "生态学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "7982",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "市场专员·经理",
+                "售后客服经理·主管（非技术）",
+                "行政经理·行政主管·办公室主任"
+            ],
+            "id": "11166",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "公共关系学",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "11021",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "市场专员·经理",
+                "课程设计开发专员",
+                "班主任（中小学）",
+                "心理指导老师",
+                "教学助理",
+                "总务主任",
+                "教务人员",
+                "中等学校校长",
+                "店长卖场经理",
+                "电话销售"
+            ],
+            "id": "11167",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "教育学",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "8585",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "市场专员·经理",
+                "医药代表"
+            ],
+            "id": "11169",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "生物信息学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "10058",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "市场专员/经理"
+            ],
+            "id": "11171",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业工程",
+            "zhuanyeleibie": "",
+            "xinzi": "8747",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "市场调查员"
+            ],
+            "id": "11172",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "农学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7473",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "业务拓展(DE)经理"
+            ],
+            "id": "11173",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "消防工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9906",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "业务拓展(DE)经理",
+                "培训师",
+                "院长·副院长",
+                "医务部主任",
+                "各科室主任·副主任",
+                "医疗救护员",
+                "销售总监"
+            ],
+            "id": "11174",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "基础医学",
+            "zhuanyeleibie": "",
+            "xinzi": "9897",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "房屋评估师",
+                "楼面经理"
+            ],
+            "id": "11241",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "房地产开发与管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "11573",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "房屋评估师"
+            ],
+            "id": "11242",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑环境与能源应用工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10519",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "房屋评估师"
+            ],
+            "id": "11243",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑电气与智能化",
+            "zhuanyeleibie": "",
+            "xinzi": "10414",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "房屋评估师"
+            ],
+            "id": "11245",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "农业建筑环境与能源工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8897",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "建筑工程定额员"
+            ],
+            "id": "11246",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "地质工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8972",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "建筑工程定额员"
+            ],
+            "id": "11247",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "工程造价",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9969",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "建筑工程定额员"
+            ],
+            "id": "11248",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "资源循环科学与工程",
+            "zhuanyeleibie": "",
+            "xinzi": "7002",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "建筑工程定额员",
+                "房地产评估师·房地产估价师",
+                "投资经理"
+            ],
+            "id": "11249",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "土地资源管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9496",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "置业顾问",
+                "房产经纪人"
+            ],
+            "id": "11274",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "汉语言文学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8186",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "置业顾问",
+                "生产主管"
+            ],
+            "id": "11276",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "环境科学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8338",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "警察"
+            ],
+            "id": "11277",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "经济犯罪侦查",
+            "zhuanyeleibie": "",
+            "xinzi": "11065",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "警察"
+            ],
+            "id": "11278",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "交通管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10774",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "中学教师",
+                "小学教师"
+            ],
+            "id": "11280",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "小学教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7100",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "小学教师",
+                "幼儿教师",
+                "幼儿园院长"
+            ],
+            "id": "11283",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "学前教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7850",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "中学教师",
+                "小学教师",
+                "幼儿教师"
+            ],
+            "id": "11284",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "科学教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7784",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "幼儿教师"
+            ],
+            "id": "11285",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7913",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "教学主管（主任）",
+                "幼儿教师"
+            ],
+            "id": "11287",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "舞蹈学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8463",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "11296",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "国际政治",
+            "zhuanyeleibie": "法学",
+            "xinzi": "10045",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "11297",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "历史学",
+            "zhuanyeleibie": "历史学",
+            "xinzi": "7977",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "中学教师",
+                "工艺工程师"
+            ],
+            "id": "11298",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "化学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8572",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "中学教师",
+                "小学教师",
+                "幼儿教师"
+            ],
+            "id": "11299",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "音乐学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8212",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "中学教师",
+                "工艺工程师"
+            ],
+            "id": "11300",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料物理",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9451",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "中学教师",
+                "小学教师",
+                "演艺或体育经纪人",
+                "教练员",
+                "裁判员"
+            ],
+            "id": "11301",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "体育教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "8319",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "中学教师",
+                "工艺工程师"
+            ],
+            "id": "11304",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料化学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8510",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "11305",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "地理科学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8037",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "11306",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "物理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9287",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "幼儿教师"
+            ],
+            "id": "11321",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "音乐表演",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8279",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "特殊教育教师（幼儿）",
+                "特殊教育教师（小学）",
+                "特殊教育教师（初中）",
+                "特殊教育教师（高中）"
+            ],
+            "id": "11323",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "特殊教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7715",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "培训师"
+            ],
+            "id": "11327",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "教育技术学",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "8332",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "培训师",
+                "外贸经理·主管"
+            ],
+            "id": "11330",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "葡萄牙语",
+            "zhuanyeleibie": "",
+            "xinzi": "18182",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "培训师",
+                "外贸经理·主管"
+            ],
+            "id": "11331",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "德语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10348",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "培训师",
+                "外贸经理·主管"
+            ],
+            "id": "11332",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "西班牙语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "14334",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "培训师",
+                "外贸经理·主管"
+            ],
+            "id": "11333",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "法语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "12189",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "培训师"
+            ],
+            "id": "11334",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子科学与技术",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10263",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "食品检验主管"
+            ],
+            "id": "11513",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "食品质量与安全",
+            "zhuanyeleibie": "工学",
+            "xinzi": "7271",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "宾馆·酒店·饭店经理"
+            ],
+            "id": "11514",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "物流工程",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8851",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "国内导游",
+                "旅游外联员",
+                "展览讲解员"
+            ],
+            "id": "11517",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "旅游管理与服务教育",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "7675",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "物业管理师",
+                "楼面经理",
+                "物业顾问",
+                "售后客服经理·主管（非技术）"
+            ],
+            "id": "11527",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "物业管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8779",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "金融守押员",
+                "银行业守规经理",
+                "银行国库业务人员",
+                "银行存款部经理",
+                "银行信贷部经理",
+                "银行国外经理·业务人员",
+                "银行信托经理·业务人员",
+                "银行信用卡经理·业务人员",
+                "银行票据业务人员",
+                "利率管理人员",
+                "外汇交易员",
+                "外汇信贷管理员",
+                "资本运营经理",
+                "融资项目经理",
+                "外汇贷款审查员",
+                "理财规划师",
+                "外汇经纪人",
+                "期货经纪人",
+                "信用管理师"
+            ],
+            "id": "11529",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "金融工程",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "12169",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "金融守押员",
+                "基金经理",
+                "证券交易员",
+                "证券投资顾问",
+                "投资分析师",
+                "证券交易部门经理",
+                "证券分析师",
+                "证券经纪人",
+                "金融分析师"
+            ],
+            "id": "11530",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "金融数学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "10449",
+            "character": "ENFJ"
+        },
+        {
+            "jobs": [
+                "专利代理人",
+                "电话销售"
+            ],
+            "id": "11535",
+            "type": "MBTI",
+            "zhibiao": "ESTJ|ENFJ|ENTJ",
+            "pici": "本科",
+            "zhuanyemingcheng": "知识产权",
+            "zhuanyeleibie": "法学",
+            "xinzi": "10268",
+            "character": "ENFJ"
+        }
+    ],
+    "totaltime": 0.08848118782043457
+}

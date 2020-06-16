@@ -41,10 +41,10 @@ class MbtiQActivity : BaseVMActivity() {
     override fun init(savedInstanceState: Bundle?) {
         StatusBarUtils.setPaddingTop(this, status_bar)
 
-        val mbtiQStr = JsonUtils.getJson(this, "MBTIQ.json")
+        val mbtiQStr = JsonUtils.getJson(this, "mbti/MBTIQ.json")
         mbtiQBean = Gson().fromJson<MbtiQBean>(mbtiQStr, MbtiQBean::class.java)
 
-        val mbtiAStr = JsonUtils.getJson(this, "MBTIA.json")
+        val mbtiAStr = JsonUtils.getJson(this, "mbti/MBTIA.json")
         mbtiABean = Gson().fromJson<MbtiABean>(mbtiAStr, MbtiABean::class.java)
 
         tv_question.text = mbtiQBean.data[position].question

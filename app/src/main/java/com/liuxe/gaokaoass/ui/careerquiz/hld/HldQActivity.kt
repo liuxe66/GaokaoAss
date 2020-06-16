@@ -35,10 +35,10 @@ class HldQActivity : BaseVMActivity() {
     override fun init(savedInstanceState: Bundle?) {
         StatusBarUtils.setPaddingTop(this, status_bar)
 
-        val hldQStr = JsonUtils.getJson(this, "HLDQ.json")
+        val hldQStr = JsonUtils.getJson(this, "hld/HLDQ.json")
         hldQBean = Gson().fromJson<HldQBean>(hldQStr, HldQBean::class.java)
 
-        val hldAStr = JsonUtils.getJson(this, "HLDA.json")
+        val hldAStr = JsonUtils.getJson(this, "hld/HLDA.json")
         hldABean = Gson().fromJson<HldABean>(hldAStr, HldABean::class.java)
 
         //初始化 答案数据 默认答案是2

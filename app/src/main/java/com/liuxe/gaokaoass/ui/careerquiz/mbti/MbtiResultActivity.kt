@@ -1,11 +1,13 @@
 package com.liuxe.gaokaoass.ui.careerquiz.mbti
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import com.google.gson.Gson
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
+import com.liuxe.gaokaoass.ui.careerquiz.MajorActivity
 import com.liuxe.gaokaoass.ui.careerquiz.mbti.bean.MbtiResultBean
 import com.liuxe.gaokaoass.ui.careerquiz.mbti.bean.MbtiResultMsgBean
 import com.liuxe.gaokaoass.utils.JsonUtils
@@ -22,8 +24,8 @@ class MbtiResultActivity : BaseVMActivity() {
     var mbtiInfo = MbtiResultMsgBean.DataBean.InfoBean()
 
     override fun init(savedInstanceState: Bundle?) {
-        StatusBarUtils.setPaddingTop(this,toolbar)
-        initTitleBar(toolbar,"MBTI测评结果")
+        StatusBarUtils.setPaddingTop(this, toolbar)
+        initTitleBar(toolbar, "MBTI测评结果")
         mbtiResultBean = Gson().fromJson<MbtiResultBean>(mbti_result, MbtiResultBean::class.java)
 
         progress_e.progress = mbtiResultBean.scoreE
@@ -45,115 +47,120 @@ class MbtiResultActivity : BaseVMActivity() {
 
         //查看专业
         tv_zy.setOnClickListener {
-
+            val major = Intent(
+                this,
+                MajorActivity::class.java
+            )
+            major.putExtra("type", mbtiCode)
+            startActivity(major)
         }
     }
 
     private fun handleMbtiCode() {
-        if (mbtiResultBean.scoreE > mbtiResultBean.scoreI) {
-            mbtiCode += "E".toString()
+        mbtiCode += if (mbtiResultBean.scoreE > mbtiResultBean.scoreI) {
+            "E"
         } else {
-            mbtiCode += "I".toString()
+            "I"
         }
 
-        if (mbtiResultBean.scoreS > mbtiResultBean.scoreN) {
-            mbtiCode += "S".toString()
+        mbtiCode += if (mbtiResultBean.scoreS > mbtiResultBean.scoreN) {
+            "S"
         } else {
-            mbtiCode += "N".toString()
+            "N"
         }
 
-        if (mbtiResultBean.scoreT > mbtiResultBean.scoreF) {
-            mbtiCode += "T".toString()
+        mbtiCode += if (mbtiResultBean.scoreT > mbtiResultBean.scoreF) {
+            "T"
         } else {
-            mbtiCode += "F".toString()
+            "F"
         }
 
-        if (mbtiResultBean.scoreJ > mbtiResultBean.scoreP) {
-            mbtiCode += "J".toString()
+        mbtiCode += if (mbtiResultBean.scoreJ > mbtiResultBean.scoreP) {
+            "J"
         } else {
-            mbtiCode += "P".toString()
+            "P"
         }
 
         Log.e("LLL", "mbtiCode:" + mbtiCode)
         when (mbtiCode) {
             "ENFJ" -> {
                 //拿到mbti结论
-                val resultMsgStr = JsonUtils.getJson(this, "ENFJ_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ENFJ_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "ENFP" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "ENFP_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ENFP_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "ENTJ" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "ENTJ_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ENTJ_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "ENTP" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "ENTP_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ENTP_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "ESFJ" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "ESFJ_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ESFJ_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "ESFP" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "ESFP_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ESFP_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "ESTJ" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "ESTJ_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ESTJ_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "ESTP" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "ESTP_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ESTP_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "INFJ" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "INFJ_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/INFJ_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "INFP" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "INFP_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/INFP_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "INTJ" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "INTJ_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/INTJ_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "INTP" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "INTP_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/INTP_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "ISFJ" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "ISFJ_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ISFJ_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "ISFP" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "ISFP_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ISFP_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "ISTJ" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "ISTJ_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ISTJ_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
             "ISTP" -> {
-                val resultMsgStr = JsonUtils.getJson(this, "ISTP_INFO.json")
+                val resultMsgStr = JsonUtils.getJson(this, "mbti/info/ISTP_INFO.json")
                 mbtiResultMsg = Gson().fromJson(resultMsgStr, MbtiResultMsgBean::class.java)
 
             }
@@ -172,7 +179,7 @@ class MbtiResultActivity : BaseVMActivity() {
         tv_result_title.text = mbtiInfo.type_name
         tv_result_simple.text = mbtiInfo.jieshao
 
-        var mbtiResultInfotAdapter = MbtiResultInfotAdapter(mbtiInfo.infos)
+        val mbtiResultInfotAdapter = MbtiResultInfotAdapter(mbtiInfo.infos)
         lv_mbti_result.adapter = mbtiResultInfotAdapter
     }
 

@@ -1,0 +1,1489 @@
+{
+    "error": 0,
+    "msg": "",
+    "data": [
+        {
+            "jobs": [
+                "游戏程序设计师"
+            ],
+            "id": "10675",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "数学与应用数学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9338",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "游戏程序设计师"
+            ],
+            "id": "10676",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "工程物理",
+            "zhuanyeleibie": "",
+            "xinzi": "13987",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "游戏设计与开发员",
+                "电影电视导演·编导",
+                "栏目策划",
+                "皮影戏木偶戏作家",
+                "舞蹈编导",
+                "戏剧人员",
+                "戏剧演员",
+                "舞蹈演员",
+                "音乐指挥",
+                "皮影戏演员"
+            ],
+            "id": "10702",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "戏剧学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "11473",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师"
+            ],
+            "id": "10706",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "文物与博物馆学",
+            "zhuanyeleibie": "历史学",
+            "xinzi": "8288",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "广告设计师",
+                "美术·艺术指导",
+                "课程设计开发专员",
+                "幼儿教师",
+                "美术编辑",
+                "道具师",
+                "艺术评论员",
+                "外国乐器演奏员"
+            ],
+            "id": "10707",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7913",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "包装设计师"
+            ],
+            "id": "10708",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "包装工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8828",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "栏目策划"
+            ],
+            "id": "10709",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "传播学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10962",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "网页设计师",
+                "工业造型设计师",
+                "家具设计师",
+                "工艺品设计师"
+            ],
+            "id": "10710",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "工业设计",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9650",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师"
+            ],
+            "id": "10711",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "数字媒体艺术",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "11199",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "计算机平面设计师",
+                "网页设计师",
+                "珠宝设计师",
+                "园林景观设计师",
+                "美工",
+                "室内装饰设计师",
+                "道具师",
+                "舞台设计师",
+                "艺术评论员"
+            ],
+            "id": "10712",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术设计学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9476",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "网页设计师",
+                "游戏美术设计师",
+                "美工",
+                "美术·艺术指导",
+                "室内装饰设计师",
+                "画家",
+                "人体彩绘师"
+            ],
+            "id": "10713",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "绘画",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9237",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "美工",
+                "创意文案·制作",
+                "客户服务总监",
+                "栏目策划"
+            ],
+            "id": "10714",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "广告学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10638",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "计算机平面设计师",
+                "网页设计师",
+                "美工",
+                "美术·艺术指导",
+                "道具师",
+                "工艺品设计师"
+            ],
+            "id": "10715",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "美术学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8336",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师"
+            ],
+            "id": "10716",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "网络与新媒体",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10815",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "包装设计师"
+            ],
+            "id": "10717",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "印刷工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8501",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "计算机平面设计师",
+                "网页设计师",
+                "美工",
+                "摄影师",
+                "摄像师"
+            ],
+            "id": "10718",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "摄影",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9760",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "平面设计师",
+                "计算机平面设计师",
+                "网页设计师",
+                "动画设计师",
+                "角色动画设计师",
+                "美工"
+            ],
+            "id": "10719",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "动画",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9699",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "网页设计师",
+                "广告创意·设计·策划主管"
+            ],
+            "id": "10726",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "应用心理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8158",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "多媒体设计师",
+                "中学教师",
+                "小学教师",
+                "幼儿教师",
+                "唱片员",
+                "音乐指挥",
+                "外国乐器演奏员",
+                "调律师",
+                "曲艺作家",
+                "作曲家",
+                "计算机乐谱制作师"
+            ],
+            "id": "10731",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "音乐学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8212",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "动画设计师",
+                "幼儿教师",
+                "培训师",
+                "电视主持人",
+                "舞蹈编导"
+            ],
+            "id": "10732",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "表演",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9632",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "珠宝设计师",
+                "室内装饰设计师",
+                "艺术·设计总监",
+                "工艺品设计师"
+            ],
+            "id": "10800",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "宝石及材料工艺学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8529",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "园艺师",
+                "园林景观设计师"
+            ],
+            "id": "10840",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "园艺",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7823",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "园林景观设计师"
+            ],
+            "id": "10915",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "城乡规划",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10705",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "园林景观设计师"
+            ],
+            "id": "10917",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑环境与能源应用工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10519",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "园林景观设计师",
+                "课程设计开发专员",
+                "幼儿教师"
+            ],
+            "id": "10918",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "生态学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "7982",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "园林景观设计师",
+                "策划师"
+            ],
+            "id": "10919",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "风景园林",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10263",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "园林景观设计师",
+                "策划师"
+            ],
+            "id": "10920",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "建筑学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "14051",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "园林景观设计师"
+            ],
+            "id": "10921",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "林学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7944",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "园林景观设计师",
+                "花艺环境设计师"
+            ],
+            "id": "10922",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "园林",
+            "zhuanyeleibie": "农学",
+            "xinzi": "9131",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "汽车整车、车身、底盘设计师",
+                "涂装设计师"
+            ],
+            "id": "11003",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "机械设计制造及其自动化",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9075",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "汽车整车、车身、底盘设计师"
+            ],
+            "id": "11004",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "机械工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9917",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "汽车整车、车身、底盘设计师"
+            ],
+            "id": "11005",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "机械工艺技术",
+            "zhuanyeleibie": "",
+            "xinzi": "7559",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "咨询顾问",
+                "客户咨询热线·呼叫中心人员"
+            ],
+            "id": "11028",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "中西医临床医学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "8582",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "咨询顾问"
+            ],
+            "id": "11029",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "车辆工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10462",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "咨询顾问"
+            ],
+            "id": "11030",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "信息与计算科学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "10316",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "咨询顾问"
+            ],
+            "id": "11031",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "资源环境科学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8527",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "心理咨询师",
+                "客户服务总监",
+                "课程设计开发专员",
+                "心理指导老师"
+            ],
+            "id": "11032",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "心理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8897",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "心理咨询师",
+                "策划师"
+            ],
+            "id": "11033",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "社会工作",
+            "zhuanyeleibie": "法学",
+            "xinzi": "8131",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "企管顾问",
+                "策划师",
+                "创意文案·制作",
+                "总编·副总编",
+                "栏目策划"
+            ],
+            "id": "11034",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "新闻学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "9491",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "企业文化师",
+                "策划师",
+                "栏目策划"
+            ],
+            "id": "11035",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "编辑出版学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "9025",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "企业文化师",
+                "小学教师",
+                "栏目策划"
+            ],
+            "id": "11036",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "汉语言",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8392",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "11139",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "烟草",
+            "zhuanyeleibie": "",
+            "xinzi": "8284",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "课程设计开发专员"
+            ],
+            "id": "11141",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "市场营销教育",
+            "zhuanyeleibie": "",
+            "xinzi": "6729",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "金融守押员"
+            ],
+            "id": "11142",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "金融学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "10448",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "总编·副总编"
+            ],
+            "id": "11143",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "社会学",
+            "zhuanyeleibie": "法学",
+            "xinzi": "9767",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "11144",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "投资学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "11746",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "招生人员"
+            ],
+            "id": "11145",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "市场营销",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9815",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "11146",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "通信工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10368",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "室内装饰设计师"
+            ],
+            "id": "11148",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "经济学",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9517",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "11149",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "信用管理",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "10234",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "11150",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "图书馆学",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8705",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监",
+                "国内导游",
+                "旅游外联员",
+                "展览讲解员"
+            ],
+            "id": "11151",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "旅游管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "8451",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "11152",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "朝鲜语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8527",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户服务总监"
+            ],
+            "id": "11153",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "贸易经济",
+            "zhuanyeleibie": "经济学",
+            "xinzi": "9622",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "客户咨询热线·呼叫中心人员",
+                "急诊护士",
+                "各科室导医",
+                "护理师",
+                "病房护士",
+                "门诊护士",
+                "手术室护士",
+                "供应室护士",
+                "助产士",
+                "美容师"
+            ],
+            "id": "11154",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "护理学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "8545",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "产品·品牌专员",
+                "医疗救护员"
+            ],
+            "id": "11156",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "临床医学",
+            "zhuanyeleibie": "医学",
+            "xinzi": "9745",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "市场调查员"
+            ],
+            "id": "11172",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "农学",
+            "zhuanyeleibie": "农学",
+            "xinzi": "7473",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "建筑师"
+            ],
+            "id": "11191",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "环境科学与工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9068",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "建筑师",
+                "室内装饰设计师"
+            ],
+            "id": "11192",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "土木工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10380",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "汽车外形及装饰设计师",
+                "家具设计师",
+                "道具师",
+                "舞台设计师"
+            ],
+            "id": "11262",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "视觉传达设计",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9512",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "室内装饰设计师"
+            ],
+            "id": "11267",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料成型及控制工程",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9074",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "室内装饰设计师",
+                "工艺品设计师",
+                "雕塑家"
+            ],
+            "id": "11271",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "雕塑",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9589",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "房地产评估师·房地产估价师"
+            ],
+            "id": "11272",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "土地资源管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "9496",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "警察"
+            ],
+            "id": "11277",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "经济犯罪侦查",
+            "zhuanyeleibie": "",
+            "xinzi": "11065",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "警察"
+            ],
+            "id": "11278",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "交通管理",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "10774",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "中学教师",
+                "小学教师"
+            ],
+            "id": "11280",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "小学教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7100",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "小学教师",
+                "幼儿教师",
+                "幼儿园院长",
+                "音乐指挥"
+            ],
+            "id": "11283",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "学前教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7850",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "中学教师",
+                "小学教师",
+                "幼儿教师"
+            ],
+            "id": "11284",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "科学教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7784",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "课程设计开发专员",
+                "班主任（中小学）",
+                "心理指导老师",
+                "教学助理",
+                "总务主任",
+                "教务人员",
+                "中等学校校长"
+            ],
+            "id": "11286",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "教育学",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "8585",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "教学主管（主任）",
+                "幼儿教师",
+                "舞蹈编导",
+                "舞蹈演员",
+                "音乐指挥"
+            ],
+            "id": "11287",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "舞蹈学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8463",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "11296",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "国际政治",
+            "zhuanyeleibie": "法学",
+            "xinzi": "10045",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "11297",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "历史学",
+            "zhuanyeleibie": "历史学",
+            "xinzi": "7977",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "11298",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "化学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8572",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "11300",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料物理",
+            "zhuanyeleibie": "工学",
+            "xinzi": "9451",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "中学教师",
+                "小学教师",
+                "教练员",
+                "裁判员"
+            ],
+            "id": "11301",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "体育教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "8319",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "11304",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "材料化学",
+            "zhuanyeleibie": "工学",
+            "xinzi": "8510",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "11305",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "地理科学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "8037",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "中学教师"
+            ],
+            "id": "11306",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "物理学",
+            "zhuanyeleibie": "理学",
+            "xinzi": "9287",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "幼儿教师"
+            ],
+            "id": "11317",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "人文教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7677",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "幼儿教师",
+                "唱片员",
+                "音乐指挥",
+                "民族乐器演奏员",
+                "歌唱演员",
+                "作曲家",
+                "计算机乐谱制作师"
+            ],
+            "id": "11321",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "音乐表演",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "8279",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "特殊教育教师（幼儿）",
+                "特殊教育教师（小学）",
+                "特殊教育教师（初中）",
+                "特殊教育教师（高中）"
+            ],
+            "id": "11323",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "特殊教育",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "7715",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "培训师"
+            ],
+            "id": "11327",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "教育技术学",
+            "zhuanyeleibie": "教育学",
+            "xinzi": "8332",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "培训师",
+                "医疗救护员"
+            ],
+            "id": "11328",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "基础医学",
+            "zhuanyeleibie": "",
+            "xinzi": "9897",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "培训师"
+            ],
+            "id": "11330",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "葡萄牙语",
+            "zhuanyeleibie": "",
+            "xinzi": "18182",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "培训师"
+            ],
+            "id": "11331",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "德语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "10348",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "培训师"
+            ],
+            "id": "11332",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "西班牙语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "14334",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "培训师"
+            ],
+            "id": "11333",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "法语",
+            "zhuanyeleibie": "文学",
+            "xinzi": "12189",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "培训师"
+            ],
+            "id": "11334",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "电子科学与技术",
+            "zhuanyeleibie": "工学",
+            "xinzi": "10263",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "照明师",
+                "影视舞台烟火特效员",
+                "电影洗印员",
+                "剪辑师",
+                "道具师",
+                "舞台设计师",
+                "戏剧人员"
+            ],
+            "id": "11339",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "戏剧影视美术设计",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "10618",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "演播室导演",
+                "电视评论员",
+                "戏剧评论员",
+                "戏剧人员",
+                "戏剧演员",
+                "皮影戏演员"
+            ],
+            "id": "11350",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "戏剧影视导演",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "13066",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "总编·副总编",
+                "诗人",
+                "作家·撰稿人",
+                "文学作家",
+                "词作家",
+                "剧作家"
+            ],
+            "id": "11355",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "汉语言文学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8186",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "广播电视编播工程技术人员",
+                "电影电视导演·编导"
+            ],
+            "id": "11360",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "广播电视编导",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9717",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "电视评论员",
+                "戏剧评论员",
+                "电影电视演员"
+            ],
+            "id": "11381",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "电影学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "10707",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "道具师",
+                "艺术评论员"
+            ],
+            "id": "11387",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术史论",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9943",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "道具师",
+                "艺术评论员"
+            ],
+            "id": "11389",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "艺术与科技",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "10012",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "文学作家",
+                "电影电视导演·编导",
+                "栏目策划",
+                "皮影戏木偶戏作家",
+                "戏剧人员",
+                "戏剧演员"
+            ],
+            "id": "11393",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "戏剧影视文学",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9998",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "文学作家"
+            ],
+            "id": "11394",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "中国少数民族语言文学",
+            "zhuanyeleibie": "文学",
+            "xinzi": "8288",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "栏目策划"
+            ],
+            "id": "11407",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "哲学",
+            "zhuanyeleibie": "哲学",
+            "xinzi": "9697",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "电台主持人"
+            ],
+            "id": "11421",
+            "type": "MBTI",
+            "zhibiao": "ISTP|ISFP|ESFP|INFJ|INTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "播音与主持艺术",
+            "zhuanyeleibie": "艺术学",
+            "xinzi": "9520",
+            "character": "ISFP"
+        },
+        {
+            "jobs": [
+                "国内导游",
+                "旅游外联员",
+                "展览讲解员"
+            ],
+            "id": "11517",
+            "type": "MBTI",
+            "zhibiao": "ISFJ|ESFJ|ISFP|ESFP|INFP|ENFP|INFJ|ENFJ|ENTP",
+            "pici": "本科",
+            "zhuanyemingcheng": "旅游管理与服务教育",
+            "zhuanyeleibie": "管理学",
+            "xinzi": "7675",
+            "character": "ISFP"
+        }
+    ],
+    "totaltime": 0.0797278881072998
+}

@@ -25,7 +25,7 @@ class HldResultActivity : BaseVMActivity() {
 
     var resultItemList: ArrayList<HldResultItemBean> = ArrayList()
     var hldResultMsg = HldResultMsgBean()
-    var hldResultBean : HldResultBean?=null
+    var hldResultBean: HldResultBean? = null
     var hld_result: String by Preference(Preference.HLD_CAREER_RESULT, "")
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -34,11 +34,11 @@ class HldResultActivity : BaseVMActivity() {
         initTitleBar(toolbar, "霍兰德职业兴趣测试")
 
         //拿到本地存储的霍兰德数据
-        hldResultBean = Gson().fromJson(hld_result,HldResultBean::class.java)
+        hldResultBean = Gson().fromJson(hld_result, HldResultBean::class.java)
 
         resultItemList = hldResultBean?.data as ArrayList<HldResultItemBean>
         //拿到霍兰德结论
-        val hldResultMsgStr = JsonUtils.getJson(this, "RIASEC.json")
+        val hldResultMsgStr = JsonUtils.getJson(this, "hld/RIASEC.json")
         hldResultMsg = Gson().fromJson(hldResultMsgStr, HldResultMsgBean::class.java)
         //对霍兰德数据进行排序
         val resultItemSortList: ArrayList<HldResultItemBean> = sortScore(resultItemList)
@@ -47,7 +47,7 @@ class HldResultActivity : BaseVMActivity() {
         tv_result_one.text = resultItemSortList[0].code
         tv_result_two.text = resultItemSortList[1].code
         tv_result_three.text = resultItemSortList[2].code
-        tv_result_mian.text = "主导兴趣："+hldResultMsg.data[resultItemSortList[0].position].character
+        tv_result_mian.text = "主导兴趣：" + hldResultMsg.data[resultItemSortList[0].position].character
         tv_result_main_text.text = hldResultMsg.data[resultItemSortList[0].position].jieshao
 
         //第一个兴趣
@@ -70,7 +70,7 @@ class HldResultActivity : BaseVMActivity() {
         web_echarts.webViewClient = object : WebViewClient() {
             override fun onPageFinished(view: WebView?, url: String?) {
                 Log.e("LLL", "====onPageFinished====")
-                Log.e("LLL",jsonStr)
+                Log.e("LLL", jsonStr)
                 //web网页加载完成 调用js 传入数据json
                 web_echarts.refreshEchartsWithOption(jsonStr)
             }
@@ -84,9 +84,11 @@ class HldResultActivity : BaseVMActivity() {
 
         //查看专业
         tv_zy.setOnClickListener {
-            var major = Intent(HldResultActivity@this,
-                MajorActivity::class.java)
-            major.putExtra("type",resultItemSortList[0].code)
+            val major = Intent(
+                this,
+                MajorActivity::class.java
+            )
+            major.putExtra("type", resultItemSortList[0].code)
             startActivity(major)
         }
 

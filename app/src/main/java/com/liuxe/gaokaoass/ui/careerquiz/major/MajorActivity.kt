@@ -1,15 +1,16 @@
-package com.liuxe.gaokaoass.ui.careerquiz
+package com.liuxe.gaokaoass.ui.careerquiz.major
 
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
+import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
 import com.liuxe.gaokaoass.ui.careerquiz.hld.bean.MajorBean
-import com.liuxe.gaokaoass.ui.careerquiz.mbti.bean.MbtiResultMsgBean
 import com.liuxe.gaokaoass.utils.JsonUtils
-import com.liuxe.gaokaoass.utils.StatusBarUtils
 import kotlinx.android.synthetic.main.activity_hld_major.*
+import kotlinx.android.synthetic.main.activity_hld_major.status_bar
+import kotlinx.android.synthetic.main.activity_hld_major.toolbar
 
 class MajorActivity : BaseVMActivity() {
     override fun getLayout() = R.layout.activity_hld_major
@@ -20,10 +21,9 @@ class MajorActivity : BaseVMActivity() {
     var majorBean: MajorBean =
         MajorBean()
     override fun init(savedInstanceState: Bundle?) {
-        StatusBarUtils.setPaddingTop(this,toolbar)
         initTitleBar(toolbar,"专业推荐")
         type = intent.getStringExtra("type")
-        majorAdapter = MajorAdapter(data)
+        majorAdapter = MajorAdapter(data as MutableList<MajorBean.DataBean>)
         recycler_major.layoutManager = LinearLayoutManager(this)
         recycler_major.adapter = majorAdapter
 
@@ -31,32 +31,32 @@ class MajorActivity : BaseVMActivity() {
 
         when (type) {
             "R" -> {
-                val majorBeanStr = JsonUtils.getJson(this, "hld/R.json")
+                val majorBeanStr = JsonUtils.getJson(this, "hld/major/R.json")
                 majorBean = Gson().fromJson(majorBeanStr, MajorBean::class.java)
                 majorAdapter?.setNewData(majorBean.data)
             }
             "I" -> {
-                val majorBeanStr = JsonUtils.getJson(this, "hld/I.json")
+                val majorBeanStr = JsonUtils.getJson(this, "hld/major/I.json")
                 majorBean = Gson().fromJson(majorBeanStr, MajorBean::class.java)
                 majorAdapter?.setNewData(majorBean.data)
             }
             "A" -> {
-                val majorBeanStr = JsonUtils.getJson(this, "hld/A.json")
+                val majorBeanStr = JsonUtils.getJson(this, "hld/major/A.json")
                 majorBean = Gson().fromJson(majorBeanStr, MajorBean::class.java)
                 majorAdapter?.setNewData(majorBean.data)
             }
             "S" -> {
-                val majorBeanStr = JsonUtils.getJson(this, "hld/S.json")
+                val majorBeanStr = JsonUtils.getJson(this, "hld/major/S.json")
                 majorBean = Gson().fromJson(majorBeanStr, MajorBean::class.java)
                 majorAdapter?.setNewData(majorBean.data)
             }
             "E" -> {
-                val majorBeanStr = JsonUtils.getJson(this, "hld/E.json")
+                val majorBeanStr = JsonUtils.getJson(this, "hld/major/E.json")
                 majorBean = Gson().fromJson(majorBeanStr, MajorBean::class.java)
                 majorAdapter?.setNewData(majorBean.data)
             }
             "C" -> {
-                val majorBeanStr = JsonUtils.getJson(this, "hld/C.json")
+                val majorBeanStr = JsonUtils.getJson(this, "hld/major/C.json")
                 majorBean = Gson().fromJson(majorBeanStr, MajorBean::class.java)
                 majorAdapter?.setNewData(majorBean.data)
             }

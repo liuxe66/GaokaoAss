@@ -1,19 +1,15 @@
 package com.liuxe.gaokaoass.ui.zntb
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.view.inputmethod.InputMethodManager
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
 import com.liuxe.gaokaoass.bean.ZntbCollegesBean
 import com.liuxe.gaokaoass.utils.Preference
-import com.liuxe.gaokaoass.utils.StatusBarUtils
-import com.liuxe.gaokaoass.widget.BottomDialog.BottomDialog
-import com.liuxe.gaokaoass.widget.BottomDialog.DialogItemClickListener
-import com.liuxe.gaokaoass.widget.BottomDialog.TopDialog
+import com.liuxe.gaokaoass.widget.dialog.DialogItemClickListener
+import com.liuxe.gaokaoass.widget.dialog.TopDialog
 import kotlinx.android.synthetic.main.activity_zntb_college.*
 
 
@@ -27,8 +23,8 @@ class ZntbCollegeActivity : BaseVMActivity() {
 
     var subject: String by Preference(Preference.SUBJECT, "")
     var location: String by Preference(Preference.LOCATION, "")
-    var score: String by Preference(Preference.SCORE, "")
-    var shock: String = ""
+    var score: Int by Preference(Preference.SCORE, 0)
+    var tab: Int  = 1
     var city: String = ""
     var type: String = ""
     var tags: String = ""
@@ -41,9 +37,8 @@ class ZntbCollegeActivity : BaseVMActivity() {
 
 
     override fun init(savedInstanceState: Bundle?) {
-        StatusBarUtils.setPaddingTop(this, toolbar)
         initTitleBar(toolbar, "智能填报志愿")
-        shock = intent.getStringExtra("shock")
+        tab = intent.getIntExtra("tab",1)
 
         layoutManager = LinearLayoutManager(this)
         layoutManager?.orientation = LinearLayoutManager.VERTICAL
@@ -51,26 +46,39 @@ class ZntbCollegeActivity : BaseVMActivity() {
 
         mZntbCollegeViewModel = createViewModel()
         loadData()
-        mZntbCollegeViewModel?.zntbCollegeResponse?.observe(this, Observer {
-            if (it.data.colleges.size != 0) {
-                list = it.data.colleges
+        mZntbCollegeViewModel?.zntbCollegesResponse?.observe(this, Observer {
+            list = if (it.isNotEmpty()) {
+                it
             } else {
-                list = ArrayList()
+                ArrayList()
+            }
+            if (collegeAdapter == null){
+                collegeAdapter = ZntbCollegeAdapter(list as MutableList<ZntbCollegesBean.CollegesBean>)
+                recycler_college.adapter = collegeAdapter
+            } else {
+                collegeAdapter!!.setList(list as MutableList<ZntbCollegesBean.CollegesBean>)
             }
 
-            collegeAdapter = ZntbCollegeAdapter(list)
-            recycler_college.adapter = collegeAdapter
-            if (city == "" && type == "" && tags == "" && ranks == "") {
-                initBottomDialog(it.data)
-            }
 
         })
+
+        mZntbCollegeViewModel!!.zntbResponse.observe(this, Observer {
+            if (city == "" && type == "" && tags == "" && ranks == "") {
+                initBottomDialog(it)
+            }
+        })
+
+        refresh_layout.setEnableRefresh(false)
+        refresh_layout.setOnLoadMoreListener {
+            loadNextData()
+            refresh_layout.finishLoadMore()
+        }
 
     }
 
     private fun initBottomDialog(zntbCollegesBean: ZntbCollegesBean) {
         var cityList: ArrayList<String> = ArrayList()
-        cityList = zntbCollegesBean.provs as ArrayList<String>
+        cityList = zntbCollegesBean.city as ArrayList<String>
         cityList.add(0, "不限")
         cityDialog = TopDialog(this, "选择地区", city, cityList)
 
@@ -169,8 +177,20 @@ class ZntbCollegeActivity : BaseVMActivity() {
             location,
             subject,
             score,
-            "2019",
-            shock,
+            tab,
+            city,
+            type,
+            tags,
+            ranks
+        )
+    }
+
+    private fun loadNextData() {
+        mZntbCollegeViewModel?.getZntbNextCollege(
+            location,
+            subject,
+            score,
+            1,
             city,
             type,
             tags,

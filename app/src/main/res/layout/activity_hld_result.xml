@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/color_white"
     android:orientation="vertical">
-
+    <include layout="@layout/view_status_bar"
+        android:id="@+id/status_bar"/>
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"

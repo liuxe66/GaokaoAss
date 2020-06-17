@@ -6,6 +6,7 @@ import android.util.Log
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_hld_q.*
 import android.view.View
+import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
 import com.liuxe.gaokaoass.ui.careerquiz.hld.bean.*
@@ -33,7 +34,6 @@ class HldQActivity : BaseVMActivity() {
     var hld_result: String by Preference(Preference.HLD_CAREER_RESULT, "")
 
     override fun init(savedInstanceState: Bundle?) {
-        StatusBarUtils.setPaddingTop(this, status_bar)
 
         val hldQStr = JsonUtils.getJson(this, "hld/HLDQ.json")
         hldQBean = Gson().fromJson<HldQBean>(hldQStr, HldQBean::class.java)

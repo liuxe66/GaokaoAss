@@ -20,16 +20,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="高考加油"
+            android:text="金榜题名"
             android:textColor="@color/color_text_title"
             android:textSize="@dimen/sp_24"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_4"
+            android:layout_marginTop="@dimen/dp_10"
             android:layout_marginBottom="@dimen/dp_24"
-            android:text="你正值青春，应当生而无畏，更精彩的世界在等着你"
+            android:text="十年寒窗无人问，一举成名天下知。"
             android:textColor="@color/color_text_default"
             android:textSize="@dimen/sp_12"
             />

@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
+import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.base.BaseVMActivity
 import com.liuxe.gaokaoass.ui.main.home.HomeFragment
 import com.liuxe.gaokaoass.ui.main.homeleft.HomeLeftFragment
@@ -33,6 +34,12 @@ class MainActivity : BaseVMActivity() {
         vp_main.setCurrentItem(1,false)
 
 
+    }
+
+    override fun initStatusBar() {
+        ImmersionBar.with(this)
+            .statusBarDarkFont(true)
+            .keyboardEnable(true).init()
     }
 
     public fun switchLeft(){

@@ -5,15 +5,17 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import com.google.gson.Gson
+import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
-import com.liuxe.gaokaoass.ui.careerquiz.MajorActivity
+import com.liuxe.gaokaoass.ui.careerquiz.major.MajorActivity
 import com.liuxe.gaokaoass.ui.careerquiz.mbti.bean.MbtiResultBean
 import com.liuxe.gaokaoass.ui.careerquiz.mbti.bean.MbtiResultMsgBean
 import com.liuxe.gaokaoass.utils.JsonUtils
 import com.liuxe.gaokaoass.utils.Preference
-import com.liuxe.gaokaoass.utils.StatusBarUtils
 import kotlinx.android.synthetic.main.activity_mbti_result.*
+import kotlinx.android.synthetic.main.activity_mbti_result.status_bar
+import kotlinx.android.synthetic.main.activity_mbti_result.toolbar
 
 class MbtiResultActivity : BaseVMActivity() {
     override fun getLayout() = R.layout.activity_mbti_result
@@ -24,7 +26,7 @@ class MbtiResultActivity : BaseVMActivity() {
     var mbtiInfo = MbtiResultMsgBean.DataBean.InfoBean()
 
     override fun init(savedInstanceState: Bundle?) {
-        StatusBarUtils.setPaddingTop(this, toolbar)
+        ImmersionBar.with(this).statusBarView(status_bar)
         initTitleBar(toolbar, "MBTI测评结果")
         mbtiResultBean = Gson().fromJson<MbtiResultBean>(mbti_result, MbtiResultBean::class.java)
 

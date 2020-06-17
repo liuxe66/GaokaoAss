@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">GaokaoAss</string>
 
-    <string name="home_lqyc">AI智能填报</string>
+    <string name="home_zntb">一键AI智能填报</string>
     <string name="home_yfyd">一分一段</string>
-    <string name="home_tfqx">同分去向</string>
-    <string name="home_xgcs">性格测试</string>
+    <string name="home_lqyc">录取预测</string>
+    <string name="home_zycp">职业测评</string>
     <string name="home_tbzn">填报指南</string>
-    <string name="home_rmph">录取预测</string>
+    <string name="home_skx">省控线</string>
+    <string name="zycp_tip">1.本测评由93道题目组成，完成答题大约需要10分钟。\n\n2.选项间无对错好坏之分，请选择你是如何做的，而不是选择你认为哪样做更好。\n\n3.答题时请放松心情，选择最接近你平时的行为或感受的选项。\n\n4.若中途退出本测评，则已答的题目无效，下次测评时将重新开始答题。</string>
 </resources>

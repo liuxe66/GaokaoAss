@@ -9,6 +9,14 @@ import com.orhanobut.logger.AndroidLogAdapter
 import com.orhanobut.logger.LogStrategy
 import com.orhanobut.logger.Logger
 import com.orhanobut.logger.PrettyFormatStrategy
+import com.scwang.smart.refresh.footer.ClassicsFooter
+import com.scwang.smart.refresh.header.MaterialHeader
+import com.scwang.smart.refresh.layout.SmartRefreshLayout
+import com.scwang.smart.refresh.layout.api.RefreshFooter
+import com.scwang.smart.refresh.layout.api.RefreshHeader
+import com.scwang.smart.refresh.layout.api.RefreshLayout
+import com.scwang.smart.refresh.layout.listener.DefaultRefreshFooterCreator
+import com.scwang.smart.refresh.layout.listener.DefaultRefreshHeaderCreator
 import kotlin.properties.Delegates
 
 class App : Application() {
@@ -23,6 +31,32 @@ class App : Application() {
         super.onCreate()
         CONTEXT = applicationContext
         initLogger()
+
+        //下拉刷新和上拉加载
+        //设置全局的Header构建器
+        SmartRefreshLayout.setDefaultRefreshHeaderCreator(object : DefaultRefreshHeaderCreator {
+            override fun createRefreshHeader(
+                context: Context,
+                layout: RefreshLayout
+            ): RefreshHeader {
+                var header = MaterialHeader(context)
+                header.setColorSchemeColors(resources.getColor(R.color.color_subject_select))
+                return header
+            }
+
+        })
+        //设置全局的Footer构建器
+        SmartRefreshLayout.setDefaultRefreshFooterCreator(object : DefaultRefreshFooterCreator {
+            override fun createRefreshFooter(
+                context: Context,
+                layout: RefreshLayout
+            ): RefreshFooter {
+                layout.setPrimaryColorsId(R.color.color_white, R.color.color_text_title) //全局设置主题颜色
+                //指定为经典Footer，默认是 BallPulseFooter
+                return ClassicsFooter(context)
+            }
+
+        })
     }
 
     /**

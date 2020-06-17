@@ -2,6 +2,7 @@ package com.liuxe.gaokaoass.ui.main.homeleft
 
 import android.content.Intent
 import android.os.Bundle
+import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMFragment
 import com.liuxe.gaokaoass.ui.main.MainActivity
@@ -15,7 +16,7 @@ class HomeLeftFragment : BaseVMFragment() {
     var mainActivity: MainActivity? = null
     var subject: String by Preference(Preference.SUBJECT, "")
     var location: String by Preference(Preference.LOCATION, "")
-    var score: String by Preference(Preference.SCORE, "")
+    var score: Int by Preference(Preference.SCORE, 0)
 
     override fun getLayoutId(): Int = R.layout.home_left_fragment
 
@@ -24,7 +25,7 @@ class HomeLeftFragment : BaseVMFragment() {
         mainActivity = requireActivity() as MainActivity
         tv_prov.text = location
         tv_subject.text = subject
-        tv_score.text = score
+        tv_score.text = score.toString()
 
         ll_edit.setOnClickListener {
             startActivity(Intent(requireActivity(), ScoreActivity::class.java))
@@ -35,7 +36,7 @@ class HomeLeftFragment : BaseVMFragment() {
         super.onResume()
         tv_prov.text = location
         tv_subject.text = subject
-        tv_score.text = score
+        tv_score.text = score.toString()
     }
 
     override fun onBackPressedSupport(): Boolean {

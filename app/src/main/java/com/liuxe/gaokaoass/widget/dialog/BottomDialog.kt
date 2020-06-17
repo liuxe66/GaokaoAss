@@ -1,4 +1,4 @@
-package com.liuxe.gaokaoass.widget.BottomDialog
+package com.liuxe.gaokaoass.widget.dialog
 
 import android.app.Dialog
 import android.content.Context
@@ -37,11 +37,10 @@ class BottomDialog(var ctx: Context, themeResId: Int) : Dialog(ctx, themeResId) 
         var layoutManager: GridLayoutManager = GridLayoutManager(ctx,2)
         recyclerView.layoutManager = layoutManager
         recyclerView.adapter = bottomAdapter
-        bottomAdapter.setOnItemClickListener(BaseQuickAdapter.OnItemClickListener { adapter, view, position ->
-
+        bottomAdapter.setOnItemClickListener { adapter, view, position ->
             itemClickListener?.onItemClick(list[position])
             dismiss()
-        })
+        }
 
         this.setContentView(contentView)
 

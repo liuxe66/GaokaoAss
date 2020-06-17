@@ -1,6 +1,6 @@
 package com.liuxe.gaokaoass.base;
 
-public class BaseResponse<T>{
+public class BaseStatusResponse<T>{
     private int status;
     private String msg;
     private T data;

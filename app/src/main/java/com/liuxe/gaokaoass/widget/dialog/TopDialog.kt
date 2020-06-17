@@ -1,4 +1,4 @@
-package com.liuxe.gaokaoass.widget.BottomDialog
+package com.liuxe.gaokaoass.widget.dialog
 
 import android.app.Dialog
 import android.content.Context
@@ -8,12 +8,6 @@ import com.chad.library.adapter.base.BaseQuickAdapter
 import com.liuxe.gaokaoass.R.*
 import android.view.View.MeasureSpec.*
 import androidx.recyclerview.widget.GridLayoutManager
-import android.view.View.SYSTEM_UI_FLAG_FULLSCREEN
-import android.view.View.SYSTEM_UI_FLAG_IMMERSIVE
-import android.view.View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-import android.view.View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-import android.view.View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
 import android.view.*
 
 
@@ -32,16 +26,16 @@ class TopDialog(var ctx: Context, themeResId: Int) : Dialog(ctx, themeResId) {
         init()
     }
 
-//    override fun onStart() {
-//        super.onStart()
-//        val uiOptions = (View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-//                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-//                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-//                or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-//                or View.SYSTEM_UI_FLAG_IMMERSIVE
-//                or View.SYSTEM_UI_FLAG_FULLSCREEN)
-//        this.window!!.decorView.systemUiVisibility = uiOptions
-//    }
+    override fun onStart() {
+        super.onStart()
+        val uiOptions = (View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                or View.SYSTEM_UI_FLAG_IMMERSIVE
+                or View.SYSTEM_UI_FLAG_FULLSCREEN)
+        this.window!!.decorView.systemUiVisibility = uiOptions
+    }
 
     private fun init() {
         this.setCanceledOnTouchOutside(true)
@@ -58,11 +52,11 @@ class TopDialog(var ctx: Context, themeResId: Int) : Dialog(ctx, themeResId) {
         var layoutManager: GridLayoutManager = GridLayoutManager(ctx,2)
         recyclerView.layoutManager = layoutManager
         recyclerView.adapter = bottomAdapter
-        bottomAdapter.setOnItemClickListener(BaseQuickAdapter.OnItemClickListener { adapter, view, position ->
+        bottomAdapter.setOnItemClickListener { adapter, view, position ->
 
             itemClickListener?.onItemClick(list[position])
             dismiss()
-        })
+        }
 
         this.setContentView(contentView)
 

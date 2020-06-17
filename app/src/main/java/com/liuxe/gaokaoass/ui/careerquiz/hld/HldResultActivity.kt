@@ -9,13 +9,12 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import com.google.gson.Gson
 import com.liuxe.gaokaoass.base.BaseVMActivity
-import com.liuxe.gaokaoass.ui.careerquiz.MajorActivity
 import com.liuxe.gaokaoass.ui.careerquiz.hld.bean.HldResultBean
 import com.liuxe.gaokaoass.ui.careerquiz.hld.bean.HldResultItemBean
 import com.liuxe.gaokaoass.ui.careerquiz.hld.bean.HldResultMsgBean
+import com.liuxe.gaokaoass.ui.careerquiz.major.MajorActivity
 import com.liuxe.gaokaoass.utils.JsonUtils
 import com.liuxe.gaokaoass.utils.Preference
-import com.liuxe.gaokaoass.utils.StatusBarUtils
 import kotlinx.android.synthetic.main.activity_hld_result.*
 import java.util.Collections.swap
 
@@ -30,7 +29,7 @@ class HldResultActivity : BaseVMActivity() {
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun init(savedInstanceState: Bundle?) {
-        StatusBarUtils.setPaddingTop(this, toolbar)
+
         initTitleBar(toolbar, "霍兰德职业兴趣测试")
 
         //拿到本地存储的霍兰德数据

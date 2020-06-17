@@ -4,19 +4,15 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextUtils
 import android.text.TextWatcher
-import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputMethodManager
 import android.widget.TextView
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
 import com.liuxe.gaokaoass.utils.Preference
-import com.liuxe.gaokaoass.utils.StatusBarUtils
-import com.liuxe.gaokaoass.widget.BottomDialog.DialogItemClickListener
-import com.liuxe.gaokaoass.widget.BottomDialog.ProvDialog
+import com.liuxe.gaokaoass.widget.dialog.DialogItemClickListener
+import com.liuxe.gaokaoass.widget.dialog.ProvDialog
 import kotlinx.android.synthetic.main.activity_score.*
-import kotlinx.android.synthetic.main.activity_score.status_bar
-import kotlinx.android.synthetic.main.activity_score.tv_prov
 
 
 class ScoreActivity : BaseVMActivity() {
@@ -25,13 +21,12 @@ class ScoreActivity : BaseVMActivity() {
 
     var subject: String by Preference(Preference.SUBJECT, "")
     var location: String by Preference(Preference.LOCATION, "")
-    var score: String by Preference(Preference.SCORE, "")
+    var score: Int by Preference(Preference.SCORE, 0)
 
     override fun init(savedInstanceState: Bundle?) {
-        StatusBarUtils.setPaddingTop(this, status_bar)
 
-        et_score.setText(score)
-        et_score.setSelection(score.length)
+        et_score.setText(score.toString())
+        et_score.setSelection(score.toString().length)
         tv_prov.text = location
 
         if (subject == "理科") {
@@ -69,7 +64,7 @@ class ScoreActivity : BaseVMActivity() {
 
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
                 if (!TextUtils.isEmpty(p0)) {
-                    score = p0.toString()
+                    score = p0.toString().toInt()
                 }
             }
 

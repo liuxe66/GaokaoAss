@@ -18,6 +18,7 @@
         android:orientation="vertical"
         android:background="@color/color_white">
         <LinearLayout
+            android:id="@+id/ll_user"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dp_16"
@@ -30,7 +31,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/color_text_title"
-                android:textSize="@dimen/dp_16"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold"
                 />
             <ImageView
                 android:layout_width="@dimen/dp_16"

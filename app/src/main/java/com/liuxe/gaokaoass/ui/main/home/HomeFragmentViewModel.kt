@@ -1,13 +1,12 @@
 package com.liuxe.gaokaoass.ui.main.home
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.liuxe.gaokaoass.base.BaseViewModel
+import com.liuxe.gaokaoass.base.BaseStatusViewModel
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
 
-class HomeFragmentViewModel:BaseViewModel() {
+class HomeFragmentViewModel:BaseStatusViewModel() {
     var mCountDownTime = MutableLiveData<String>()
 
     fun getCountDownTime(){

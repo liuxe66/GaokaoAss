@@ -9,7 +9,7 @@ import androidx.annotation.LayoutRes
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.chad.library.adapter.base.BaseViewHolder
+import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.utils.DisplayUtils
@@ -31,10 +31,6 @@ abstract class BaseActivity : SupportActivity() {
         setContentView(getLayout())
         initStatusBar()
         init(savedInstanceState)
-
-        /*Looper.myQueue().addIdleHandler {
-            false
-        }*/
     }
 
 
@@ -50,9 +46,11 @@ abstract class BaseActivity : SupportActivity() {
 
     abstract fun init(savedInstanceState: Bundle?)
 
-    private fun initStatusBar() {
+    open fun initStatusBar() {
         ImmersionBar.with(this)
+            .statusBarColor(R.color.color_white)
             .statusBarDarkFont(true)
+            .fitsSystemWindows(true)
             .keyboardEnable(true).init()
     }
 

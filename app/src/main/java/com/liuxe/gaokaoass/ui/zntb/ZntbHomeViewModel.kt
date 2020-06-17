@@ -1,19 +1,18 @@
 package com.liuxe.gaokaoass.ui.zntb
 
 import androidx.lifecycle.MutableLiveData
-import com.liuxe.gaokaoass.base.BaseResponse
-import com.liuxe.gaokaoass.base.BaseViewModel
+import com.liuxe.gaokaoass.base.BaseStatusResponse
+import com.liuxe.gaokaoass.base.BaseStatusViewModel
 import com.liuxe.gaokaoass.bean.ZntbHomeBean
 import com.liuxe.gaokaoass.http.RetrofitClient
 
-class ZntbHomeViewModel : BaseViewModel() {
-    var zntbHomeResponse = MutableLiveData<BaseResponse<ZntbHomeBean>>()
+class ZntbHomeViewModel : BaseStatusViewModel() {
+    var zntbHomeResponse = MutableLiveData<BaseStatusResponse<ZntbHomeBean>>()
 
 
-    fun getZntbHome(location: String, aos: String, score: String, year: String
-    ) {
+    fun getZntbHome(location: String, aos: String, score: Int) {
         request({
-            RetrofitClient.service.getZntbHome(location,aos,score, year)
+            RetrofitClient.service.getZntbHome(location,aos,score)
         }) {
             zntbHomeResponse.value = it
         }

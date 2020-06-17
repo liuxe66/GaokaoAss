@@ -1,15 +1,12 @@
 package com.liuxe.gaokaoass.ui.main.banner
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.core.content.ContextCompat
+import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.liuxe.gaokaoass.R
 import com.zhpan.bannerview.BannerViewPager
 import com.zhpan.bannerview.utils.BannerUtils
-import com.zhpan.indicator.enums.IndicatorSlideMode
 import com.zhpan.indicator.enums.IndicatorStyle
-import kotlinx.android.synthetic.main.activity_test.*
 
 class TestActivity : AppCompatActivity() {
 

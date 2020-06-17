@@ -54,8 +54,13 @@ dependencies {
     //Logcat输出框架：https://github.com/orhanobut/logger
     implementation 'com.orhanobut:logger:2.2.0'
 
+    //刷新框架
+    api  'com.scwang.smart:refresh-layout-kernel:2.0.1'      //核心必须依赖
+    api  'com.scwang.smart:refresh-header-material:2.0.1'    //谷歌刷新头
+    api  'com.scwang.smart:refresh-footer-classics:2.0.1'    //经典加载
+
     //RecyclerAdapter框架：https://github.com/CymChad/BaseRecyclerViewAdapterHelper
-    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.3'
 
     //glide
     implementation("com.github.bumptech.glide:glide:4.9.0") {

@@ -15,11 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".ui.zntb.ZntbCollegeActivity"/>
+        <activity android:name=".ui.careerquiz.CareerTipsActivity" />
+        <activity android:name=".ui.zntb.ZntbCollegeActivity" />
         <activity android:name=".ui.zntb.ZntbHomeActivity" />
         <activity android:name=".ui.careerquiz.mbti.MbtiResultActivity" />
         <activity android:name=".ui.careerquiz.mbti.MbtiQActivity" />
-        <activity android:name=".ui.careerquiz.MajorActivity" />
+        <activity android:name=".ui.careerquiz.major.MajorActivity" />
         <activity android:name=".ui.careerquiz.hld.HldIntroActivity" />
         <activity android:name=".ui.careerquiz.CareerActivity" />
         <activity

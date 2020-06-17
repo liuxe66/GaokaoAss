@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import com.google.gson.Gson
+import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
 import com.liuxe.gaokaoass.ui.careerquiz.mbti.bean.MbtiABean
@@ -13,7 +14,6 @@ import com.liuxe.gaokaoass.ui.careerquiz.mbti.bean.MbtiQBean
 import com.liuxe.gaokaoass.ui.careerquiz.mbti.bean.MbtiResultBean
 import com.liuxe.gaokaoass.utils.JsonUtils
 import com.liuxe.gaokaoass.utils.Preference
-import com.liuxe.gaokaoass.utils.StatusBarUtils
 import com.liuxe.gaokaoass.utils.clickWithTrigger
 import kotlinx.android.synthetic.main.activity_mbti_q.*
 import kotlinx.android.synthetic.main.activity_mbti_q.status_bar
@@ -39,7 +39,7 @@ class MbtiQActivity : BaseVMActivity() {
     var mbti_result: String by Preference(Preference.MBTI_CAREER_RESULT, "")
 
     override fun init(savedInstanceState: Bundle?) {
-        StatusBarUtils.setPaddingTop(this, status_bar)
+        ImmersionBar.with(this).statusBarView(status_bar)
 
         val mbtiQStr = JsonUtils.getJson(this, "mbti/MBTIQ.json")
         mbtiQBean = Gson().fromJson<MbtiQBean>(mbtiQStr, MbtiQBean::class.java)

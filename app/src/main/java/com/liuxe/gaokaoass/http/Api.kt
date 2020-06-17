@@ -1,6 +1,7 @@
 package com.liuxe.gaokaoass.http
 
-import com.liuxe.gaokaoass.base.BaseResponse
+import com.liuxe.gaokaoass.base.BaseCodeResponse
+import com.liuxe.gaokaoass.base.BaseStatusResponse
 import com.liuxe.gaokaoass.bean.ZntbCollegesBean
 import com.liuxe.gaokaoass.bean.ZntbHomeBean
 import retrofit2.http.GET
@@ -13,28 +14,31 @@ interface Api {
     }
 
     //智能填报志愿列表
-    //https://quark.sm.cn/api/rest?format=json&method=QuarkGaoKao.getRecColleges&location=河南
-    //&aos=理科&score=521&year=2019
-    @GET("rest?format=json&method=QuarkGaoKao.getRecColleges")
-    suspend fun getZntbHome(@Query("location") location:String,
-                            @Query("aos") aos:String,
-                            @Query("score") score:String,
-                            @Query("year") year:String) : BaseResponse<ZntbHomeBean>
+    //https://quark.sm.cn/api/rest?format=json&method=QuarkGaoKao2020.getRecColleges
+    // &year=2020&location=%E6%B2%B3%E5%8D%97&aos=%E7%90%86%E7%A7%91&score=582
+    @GET("rest?format=json&method=QuarkGaoKao2020.getRecColleges")
+    suspend fun getZntbHome(
+        @Query("location") location: String,
+        @Query("aos") aos: String,
+        @Query("score") score: Int,
+        @Query("year") year: String = "2020"
+    ): BaseStatusResponse<ZntbHomeBean>
 
     //智能填报志愿筛选院校列表
-//    https://quark.sm.cn/api/rest?format=json&method=QuarkGaoKao.getRecColleges&location=陕西
-//    &aos=理科&score=521&year=2019&shock=3&city=陕西&type=&tags=211&ranks=本科二批
-    @GET("rest?format=json&method=QuarkGaoKao.getRecColleges")
+    //https://quark.sm.cn/api/rest?format=json&method=QuarkGaoKao2020.collegeRecDetail
+    // &location=%E6%B2%B3%E5%8D%97&aos=%E7%90%86%E7%A7%91&score=582&tab=1&page=1&year=2020&city=&type=&tags=&ranks=
+    @GET("rest?format=json&method=QuarkGaoKao2020.collegeRecDetail")
     suspend fun getZntbCollege(
         @Query("location") location: String,
         @Query("aos") aos: String,
-        @Query("score") score: String,
-        @Query("year") year:String,
-        @Query("shock") shock: String = "",
+        @Query("score") score: Int,
+        @Query("page") page: Int,
+        @Query("tab") tab: Int,
         @Query("city") city: String = "",
         @Query("type") type: String = "",
         @Query("tags") tags: String = "",
-        @Query("ranks") ranks: String = ""
-    ):BaseResponse<ZntbCollegesBean>
+        @Query("ranks") ranks: String = "",
+        @Query("year") year: String = "2020"
+    ): BaseCodeResponse<ZntbCollegesBean>
 
 }

@@ -1,7 +1,6 @@
-package com.liuxe.gaokaoass.ui.zntb
+package com.liuxe.gaokaoass.ui.zntb.college
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
@@ -9,13 +8,12 @@ import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
 import com.liuxe.gaokaoass.ui.score.ScoreActivity
 import com.liuxe.gaokaoass.utils.Preference
-import com.liuxe.gaokaoass.utils.StatusBarUtils
-import kotlinx.android.synthetic.main.activity_zntb_home.*
+import kotlinx.android.synthetic.main.activity_zntb_home_college.*
 
-class ZntbHomeActivity : BaseVMActivity() {
-    override fun getLayout() = R.layout.activity_zntb_home
+class ZntbHomeCollegeActivity : BaseVMActivity() {
+    override fun getLayout() = R.layout.activity_zntb_home_college
 
-    var mZntbHomeViewModel: ZntbHomeViewModel? = null
+    var mZntbHomeViewModel: ZntbHomeCollegeViewModel? = null
     var subject: String by Preference(Preference.SUBJECT, "")
     var location: String by Preference(Preference.LOCATION, "")
     var score: Int by Preference(Preference.SCORE, 0)
@@ -23,10 +21,11 @@ class ZntbHomeActivity : BaseVMActivity() {
     override fun onResume() {
         super.onResume()
         tv_user.text = location + " · " + subject + " · " + score + "分"
+        mZntbHomeViewModel?.getZntbHome(location, subject, score)
     }
     override fun init(savedInstanceState: Bundle?) {
 
-        initTitleBar(toolbar, "智能填报志愿")
+        initTitleBar(toolbar, "院校优先")
 
         mZntbHomeViewModel = createViewModel()
         mZntbHomeViewModel?.getZntbHome(location, subject, score)

@@ -1,8 +1,7 @@
-package com.liuxe.gaokaoass.ui.zntb
+package com.liuxe.gaokaoass.ui.zntb.college
 
 import androidx.lifecycle.MutableLiveData
 import com.liuxe.gaokaoass.base.BaseCodeViewModel
-import com.liuxe.gaokaoass.base.BaseStatusViewModel
 import com.liuxe.gaokaoass.bean.ZntbCollegesBean
 import com.liuxe.gaokaoass.http.RetrofitClient
 

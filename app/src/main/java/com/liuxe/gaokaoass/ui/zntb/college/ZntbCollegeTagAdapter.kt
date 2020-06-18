@@ -1,4 +1,4 @@
-package com.liuxe.gaokaoass.ui.zntb
+package com.liuxe.gaokaoass.ui.zntb.college
 
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder

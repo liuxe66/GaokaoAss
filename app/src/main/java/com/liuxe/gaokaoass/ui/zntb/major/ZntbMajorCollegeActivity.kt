@@ -1,82 +1,59 @@
-package com.liuxe.gaokaoass.ui.zntb
+package com.liuxe.gaokaoass.ui.zntb.major
 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
 import com.liuxe.gaokaoass.bean.ZntbCollegesBean
-import com.liuxe.gaokaoass.utils.Preference
+import com.liuxe.gaokaoass.bean.ZntbMajorCollegeBean
 import com.liuxe.gaokaoass.widget.dialog.DialogItemClickListener
 import com.liuxe.gaokaoass.widget.dialog.TopDialog
-import kotlinx.android.synthetic.main.activity_zntb_college.*
+import kotlinx.android.synthetic.main.activity_zntb_major_college.*
 
 
-class ZntbCollegeActivity : BaseVMActivity() {
-    override fun getLayout() = R.layout.activity_zntb_college
+class ZntbMajorCollegeActivity : BaseVMActivity() {
 
-    var mZntbCollegeViewModel: ZntbCollegeViewModel? = null
-    var collegeAdapter: ZntbCollegeAdapter? = null
-    var list: List<ZntbCollegesBean.CollegesBean> = ArrayList()
-    var layoutManager: LinearLayoutManager? = null
-
-    var subject: String by Preference(Preference.SUBJECT, "")
-    var location: String by Preference(Preference.LOCATION, "")
-    var score: Int by Preference(Preference.SCORE, 0)
-    var tab: Int  = 1
+    override fun getLayout() = R.layout.activity_zntb_major_college
+    var major:String = ""
+    var batch:String = ""
     var city: String = ""
     var type: String = ""
     var tags: String = ""
     var ranks: String = ""
-
     var cityDialog: TopDialog? = null
     var typeDialog: TopDialog? = null
     var tagsDialog: TopDialog? = null
     var rankDialog: TopDialog? = null
 
-
+    lateinit var viewModel: ZntbMajorCollegeViewModel
     override fun init(savedInstanceState: Bundle?) {
-        initTitleBar(toolbar, "智能填报志愿")
-        tab = intent.getIntExtra("tab",1)
-
-        layoutManager = LinearLayoutManager(this)
-        layoutManager?.orientation = LinearLayoutManager.VERTICAL
-        recycler_college.layoutManager = layoutManager
-
-        mZntbCollegeViewModel = createViewModel()
+        initTitleBar(toolbar,"优先专业")
+        major = intent.getStringExtra("major")
+        batch = intent.getStringExtra("batch")
+        viewModel = createViewModel()
         loadData()
-        mZntbCollegeViewModel?.zntbCollegesResponse?.observe(this, Observer {
-            list = if (it.isNotEmpty()) {
-                it
-            } else {
-                ArrayList()
-            }
-            if (collegeAdapter == null){
-                collegeAdapter = ZntbCollegeAdapter(list as MutableList<ZntbCollegesBean.CollegesBean>)
-                recycler_college.adapter = collegeAdapter
-            } else {
-                collegeAdapter!!.setList(list as MutableList<ZntbCollegesBean.CollegesBean>)
-            }
 
-
-        })
-
-        mZntbCollegeViewModel!!.zntbResponse.observe(this, Observer {
+        viewModel.majorCollegeBean.observe(this, Observer {
             if (city == "" && type == "" && tags == "" && ranks == "") {
                 initBottomDialog(it)
             }
         })
 
-        refresh_layout.setEnableRefresh(false)
-        refresh_layout.setOnLoadMoreListener {
-            loadNextData()
-            refresh_layout.finishLoadMore()
-        }
+        viewModel.majorCollegeResponse.observe(this, Observer {
+            recycler_college.layoutManager = LinearLayoutManager(this)
+            recycler_college.adapter = ZntbMajorCollegeAdapter(it as MutableList<ZntbMajorCollegeBean.CollegesBean>?)
+        })
 
     }
 
-    private fun initBottomDialog(zntbCollegesBean: ZntbCollegesBean) {
+    private fun loadData() {
+        viewModel.getZntbMajorCollege(major, batch, city, type, tags, ranks)
+    }
+
+
+    private fun initBottomDialog(zntbCollegesBean: ZntbMajorCollegeBean) {
         var cityList: ArrayList<String> = ArrayList()
         cityList = zntbCollegesBean.city as ArrayList<String>
         cityList.add(0, "不限")
@@ -171,32 +148,4 @@ class ZntbCollegeActivity : BaseVMActivity() {
             rankDialog?.show()
         }
     }
-
-    private fun loadData() {
-        mZntbCollegeViewModel?.getZntbCollege(
-            location,
-            subject,
-            score,
-            tab,
-            city,
-            type,
-            tags,
-            ranks
-        )
-    }
-
-    private fun loadNextData() {
-        mZntbCollegeViewModel?.getZntbNextCollege(
-            location,
-            subject,
-            score,
-            1,
-            city,
-            type,
-            tags,
-            ranks
-        )
-    }
-
-
 }

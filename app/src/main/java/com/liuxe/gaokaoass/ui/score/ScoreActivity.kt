@@ -25,8 +25,11 @@ class ScoreActivity : BaseVMActivity() {
 
     override fun init(savedInstanceState: Bundle?) {
 
-        et_score.setText(score.toString())
-        et_score.setSelection(score.toString().length)
+        if (score != 0){
+            et_score.setText(score.toString())
+            et_score.setSelection(score.toString().length)
+        } 
+
         tv_prov.text = location
 
         if (subject == "理科") {

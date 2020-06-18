@@ -1,4 +1,4 @@
-package com.liuxe.gaokaoass.ui.zntb
+package com.liuxe.gaokaoass.ui.zntb.college
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -26,7 +26,8 @@ class ZntbCollegeAdapter(data:MutableList<ZntbCollegesBean.CollegesBean>)
             }
         }
 
-        val tagAdapter = ZntbCollegeTagAdapter(tags as MutableList<String>)
+        val tagAdapter =
+            ZntbCollegeTagAdapter(tags as MutableList<String>)
         helper.getView<RecyclerView>(R.id.recycler_tag)?.layoutManager = layoutManager
         helper.getView<RecyclerView>(R.id.recycler_tag)?.adapter = tagAdapter
 

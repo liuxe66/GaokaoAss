@@ -47,7 +47,7 @@ class HomeFragment : BaseVMFragment() {
                 startActivity(Intent(requireContext(), ZntbActivity::class.java))
             }
         }
-        tv_skx.setOnClickListener{
+        tv_college.setOnClickListener{
 
         }
         tv_tbzn.setOnClickListener {

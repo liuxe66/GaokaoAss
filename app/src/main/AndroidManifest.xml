@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".ui.zntb.major.ZntbMajorCollegeActivity"></activity>
+        <activity android:name=".ui.video.VideoListActivity"></activity>
+        <activity android:name=".ui.zntb.major.ZntbMajorCollegeActivity" />
         <activity android:name=".ui.zntb.major.ZntbQueryMajorActivity" />
         <activity android:name=".ui.zntb.ZntbActivity" />
         <activity android:name=".ui.guide.GuideActivity" />

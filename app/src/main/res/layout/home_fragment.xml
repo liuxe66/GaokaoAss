@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="志愿填报助手"
+            android:text="AI志愿"
             android:textColor="@color/color_text_title"
             android:textSize="@dimen/sp_16"
             android:textStyle="bold" />
@@ -84,6 +84,22 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/tv_skx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_home_lqyc"
+                android:drawablePadding="@dimen/dp_home_icon_padding"
+                android:gravity="center_horizontal"
+                android:text="@string/home_college"
+                android:textColor="@color/color_home_icon_text"
+                android:textSize="@dimen/dp_home_icon_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/tv_yfyd"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
                 android:id="@+id/tv_yfyd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -93,9 +109,8 @@
                 android:text="@string/home_yfyd"
                 android:textColor="@color/color_home_icon_text"
                 android:textSize="@dimen/dp_home_icon_text"
-                app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/tv_skx"
                 app:layout_constraintRight_toLeftOf="@id/tv_lqyc"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -106,7 +121,7 @@
                 android:drawableTop="@drawable/ic_home_tfqx"
                 android:drawablePadding="@dimen/dp_home_icon_padding"
                 android:gravity="center_horizontal"
-                android:text="@string/home_lqyc"
+                android:text="@string/home_spjd"
                 android:textColor="@color/color_home_icon_text"
                 android:textSize="@dimen/dp_home_icon_text"
                 app:layout_constraintBottom_toBottomOf="parent"

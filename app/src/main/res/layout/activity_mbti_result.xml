@@ -96,15 +96,16 @@
                             android:textColor="@color/color_text_title"
                             android:text="外向(E)"
                             android:textSize="@dimen/mbti_progress_text_size"/>
+
                         <ProgressBar
                             android:id="@+id/progress_e"
-                            android:layout_width="0dp"
-                            android:layout_weight="2"
-                            android:layout_height="@dimen/dp_6"
                             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                            android:layout_width="0dp"
+                            android:layout_height="6dp"
+                            android:layout_weight="2"
+                            android:max="21"
                             android:paddingStart="@dimen/dp_10"
-                            android:progressDrawable="@drawable/progress_mbti_i"
-                            android:max="21" />
+                            android:progressDrawable="@drawable/progress_mbti_i" />
                     </LinearLayout>
 
                     <LinearLayout

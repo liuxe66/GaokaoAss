@@ -17,104 +17,118 @@
         android:layout_marginLeft="@dimen/dp_10"
         android:layout_marginRight="@dimen/dp_16">
         <LinearLayout
+            android:id="@+id/ll_college"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
-            <TextView
-                android:id="@+id/tv_zntb_college_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/sp_14"
-                android:textStyle="bold"
-                android:textColor="@color/color_text_title"/>
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recycler_tag"
+            android:orientation="vertical">
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/dp_10"/>
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_zntb_college_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_14"
+                    android:textStyle="bold"
+                    android:textColor="@color/color_text_title"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_tag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10">
+                <TextView
+                    android:id="@+id/tv_zntb_college_pici"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_12"/>
+                <TextView
+                    android:id="@+id/tv_zntb_college_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/sp_12"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10">
+                <TextView
+                    android:id="@+id/tv_zntb_college_proba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_12"/>
+                <TextView
+                    android:id="@+id/tv_zntb_college_weici"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/sp_12"/>
+            </RelativeLayout>
         </LinearLayout>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_10">
-            <TextView
-                android:id="@+id/tv_zntb_college_pici"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/sp_12"/>
-            <TextView
-                android:id="@+id/tv_zntb_college_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:textSize="@dimen/sp_12"/>
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_10">
-            <TextView
-                android:id="@+id/tv_zntb_college_proba"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/sp_12"/>
-            <TextView
-                android:id="@+id/tv_zntb_college_weici"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:textSize="@dimen/sp_12"/>
-        </RelativeLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginTop="@dimen/dp_10"
             android:background="@color/color_activity_bg"/>
-        <TextView
-            android:id="@+id/tv_major_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/sp_14"
-            android:textStyle="bold"
-            android:textColor="@color/color_text_title"
-            android:layout_marginTop="@dimen/dp_10"/>
-
-        <RelativeLayout
+        <LinearLayout
+            android:id="@+id/ll_major"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_10">
+            android:orientation="vertical">
             <TextView
-                android:id="@+id/tv_major_pici"
+                android:id="@+id/tv_major_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/sp_12"/>
-            <TextView
-                android:id="@+id/tv_major_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:textSize="@dimen/sp_12"/>
-        </RelativeLayout>
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold"
+                android:textColor="@color/color_text_title"
+                android:layout_marginTop="@dimen/dp_10"/>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_10">
-            <TextView
-                android:id="@+id/tv_major_proba"
-                android:layout_width="wrap_content"
+            <RelativeLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/sp_12"/>
-            <TextView
-                android:id="@+id/tv_major_weici"
-                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/dp_10">
+                <TextView
+                    android:id="@+id/tv_major_pici"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_12"/>
+                <TextView
+                    android:id="@+id/tv_major_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/sp_12"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:textSize="@dimen/sp_12"/>
-        </RelativeLayout>
+                android:layout_marginTop="@dimen/dp_10">
+                <TextView
+                    android:id="@+id/tv_major_proba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_12"/>
+                <TextView
+                    android:id="@+id/tv_major_weici"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/sp_12"/>
+            </RelativeLayout>
+        </LinearLayout>
+
     </LinearLayout>
 </LinearLayout>

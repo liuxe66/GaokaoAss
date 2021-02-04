@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical"
+    tools:context="com.liuxe.gaokaoass.ui.AboutUsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize" />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dp_16"
+                android:textSize="@dimen/dp_16"
+                android:textColor="@color/color_text_title"
+                android:text="声明：\n此软件非商用软件，系个人开发者通过网络上搜集整理的关于高考数据和信息开发的一款app，旨在帮助考生快速了解高考志愿填报。本软件完全免费使用，不涉及任何用户权限，不收集任何用户信息，请放心使用。"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dp_16"
+                android:textSize="@dimen/dp_16"
+                android:textColor="@color/color_text_title"
+                android:text="开发的原因：\n本人是一名软件开发工程师，同时参加高考志愿填报录取工作已经三年，这是第四个年头，了解到家长和考生对于志愿填报方面知识欠缺，信息了解不全面，资料查找不方便，所以根据自己的这几年的经验开发的一款app。"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dp_16"
+                android:textSize="@dimen/dp_16"
+                android:textColor="@color/color_text_title"
+                android:text="主要功能介绍：
+\n1.一键AI智能填报。输入分数，文理科，生源地，筛选出2019年该分数段的录取情况，方便考生了解这个分数段可以填报的院。由于数据来源于网络，可能会有出错，仅供参考，所以考生使用该功能时，看到心仪的院校一定要去专业的网站查找数据。
+\n2.一分一段表。分数换算位次的工具
+\n3.职业测评。基于霍兰德兴趣分析（60道选择题）和MBTI性格分析（93道选择题），筛选对应的专业。
+\n4.填报指南。志愿填报的一些政策解读、志愿填报的问答、名词解释。"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dp_16"
+                android:textSize="@dimen/dp_16"
+                android:textColor="@color/color_text_title"
+                android:text="切记切记切记！！！\n由于数据来源于网络，可能会有出错（几率很小），仅供参考，本人不做任何保证。所以如果考生使用看到心仪的院校一定要去专业的网站查找数据。"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dp_16"
+                android:textSize="@dimen/dp_16"
+                android:textColor="@color/color_text_title"
+                android:text="是否开源？\n作为一名软件开发工程师，刚开始做的时候有这个打算，不过由于数据都是在网络上通过爬虫获得的数据，为防止纠纷，暂时不会考虑开源"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dp_16"
+                android:textSize="@dimen/dp_16"
+                android:textColor="@color/color_text_title"
+                android:text="关于本人，一名工作四年的android开发工程师，APP素材来源于https://www.iconfont.cn/，如有侵权望告知立马删除\n如果在使用中遇到问题也可以联系我。\n邮箱：1994915960@qq.com"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

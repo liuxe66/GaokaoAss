@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_white"
     android:orientation="vertical">
     <include layout="@layout/view_status_bar"
         android:id="@+id/status_bar"/>
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?actionBarSize" />
+        android:layout_height="?actionBarSize"
+        android:background="@color/color_white"/>
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
@@ -23,266 +23,313 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <TextView
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="@dimen/dp_24"-->
+<!--                    android:layout_marginTop="@dimen/dp_24"-->
+<!--                    android:layout_marginRight="@dimen/dp_24"-->
+<!--                    android:text="您的测评结果"-->
+<!--                    android:textColor="@color/color_black"-->
+<!--                    android:textSize="@dimen/dp_18"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:drawablePadding="@dimen/dp_10"-->
+<!--                    android:visibility="gone"-->
+<!--                    android:drawableLeft="@drawable/shape_dot"/>-->
+
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginTop="@dimen/dp_24"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:text="您的测评结果"
-                    android:textColor="@color/color_black"
-                    android:textSize="@dimen/dp_18"
-                    android:textStyle="bold"
-                    android:drawablePadding="@dimen/dp_10"
-                    android:drawableLeft="@drawable/shape_dot"/>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/dp_24"
-                    android:background="@drawable/shape_subject_btn_bg"
-                    android:gravity="center_horizontal"
-                    android:orientation="vertical"
-                    android:padding="@dimen/dp_24">
-
+                    app:cardCornerRadius="@dimen/dp_10"
+                    app:cardElevation="0dp"
+                    android:layout_margin="@dimen/dp_16">
                     <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/tv_result_one"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="@color/color_white"
-                            android:textSize="@dimen/dp_24" />
-
-                        <TextView
-                            android:id="@+id/tv_result_two"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="@dimen/dp_16"
-                            android:layout_marginRight="@dimen/dp_16"
-                            android:textColor="@color/color_white"
-                            android:textSize="@dimen/dp_24" />
-
-                        <TextView
-                            android:id="@+id/tv_result_three"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="@color/color_white"
-                            android:textSize="@dimen/dp_24" />
-                    </LinearLayout>
-
-                    <TextView
-                        android:id="@+id/tv_result_mian"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/dp_16"
-                        android:textColor="@color/color_white"
-                        android:textSize="@dimen/dp_16" />
-
-                    <TextView
-                        android:id="@+id/tv_result_main_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/dp_16"
-                        android:textColor="@color/color_white"
-                        android:textSize="@dimen/dp_12" />
-                </LinearLayout>
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_subject_btn_bg"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:padding="@dimen/dp_24">
 
-                <TextView
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_result_one"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/color_white"
+                                    android:textSize="@dimen/dp_24" />
+
+                                <TextView
+                                    android:id="@+id/tv_result_two"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/dp_16"
+                                    android:layout_marginRight="@dimen/dp_16"
+                                    android:textColor="@color/color_white"
+                                    android:textSize="@dimen/dp_24" />
+
+                                <TextView
+                                    android:id="@+id/tv_result_three"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/color_white"
+                                    android:textSize="@dimen/dp_24" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_result_mian"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dp_16"
+                                android:textColor="@color/color_white"
+                                android:textSize="@dimen/dp_16"
+                                android:visibility="gone"/>
+
+                            <TextView
+                                android:id="@+id/tv_result_main_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dp_16"
+                                android:textColor="@color/color_white"
+                                android:textSize="@dimen/dp_12" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_24"
+                            android:layout_marginRight="@dimen/dp_24"
+                            android:layout_marginBottom="@dimen/dp_16"
+                            android:text="适合的兴趣范畴在六边形相对集中的区域"
+                            android:visibility="gone"
+                            android:textColor="#333333" />
+
+                        <com.liuxe.gaokaoass.widget.EchartView
+                            android:id="@+id/web_echarts"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   app:cardElevation="0dp"
+                   app:cardCornerRadius="@dimen/dp_10"
+                   android:layout_marginStart="@dimen/dp_16"
+                   android:layout_marginEnd="@dimen/dp_16"
+                   android:layout_marginBottom="@dimen/dp_16">
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+                       <TextView
+                           android:id="@+id/tv_result_one_title"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_margin="@dimen/dp_24"
+                           android:text=""
+                           android:textColor="@color/color_subject_select"
+                           android:textSize="@dimen/sp_18"
+                           android:textStyle="bold"
+                           android:drawablePadding="@dimen/dp_10"
+                           android:drawableLeft="@drawable/shape_dot"/>
+
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="@dimen/dp_24"
+                           android:layout_marginRight="@dimen/dp_24"
+                           android:text="共同特征"
+                           android:textColor="@color/color_text_title"
+                           android:textSize="@dimen/sp_16"
+                           />
+
+                       <TextView
+                           android:id="@+id/tv_result_one_gttz"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="@dimen/dp_24"
+                           android:layout_marginTop="@dimen/dp_16"
+                           android:layout_marginRight="@dimen/dp_24"
+                           android:layout_marginBottom="@dimen/dp_16"
+                           android:text=""
+                           android:textColor="@color/color_text_default"
+                           android:textSize="@dimen/sp_14" />
+
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="@dimen/dp_24"
+                           android:layout_marginRight="@dimen/dp_24"
+                           android:text="典型职业"
+                           android:textColor="@color/color_text_title"
+                           android:textSize="@dimen/sp_16"
+                           />
+
+                       <TextView
+                           android:id="@+id/tv_result_one_dxzy"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="@dimen/dp_24"
+                           android:layout_marginTop="@dimen/dp_16"
+                           android:layout_marginRight="@dimen/dp_24"
+                           android:layout_marginBottom="@dimen/dp_24"
+                           android:text=""
+                           android:textColor="@color/color_text_default"
+                           android:textSize="@dimen/sp_14" />
+                   </LinearLayout>
+               </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:layout_marginBottom="@dimen/dp_16"
-                    android:text="适合的兴趣范畴在六边形相对集中的区域"
-                    android:textColor="#333333" />
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="@dimen/dp_10"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginBottom="@dimen/dp_16">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/tv_result_two_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dp_24"
+                            android:text=""
+                            android:textColor="@color/color_subject_select"
+                            android:textSize="@dimen/sp_18"
+                            android:textStyle="bold"
+                            android:drawablePadding="@dimen/dp_10"
+                            android:drawableLeft="@drawable/shape_dot"/>
 
-                <com.liuxe.gaokaoass.widget.EchartView
-                    android:id="@+id/web_echarts"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_24"
+                            android:layout_marginRight="@dimen/dp_24"
+                            android:text="共同特征"
+                            android:textColor="@color/color_text_title"
+                            android:textSize="@dimen/sp_16"
+                            />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_10"
-                    android:background="@color/color_activity_bg" />
+                        <TextView
+                            android:id="@+id/tv_result_two_gttz"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_24"
+                            android:layout_marginTop="@dimen/dp_16"
+                            android:layout_marginRight="@dimen/dp_24"
+                            android:layout_marginBottom="@dimen/dp_16"
+                            android:text=""
+                            android:textColor="@color/color_text_default"
+                            android:textSize="@dimen/sp_14" />
 
-                <TextView
-                    android:id="@+id/tv_result_one_title"
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_24"
+                            android:layout_marginRight="@dimen/dp_24"
+                            android:text="典型职业"
+                            android:textColor="@color/color_text_title"
+                            android:textSize="@dimen/sp_16"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_result_two_dxzy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_24"
+                            android:layout_marginTop="@dimen/dp_16"
+                            android:layout_marginRight="@dimen/dp_24"
+                            android:layout_marginBottom="@dimen/dp_24"
+                            android:text=""
+                            android:textColor="@color/color_text_default"
+                            android:textSize="@dimen/sp_14" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/dp_24"
-                    android:text=""
-                    android:textColor="@color/color_black"
-                    android:textSize="@dimen/sp_18"
-                    android:textStyle="bold"
-                    android:drawablePadding="@dimen/dp_10"
-                    android:drawableLeft="@drawable/shape_dot"/>
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="@dimen/dp_10"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginBottom="@dimen/dp_16">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/tv_result_three_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dp_24"
+                            android:text=""
+                            android:textColor="@color/color_subject_select"
+                            android:textSize="@dimen/sp_18"
+                            android:textStyle="bold"
+                            android:drawablePadding="@dimen/dp_10"
+                            android:drawableLeft="@drawable/shape_dot"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:text="共同特征"
-                    android:textColor="@color/color_text_title"
-                    android:textSize="@dimen/sp_16"
-                    android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_24"
+                            android:layout_marginRight="@dimen/dp_24"
+                            android:text="共同特征"
+                            android:textColor="@color/color_text_title"
+                            android:textSize="@dimen/sp_16" />
 
-                <TextView
-                    android:id="@+id/tv_result_one_gttz"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginTop="@dimen/dp_16"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:layout_marginBottom="@dimen/dp_16"
-                    android:text=""
-                    android:textColor="@color/color_text_default"
-                    android:textSize="@dimen/sp_14" />
+                        <TextView
+                            android:id="@+id/tv_result_three_gttz"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_24"
+                            android:layout_marginTop="@dimen/dp_16"
+                            android:layout_marginRight="@dimen/dp_24"
+                            android:layout_marginBottom="@dimen/dp_16"
+                            android:text=""
+                            android:textColor="@color/color_text_default"
+                            android:textSize="@dimen/sp_14" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:text="典型职业"
-                    android:textColor="@color/color_text_title"
-                    android:textSize="@dimen/sp_16"
-                    android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_24"
+                            android:layout_marginRight="@dimen/dp_24"
+                            android:text="典型职业"
+                            android:textColor="@color/color_text_title"
+                            android:textSize="@dimen/sp_16"
+                            />
 
-                <TextView
-                    android:id="@+id/tv_result_one_dxzy"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginTop="@dimen/dp_16"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:layout_marginBottom="@dimen/dp_24"
-                    android:text=""
-                    android:textColor="@color/color_text_default"
-                    android:textSize="@dimen/sp_14" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_10"
-                    android:background="@color/color_activity_bg" />
-                <TextView
-                    android:id="@+id/tv_result_two_title"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/dp_24"
-                    android:text=""
-                    android:textColor="@color/color_black"
-                    android:textSize="@dimen/sp_18"
-                    android:textStyle="bold"
-                    android:drawablePadding="@dimen/dp_10"
-                    android:drawableLeft="@drawable/shape_dot"/>
+                        <TextView
+                            android:id="@+id/tv_result_three_dxzy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_24"
+                            android:layout_marginTop="@dimen/dp_16"
+                            android:layout_marginRight="@dimen/dp_24"
+                            android:layout_marginBottom="56dp"
+                            android:text=""
+                            android:textColor="@color/color_text_default"
+                            android:textSize="@dimen/sp_14" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:text="共同特征"
-                    android:textColor="@color/color_text_title"
-                    android:textSize="@dimen/sp_16"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/tv_result_two_gttz"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginTop="@dimen/dp_16"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:layout_marginBottom="@dimen/dp_16"
-                    android:text=""
-                    android:textColor="@color/color_text_default"
-                    android:textSize="@dimen/sp_14" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:text="典型职业"
-                    android:textColor="@color/color_text_title"
-                    android:textSize="@dimen/sp_16"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/tv_result_two_dxzy"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginTop="@dimen/dp_16"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:layout_marginBottom="@dimen/dp_24"
-                    android:text=""
-                    android:textColor="@color/color_text_default"
-                    android:textSize="@dimen/sp_14" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_10"
-                    android:background="@color/color_activity_bg" />
-                <TextView
-                    android:id="@+id/tv_result_three_title"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/dp_24"
-                    android:text=""
-                    android:textColor="@color/color_black"
-                    android:textSize="@dimen/sp_18"
-                    android:textStyle="bold"
-                    android:drawablePadding="@dimen/dp_10"
-                    android:drawableLeft="@drawable/shape_dot"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:text="共同特征"
-                    android:textColor="@color/color_text_title"
-                    android:textSize="@dimen/sp_16"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/tv_result_three_gttz"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginTop="@dimen/dp_16"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:layout_marginBottom="@dimen/dp_16"
-                    android:text=""
-                    android:textColor="@color/color_text_default"
-                    android:textSize="@dimen/sp_14" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:text="典型职业"
-                    android:textColor="@color/color_text_title"
-                    android:textSize="@dimen/sp_16"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/tv_result_three_dxzy"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_24"
-                    android:layout_marginTop="@dimen/dp_16"
-                    android:layout_marginRight="@dimen/dp_24"
-                    android:layout_marginBottom="56dp"
-                    android:text=""
-                    android:textColor="@color/color_text_default"
-                    android:textSize="@dimen/sp_14" />
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
         <LinearLayout
@@ -290,6 +337,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_alignParentBottom="true"
+            android:background="@color/color_white"
             android:paddingLeft="@dimen/dp_24"
             android:paddingBottom="@dimen/dp_16"
             android:paddingRight="@dimen/dp_24"

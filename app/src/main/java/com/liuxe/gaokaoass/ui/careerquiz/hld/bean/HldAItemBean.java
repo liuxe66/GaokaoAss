@@ -12,7 +12,7 @@ public class HldAItemBean {
 
     /**
      * question : 2
-     * answer : true
+     * answer : 1 true,0 false,2 还没选择
      */
 
     private String question;

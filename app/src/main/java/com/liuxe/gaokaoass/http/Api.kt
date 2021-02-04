@@ -81,4 +81,26 @@ interface Api {
         @Query("ranks") ranks: String = "",
         @Query("year") year: String = "2020"
     ): BaseCodeResponse<ZntbMajorCollegeBean>
+
+    //一分一段
+    //https://quark.sm.cn/api/rest?format=json&method=QuarkGaoKao.getScoreRanks&
+    // aos=%E7%90%86%E7%A7%91&year=2019&location=%E5%B1%B1%E8%A5%BF
+    @GET("rest?format=json&method=QuarkGaoKao2020.getScoreRanks")
+    suspend fun getScoreRank(
+        @Query("aos") aos: String,
+        @Query("year") year: String,
+        @Query("location") location:String
+    ):BaseStatusResponse<ScorePartBean>
+
+    //同分去向
+    //https://quark.sm.cn/api/rest?format=json&method=QuarkGaoKao2020.getExamineeGo
+    // &location=%E6%B2%B3%E5%8D%97&aos=%E7%90%86%E7%A7%91&score=582&subjects=%E7%90%86%E7%A7%91&year=2020
+    @GET("rest?format=json&method=QuarkGaoKao2020.getExamineeGo")
+    suspend fun getExamineeGo(
+        @Query("aos") aos: String,
+        @Query("year") year: String,
+        @Query("location") location:String,
+        @Query("score") score: Int,
+        @Query("subjects") subject: String
+    ):BaseStatusResponse<ExamineeBean>
 }

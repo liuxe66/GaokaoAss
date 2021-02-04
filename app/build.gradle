@@ -4,6 +4,19 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+
+def keystoreProperties = new Properties()
+
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+//获取时间戳
+static def getDate() {
+    def date = new Date()
+    def formattedDate = date.format('MMddHHmm')
+    return formattedDate
+}
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -11,16 +24,56 @@ android {
         applicationId "com.liuxe.gaokaoass"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            //设置支持的SO库架构
+            abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+    }
+    signingConfigs {
+        signConfig {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
     }
     buildTypes {
         release {
+            resValue "string", "yxs_app_name", "AI高考志愿"
+
+            signingConfig signingConfigs.signConfig
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+        debug {
+            resValue "string", "yxs_app_name", "AI高考志愿-测试"
+            applicationIdSuffix ".debug"
+
+            signingConfig signingConfigs.signConfig
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
         }
     }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            def fileName
+
+            if (variant.buildType.name == 'debug') {
+                fileName = "app-v${defaultConfig.versionName}-debug-${getDate()}.apk"
+            } else {
+                fileName = "app-v${defaultConfig.versionName}-release-${getDate()}.apk"
+            }
+            outputFileName = fileName
+        }
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -58,6 +111,8 @@ dependencies {
     implementation 'com.gyf.immersionbar:immersionbar:3.0.0'
     //Logcat输出框架：https://github.com/orhanobut/logger
     implementation 'com.orhanobut:logger:2.2.0'
+    //腾讯mmvk 替代shareprefrence
+    implementation 'com.tencent:mmkv:1.0.23'
 
     //刷新框架
     api  'com.scwang.smart:refresh-layout-kernel:2.0.1'      //核心必须依赖
@@ -83,4 +138,7 @@ dependencies {
     implementation 'cn.jzvd:jiaozivideoplayer:7.4.1'
     implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
     implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.4'
+
+    compile 'com.tencent.bugly:crashreport_upgrade:1.4.2'//其中latest.release指代最新版本号，也可以指定明确的版本号，例如1.2.0
+    compile 'com.tencent.bugly:nativecrashreport:3.7.1' //其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.2.0
 }

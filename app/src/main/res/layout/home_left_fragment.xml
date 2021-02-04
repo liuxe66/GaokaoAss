@@ -31,7 +31,7 @@
             android:layout_marginBottom="@dimen/dp_24"
             android:text="十年寒窗无人问，一举成名天下知。"
             android:textColor="@color/color_text_default"
-            android:textSize="@dimen/sp_12"
+            android:textSize="@dimen/sp_14"
             />
 
 
@@ -138,6 +138,7 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/ll_ydy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -148,11 +149,12 @@
                     android:drawableLeft="@drawable/ic_zyjc"
                     android:drawablePadding="@dimen/dp_10"
                     android:gravity="center_vertical"
-                    android:text="志愿检测"
+                    android:text="专家一对一"
                     android:textColor="@color/color_text_title" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_zyjc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -163,9 +165,10 @@
                     android:drawableLeft="@drawable/ic_ydy"
                     android:drawablePadding="@dimen/dp_10"
                     android:gravity="center_vertical"
-                    android:text="专家一对一"
+                    android:text="关于我们"
                     android:textColor="@color/color_text_title" />
             </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
 
@@ -173,7 +176,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_margin="@dimen/dp_24">
+        android:layout_margin="@dimen/dp_24"
+        android:visibility="gone">
 
         <TextView
             android:layout_width="wrap_content"
@@ -182,13 +186,13 @@
             android:drawablePadding="@dimen/dp_6"
             android:gravity="center_vertical"
             android:text="设置"
+            android:layout_marginRight="@dimen/dp_24"
             android:textColor="@color/color_text_title"
             android:textSize="@dimen/sp_12" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/dp_24"
             android:drawableTop="@drawable/ic_tel"
             android:drawablePadding="@dimen/dp_6"
             android:gravity="center_vertical"

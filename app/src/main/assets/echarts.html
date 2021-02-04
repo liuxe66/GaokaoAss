@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta charset="utf-8">
 </head>
 <body>
@@ -9,12 +9,20 @@
 <script type="text/javascript" src="./echarts.min.js"></script>
 <script type="text/javascript">
 
-
 			function loadEcharts(jsonStr) {
+				console.log(jsonStr)
 				var data = JSON.parse(jsonStr);
-				const arr = data.data.map(item=>{
+				console.log(data.data[0].code)
+				var type1 = transformType(data.data[0].code)
+				var type2 = transformType(data.data[1].code)
+				var type3 = transformType(data.data[2].code)
+				var type4 = transformType(data.data[3].code)
+				var type5 = transformType(data.data[4].code)
+				var type6 = transformType(data.data[5].code)
+				const arr = data.data.map(item => {
 					return item.score
 				})
+				console.log(type1)
 				//指定图标的配置和数据
 				var option = {
 					backgroundColor: '#fff',
@@ -44,27 +52,27 @@
 							}
 						},
 						indicator: [{
-								name: '实际(R)',
+								name: type1,
 								max: 10
 							},
 							{
-								name: '研究(I)',
+								name: type2,
 								max: 10
 							},
 							{
-								name: '艺术(A)',
+								name: type3,
 								max: 10
 							},
 							{
-								name: '社会(S)',
+								name: type4,
 								max: 10
 							},
 							{
-								name: '企业(E)',
+								name: type5,
 								max: 10
 							},
 							{
-								name: '传统(C)',
+								name: type6,
 								max: 10
 							}
 						]
@@ -119,7 +127,26 @@
 					}]
 				})
 			}
-		</script>
+
+			function transformType(type) {
+				if (type == "R") {
+					return "实际(R)"
+				} else if (type == "I") {
+					return "研究(I)"
+				} else if (type == "A") {
+					return "艺术(A)"
+				} else if (type == "S") {
+					return "社会(S)"
+				} else if (type == "E") {
+					return "企业(E)"
+				} else if (type == "C") {
+					return "传统(C)"
+				}
+			}
+
+
+
+</script>
 
 </body>
 </html>

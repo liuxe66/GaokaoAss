@@ -7,6 +7,7 @@ import android.text.TextWatcher
 import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputMethodManager
 import android.widget.TextView
+import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
 import com.liuxe.gaokaoass.utils.Preference
@@ -15,13 +16,21 @@ import com.liuxe.gaokaoass.widget.dialog.ProvDialog
 import kotlinx.android.synthetic.main.activity_score.*
 
 
-class ScoreActivity : BaseVMActivity() {
+open class ScoreActivity : BaseVMActivity() {
 
     override fun getLayout(): Int = R.layout.activity_score
 
     var subject: String by Preference(Preference.SUBJECT, "")
     var location: String by Preference(Preference.LOCATION, "")
     var score: Int by Preference(Preference.SCORE, 0)
+
+    override fun initStatusBar() {
+        ImmersionBar.with(this)
+            .statusBarView(status_bar)
+            .statusBarDarkFont(true)
+            .fullScreen(true)
+            .init()
+    }
 
     override fun init(savedInstanceState: Bundle?) {
 
@@ -86,7 +95,6 @@ class ScoreActivity : BaseVMActivity() {
         })
 
         tv_submit.setOnClickListener {
-
             hideInput()
             finish()
         }
@@ -95,11 +103,11 @@ class ScoreActivity : BaseVMActivity() {
     /**
      * 隐藏键盘
      */
-    protected fun hideInput() {
+    private fun hideInput() {
         val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
-        var v = getWindow().peekDecorView()
+        val v = window.peekDecorView()
         if (null != v) {
-            imm.hideSoftInputFromWindow(v.getWindowToken(), 0)
+            imm.hideSoftInputFromWindow(v.windowToken, 0)
         }
     }
 

@@ -7,16 +7,16 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 class HomeFragmentViewModel:BaseStatusViewModel() {
-    var mCountDownTime = MutableLiveData<String>()
+    var mCountDownTime = MutableLiveData<Long>()
 
     fun getCountDownTime(){
         val sdf: SimpleDateFormat = SimpleDateFormat("yyyy-MM-dd")
         val startTime = sdf.format(Date())
 
 
-        val otherDays = dateDiff(startTime, "2020-07-07", "yyyy-MM-dd")
+        val otherDays = dateDiff(startTime, "2020-06-07", "yyyy-MM-dd")
 
-        mCountDownTime.value = otherDays.toString()
+        mCountDownTime.value = otherDays
     }
 
     fun dateDiff(startTime: String, endTime: String, format: String): Long {

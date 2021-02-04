@@ -12,17 +12,17 @@ class MajorAdapter(data:MutableList<MajorBean.DataBean>) :BaseQuickAdapter<Major
     override fun convert(holder: BaseViewHolder, item: MajorBean.DataBean) {
 
         holder.setText(R.id.tv_major_name,item.zhuanyemingcheng)
-        val zy = ""
-        for (index in item.jobs!!.indices){
-            if (index == item.jobs.size+1){
-                zy+item.jobs[index]
+        var zy = ""
+        for (index in item.jobs.indices){
+            zy += if (index == item.jobs.size-1){
+                item.jobs[index]
             } else{
-                zy+item.jobs[index]+"/"
+                item.jobs[index]+"/"
             }
-
         }
         Log.e("LLL",zy)
         holder.setText(R.id.tv_major_pro,zy)
+        holder.setGone(R.id.tv_major_pro,true)
         holder.setText(R.id.tv_major_money,"￥"+ item.xinzi)
     }
 

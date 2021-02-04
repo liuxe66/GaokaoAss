@@ -53,7 +53,7 @@ class ExceptionHandle {
             }
 
             if(!TextUtils.isEmpty(e.message) && e.message!!.contains("Exception")) {
-                return Throwable("网络异常，请检查网络设置")
+                return Throwable("暂无数据")
             }
 
             return if(e.message == null) null else Throwable(e.message)

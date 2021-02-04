@@ -43,7 +43,7 @@ object  TopImageUtil {
         mTextPaint?.isFakeBoldText = true
         mTextPaint?.textSize = 100f
 
-        drawText(canvas,text,170f,320f, mTextPaint!!,-5f)
+        drawText(canvas,text,190f,320f, mTextPaint!!,-5f)
 
         canvas.save()
         canvas.restore()

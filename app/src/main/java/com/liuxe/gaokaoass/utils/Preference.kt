@@ -1,9 +1,7 @@
 package com.liuxe.gaokaoass.utils
 
 import android.annotation.SuppressLint
-import android.content.Context
-import android.content.SharedPreferences
-import com.liuxe.gaokaoass.App
+import com.tencent.mmkv.MMKV
 import java.io.*
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
@@ -20,8 +18,9 @@ class Preference<T>(val name: String, private val default: T) : ReadWritePropert
         const val MBTI_CAREER_RESULT = "mbti_career_result"
     }
 
-    private val prefs: SharedPreferences by lazy {
-        App.CONTEXT.getSharedPreferences(name, Context.MODE_PRIVATE)
+
+    private val mmkv: MMKV by lazy {
+        MMKV.defaultMMKV()
     }
 
     override fun getValue(thisRef: Any?, property: KProperty<*>): T {
@@ -33,26 +32,26 @@ class Preference<T>(val name: String, private val default: T) : ReadWritePropert
     }
 
     @SuppressLint("CommitPrefEdits")
-    private fun <T> putValue(name: String, value: T) = with(prefs.edit()) {
+    private fun <T> putValue(name: String, value: T) = with(mmkv) {
         when (value) {
-            is Long -> putLong(name, value)
-            is String -> putString(name, value)
-            is Int -> putInt(name, value)
-            is Boolean -> putBoolean(name, value)
-            is Float -> putFloat(name, value)
-            else -> putString(name, serialize(value))
-        }.apply()
+            is Long -> encode(name, value)
+            is String -> encode(name, value)
+            is Int -> encode(name, value)
+            is Boolean -> encode(name, value)
+            is Float -> encode(name, value)
+            else -> encode(name, serialize(value))
+        }
     }
 
     @Suppress("UNCHECKED_CAST")
-    fun <T> getValue(name: String, default: T): T = with(prefs) {
+    fun <T> getValue(name: String, default: T): T = with(mmkv) {
         val res: Any = when (default) {
-            is Long -> getLong(name, default)
-            is String -> getString(name, default) as String
-            is Int -> getInt(name, default)
-            is Boolean -> getBoolean(name, default)
-            is Float -> getFloat(name, default)
-            else -> deSerialization(getString(name, serialize(default))as String)
+            is Long -> decodeLong(name, default)
+            is String -> decodeString(name, default) as String
+            is Int -> decodeInt(name, default)
+            is Boolean -> decodeBool(name, default)
+            is Float -> decodeFloat(name, default)
+            else -> deSerialization(decodeString(name, serialize(default))as String)
         }
         return res as T
     }
@@ -61,14 +60,14 @@ class Preference<T>(val name: String, private val default: T) : ReadWritePropert
      * 删除全部数据
      */
     fun clearPreference() {
-        prefs.edit().clear().apply()
+        mmkv.clearAll()
     }
 
     /**
      * 根据key删除存储数据
      */
     fun clearPreference(key: String) {
-        prefs.edit().remove(key).apply()
+        mmkv.removeValueForKey(key)
     }
 
     /**
@@ -83,7 +82,7 @@ class Preference<T>(val name: String, private val default: T) : ReadWritePropert
     private fun <A> serialize(obj: A): String {
         val byteArrayOutputStream = ByteArrayOutputStream()
         val objectOutputStream = ObjectOutputStream(
-                byteArrayOutputStream)
+            byteArrayOutputStream)
         objectOutputStream.writeObject(obj)
         var serStr = byteArrayOutputStream.toString("ISO-8859-1")
         serStr = java.net.URLEncoder.encode(serStr, "UTF-8")
@@ -107,9 +106,9 @@ class Preference<T>(val name: String, private val default: T) : ReadWritePropert
     private fun <A> deSerialization(str: String): A {
         val redStr = java.net.URLDecoder.decode(str, "UTF-8")
         val byteArrayInputStream = ByteArrayInputStream(
-                redStr.toByteArray(charset("ISO-8859-1")))
+            redStr.toByteArray(charset("ISO-8859-1")))
         val objectInputStream = ObjectInputStream(
-                byteArrayInputStream)
+            byteArrayInputStream)
         val obj = objectInputStream.readObject() as A
         objectInputStream.close()
         byteArrayInputStream.close()
@@ -124,7 +123,7 @@ class Preference<T>(val name: String, private val default: T) : ReadWritePropert
      * @return
      */
     fun contains(key: String): Boolean {
-        return prefs.contains(key)
+        return mmkv.contains(key)
     }
 
     /**
@@ -134,6 +133,6 @@ class Preference<T>(val name: String, private val default: T) : ReadWritePropert
      * @return
      */
     fun getAll(): Map<String, *> {
-        return prefs.all
+        return mmkv.all
     }
 }

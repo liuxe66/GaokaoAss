@@ -1,14 +1,16 @@
 package com.liuxe.gaokaoass.ui.main.homeleft
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
-import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMFragment
+import com.liuxe.gaokaoass.ui.AboutUsActivity
 import com.liuxe.gaokaoass.ui.main.MainActivity
 import com.liuxe.gaokaoass.ui.score.ScoreActivity
 import com.liuxe.gaokaoass.utils.Preference
 import com.liuxe.gaokaoass.utils.StatusBarUtils
+import com.liuxe.gaokaoass.utils.clickWithTrigger
 import kotlinx.android.synthetic.main.home_left_fragment.*
 
 
@@ -29,6 +31,26 @@ class HomeLeftFragment : BaseVMFragment() {
 
         ll_edit.setOnClickListener {
             startActivity(Intent(requireActivity(), ScoreActivity::class.java))
+        }
+
+        ll_ydy.clickWithTrigger {
+            openQQ()
+        }
+
+        ll_zyjc.clickWithTrigger {
+            startActivity(Intent(requireActivity(), AboutUsActivity::class.java))
+        }
+
+    }
+
+    //打开QQ
+    private fun openQQ() {
+        try {
+            val url = "mqqwpa://im/chat?chat_type=wpa&uin=1994915960"
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
+        } catch (e: Exception) {
+            e.printStackTrace()
+            toast("请检查是否安装QQ")
         }
     }
 

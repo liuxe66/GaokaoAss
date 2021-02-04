@@ -12,11 +12,8 @@ import com.orhanobut.logger.PrettyFormatStrategy
 import com.scwang.smart.refresh.footer.ClassicsFooter
 import com.scwang.smart.refresh.header.MaterialHeader
 import com.scwang.smart.refresh.layout.SmartRefreshLayout
-import com.scwang.smart.refresh.layout.api.RefreshFooter
-import com.scwang.smart.refresh.layout.api.RefreshHeader
-import com.scwang.smart.refresh.layout.api.RefreshLayout
-import com.scwang.smart.refresh.layout.listener.DefaultRefreshFooterCreator
-import com.scwang.smart.refresh.layout.listener.DefaultRefreshHeaderCreator
+import com.tencent.bugly.Bugly
+import com.tencent.mmkv.MMKV
 import kotlin.properties.Delegates
 
 class App : Application() {
@@ -31,32 +28,21 @@ class App : Application() {
         super.onCreate()
         CONTEXT = applicationContext
         initLogger()
-
+        MMKV.initialize(this)
+        Bugly.init(applicationContext, "25e34463b1", true)
         //下拉刷新和上拉加载
         //设置全局的Header构建器
-        SmartRefreshLayout.setDefaultRefreshHeaderCreator(object : DefaultRefreshHeaderCreator {
-            override fun createRefreshHeader(
-                context: Context,
-                layout: RefreshLayout
-            ): RefreshHeader {
-                var header = MaterialHeader(context)
-                header.setColorSchemeColors(resources.getColor(R.color.color_subject_select))
-                return header
-            }
-
-        })
+        SmartRefreshLayout.setDefaultRefreshHeaderCreator { context, layout ->
+            val header = MaterialHeader(context)
+            header.setColorSchemeColors(resources.getColor(R.color.color_subject_select))
+            header
+        }
         //设置全局的Footer构建器
-        SmartRefreshLayout.setDefaultRefreshFooterCreator(object : DefaultRefreshFooterCreator {
-            override fun createRefreshFooter(
-                context: Context,
-                layout: RefreshLayout
-            ): RefreshFooter {
-                layout.setPrimaryColorsId(R.color.color_white, R.color.color_text_title) //全局设置主题颜色
-                //指定为经典Footer，默认是 BallPulseFooter
-                return ClassicsFooter(context)
-            }
-
-        })
+        SmartRefreshLayout.setDefaultRefreshFooterCreator { context, layout ->
+            layout.setPrimaryColorsId(R.color.color_white, R.color.color_text_title) //全局设置主题颜色
+            //指定为经典Footer，默认是 BallPulseFooter
+            ClassicsFooter(context)
+        }
     }
 
     /**
@@ -79,7 +65,7 @@ class App : Application() {
             .showThreadInfo(true)  //（可选）是否显示线程信息。 默认值为true
             .methodCount(0)         // （可选）要显示的方法行数。 默认2
             .methodOffset(7)        // （可选）隐藏内部方法调用到偏移量。 默认5
-            .tag("OneApp") //（可选）每个日志的全局标记。 默认PRETTY_LOGGER
+            .tag("GaokaoAss") //（可选）每个日志的全局标记。 默认PRETTY_LOGGER
             .build()
         Logger.addLogAdapter(AndroidLogAdapter(formatStrategy))
     }

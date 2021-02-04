@@ -31,10 +31,10 @@ class HldResultActivity : BaseVMActivity() {
     override fun init(savedInstanceState: Bundle?) {
 
         initTitleBar(toolbar, "霍兰德职业兴趣测试")
-
+//        hld_result = intent.getStringExtra("hld")
         //拿到本地存储的霍兰德数据
         hldResultBean = Gson().fromJson(hld_result, HldResultBean::class.java)
-
+        Log.e("LLL result",hld_result)
         resultItemList = hldResultBean?.data as ArrayList<HldResultItemBean>
         //拿到霍兰德结论
         val hldResultMsgStr = JsonUtils.getJson(this, "hld/RIASEC.json")
@@ -50,28 +50,28 @@ class HldResultActivity : BaseVMActivity() {
         tv_result_main_text.text = hldResultMsg.data[resultItemSortList[0].position].jieshao
 
         //第一个兴趣
-        tv_result_one_title.text = hldResultMsg.data[resultItemSortList[0].position].type_name
+        tv_result_one_title.text = hldResultMsg.data[resultItemSortList[0].position].type_name.replace("：","")
         tv_result_one_gttz.text = hldResultMsg.data[resultItemSortList[0].position].tezheng
         tv_result_one_dxzy.text = hldResultMsg.data[resultItemSortList[0].position].zhiye
         //第一个兴趣
-        tv_result_two_title.text = hldResultMsg.data[resultItemSortList[1].position].type_name
+        tv_result_two_title.text = hldResultMsg.data[resultItemSortList[1].position].type_name.replace("：","")
         tv_result_two_gttz.text = hldResultMsg.data[resultItemSortList[1].position].tezheng
         tv_result_two_dxzy.text = hldResultMsg.data[resultItemSortList[1].position].zhiye
         //第一个兴趣
-        tv_result_three_title.text = hldResultMsg.data[resultItemSortList[2].position].type_name
+        tv_result_three_title.text = hldResultMsg.data[resultItemSortList[2].position].type_name.replace("：","")
         tv_result_three_gttz.text = hldResultMsg.data[resultItemSortList[2].position].tezheng
         tv_result_three_dxzy.text = hldResultMsg.data[resultItemSortList[2].position].zhiye
 
 
         //展示六边形图片
-        val jsonStr = Gson().toJson(hldResultBean)
+//        val jsonStr = Gson().toJson(hldResultBean)
 
         web_echarts.webViewClient = object : WebViewClient() {
             override fun onPageFinished(view: WebView?, url: String?) {
                 Log.e("LLL", "====onPageFinished====")
-                Log.e("LLL", jsonStr)
+                Log.e("LLL loadweb", hld_result)
                 //web网页加载完成 调用js 传入数据json
-                web_echarts.refreshEchartsWithOption(jsonStr)
+                web_echarts.refreshEchartsWithOption(hld_result)
             }
         }
 

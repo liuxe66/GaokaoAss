@@ -1,11 +1,13 @@
 package com.liuxe.gaokaoass.ui.zntb.college
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
 import com.liuxe.gaokaoass.bean.ZntbCollegesBean
+import com.liuxe.gaokaoass.ui.CollegeActivity
 import com.liuxe.gaokaoass.utils.Preference
 import com.liuxe.gaokaoass.widget.dialog.DialogItemClickListener
 import com.liuxe.gaokaoass.widget.dialog.TopDialog
@@ -56,9 +58,14 @@ class ZntbCollegeActivity : BaseVMActivity() {
                     ZntbCollegeAdapter(list as MutableList<ZntbCollegesBean.CollegesBean>)
                 recycler_college.adapter = collegeAdapter
             } else {
-                collegeAdapter!!.setList(list as MutableList<ZntbCollegesBean.CollegesBean>)
+                collegeAdapter?.setList(list as MutableList<ZntbCollegesBean.CollegesBean>)
             }
 
+            collegeAdapter?.setOnItemClickListener { adapter, view, position ->
+                val intent = Intent(this,CollegeActivity::class.java)
+                intent.putExtra("collegeName",it[position].name)
+                startActivity(intent)
+            }
 
         })
 

@@ -31,6 +31,7 @@
                 android:gravity="center_vertical"
                 android:layout_margin="@dimen/dp_10"
                 android:textSize="@dimen/sp_14"
+                android:lines="1"
                 android:textColor="@color/color_text_title"
                 android:hint="请输入专业名称"/>
         </LinearLayout>

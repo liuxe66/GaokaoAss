@@ -67,9 +67,4 @@
                 android:textSize="@dimen/sp_12"/>
         </RelativeLayout>
     </LinearLayout>
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/fragmentation_ic_right"
-        android:layout_gravity="center_vertical"/>
 </LinearLayout>

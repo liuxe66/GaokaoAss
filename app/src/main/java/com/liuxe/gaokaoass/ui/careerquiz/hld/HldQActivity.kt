@@ -3,17 +3,15 @@ package com.liuxe.gaokaoass.ui.careerquiz.hld
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import com.google.gson.Gson
-import kotlinx.android.synthetic.main.activity_hld_q.*
 import android.view.View
-import com.gyf.immersionbar.ImmersionBar
+import com.google.gson.Gson
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
 import com.liuxe.gaokaoass.ui.careerquiz.hld.bean.*
 import com.liuxe.gaokaoass.utils.JsonUtils
 import com.liuxe.gaokaoass.utils.Preference
-import com.liuxe.gaokaoass.utils.StatusBarUtils
 import com.liuxe.gaokaoass.utils.clickWithTrigger
+import kotlinx.android.synthetic.main.activity_hld_q.*
 
 
 class HldQActivity : BaseVMActivity() {
@@ -34,6 +32,8 @@ class HldQActivity : BaseVMActivity() {
     var hld_result: String by Preference(Preference.HLD_CAREER_RESULT, "")
 
     override fun init(savedInstanceState: Bundle?) {
+
+        initTitleBar(toolbar,"霍兰德职业兴趣测试")
 
         val hldQStr = JsonUtils.getJson(this, "hld/HLDQ.json")
         hldQBean = Gson().fromJson<HldQBean>(hldQStr, HldQBean::class.java)
@@ -173,6 +173,7 @@ class HldQActivity : BaseVMActivity() {
         val hldResultBean =
             HldResultBean("", resultItemList)
         hld_result = Gson().toJson(hldResultBean)
+        Log.e("LLL question",hld_result)
         val result = Intent(this, HldResultActivity::class.java)
         startActivity(result)
         finish()

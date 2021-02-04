@@ -2,10 +2,9 @@ package com.liuxe.gaokaoass.ui.careerquiz
 
 import android.content.Intent
 import android.os.Bundle
-import com.gyf.immersionbar.ImmersionBar
 import com.liuxe.gaokaoass.R
 import com.liuxe.gaokaoass.base.BaseVMActivity
-import com.liuxe.gaokaoass.ui.careerquiz.hld.HldQActivity
+import com.liuxe.gaokaoass.ui.careerquiz.hld.HldIntroActivity
 import com.liuxe.gaokaoass.ui.careerquiz.hld.HldResultActivity
 import com.liuxe.gaokaoass.ui.careerquiz.mbti.MbtiQActivity
 import com.liuxe.gaokaoass.ui.careerquiz.mbti.MbtiResultActivity
@@ -21,7 +20,7 @@ class CareerActivity : BaseVMActivity() {
 
         ll_hld.setOnClickListener {
             if (hldResult == ""){
-                startActivity(Intent(this, HldQActivity::class.java))
+                startActivity(Intent(this, HldIntroActivity::class.java))
             } else{
                 val result = Intent(this, HldResultActivity::class.java)
                 startActivity(result)

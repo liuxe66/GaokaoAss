@@ -2,13 +2,13 @@ package com.liuxe.gaokaoass.widget.dialog
 
 import android.app.Dialog
 import android.content.Context
-import android.widget.TextView
-import androidx.recyclerview.widget.RecyclerView
-import com.chad.library.adapter.base.BaseQuickAdapter
-import com.liuxe.gaokaoass.R.*
-import android.view.View.MeasureSpec.*
-import androidx.recyclerview.widget.GridLayoutManager
 import android.view.*
+import android.view.View.MeasureSpec.UNSPECIFIED
+import android.view.View.MeasureSpec.makeMeasureSpec
+import android.widget.TextView
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.liuxe.gaokaoass.R.*
 
 
 class TopDialog(var ctx: Context, themeResId: Int) : Dialog(ctx, themeResId) {
@@ -55,6 +55,8 @@ class TopDialog(var ctx: Context, themeResId: Int) : Dialog(ctx, themeResId) {
         bottomAdapter.setOnItemClickListener { adapter, view, position ->
 
             itemClickListener?.onItemClick(list[position])
+            bottomAdapter.location = list[position]
+            bottomAdapter.notifyDataSetChanged()
             dismiss()
         }
 

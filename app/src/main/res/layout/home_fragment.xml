@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="AI志愿"
+            android:text="@string/app_name"
             android:textColor="@color/color_text_title"
             android:textSize="@dimen/sp_16"
             android:textStyle="bold" />
@@ -48,7 +48,7 @@
         <ImageView
             android:id="@+id/iv_top"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
             android:scaleType="centerCrop" />
 
 
@@ -84,13 +84,13 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/tv_skx"
+                android:id="@+id/tv_tfqx"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableTop="@drawable/ic_home_lqyc"
                 android:drawablePadding="@dimen/dp_home_icon_padding"
                 android:gravity="center_horizontal"
-                android:text="@string/home_college"
+                android:text="@string/home_txqx"
                 android:textColor="@color/color_home_icon_text"
                 android:textSize="@dimen/dp_home_icon_text"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -110,12 +110,12 @@
                 android:textColor="@color/color_home_icon_text"
                 android:textSize="@dimen/dp_home_icon_text"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toRightOf="@id/tv_skx"
-                app:layout_constraintRight_toLeftOf="@id/tv_lqyc"
+                app:layout_constraintLeft_toRightOf="@id/tv_tfqx"
+                app:layout_constraintRight_toLeftOf="@id/tv_spjd"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/tv_lqyc"
+                android:id="@+id/tv_spjd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableTop="@drawable/ic_home_tfqx"
@@ -140,7 +140,7 @@
                 android:textColor="@color/color_home_icon_text"
                 android:textSize="@dimen/dp_home_icon_text"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toRightOf="@id/tv_lqyc"
+                app:layout_constraintLeft_toRightOf="@id/tv_spjd"
                 app:layout_constraintRight_toLeftOf="@id/tv_tbzn"
                 app:layout_constraintTop_toTopOf="parent" />
 

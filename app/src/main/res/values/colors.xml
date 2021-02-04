@@ -10,7 +10,12 @@
     <color name="color_activity_bg">#f5f5f5</color>
     <color name="color_text_default">#515151</color>
     <color name="color_text_title">#2c2c2c</color>
-    <color name="color_subject_select_alph">#104914ff</color>
-    <color name="color_subject_select_alph88">#884914ff</color>
-    <color name="color_subject_select">#4914ff</color>
+    <color name="color_subject_select_alph">#101473ff</color>
+    <color name="color_subject_select_alph88">#881473ff</color>
+    <color name="color_subject_select">#1473ff</color>
+    <color name="color_zycp_a">#d40aac</color>
+    <color name="color_zycp_i">#e65608</color>
+    <color name="color_zycp_r">#0c8770</color>
+    <color name="color_zycp_c">#f490c1</color>
+    <color name="color_zycp_e">#018aaf</color>
 </resources>
